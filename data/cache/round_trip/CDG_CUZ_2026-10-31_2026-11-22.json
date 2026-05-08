@@ -1,0 +1,39 @@
+{
+  "cached_at": "2026-05-06T23:50:02.383893",
+  "current_price": "high",
+  "flights": [
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1570",
+      "departure": "6:45 PM on Sat, Oct 31",
+      "arrival": "9:20 AM on Sun, Nov 1",
+      "duration": "20 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2369",
+      "departure": "9:05 AM on Sat, Oct 31",
+      "arrival": "9:20 PM on Sat, Oct 31",
+      "duration": "18 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1570",
+      "departure": "6:45 PM on Sat, Oct 31",
+      "arrival": "9:20 AM on Sun, Nov 1",
+      "duration": "20 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

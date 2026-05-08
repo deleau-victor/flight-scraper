@@ -1,0 +1,215 @@
+{
+  "cached_at": "2026-05-07T09:47:14.292601",
+  "current_price": "",
+  "flights": [
+    {
+      "name": "Brussels Airlines, SWISS, LATAM",
+      "price": "€1499",
+      "departure": "8:10 PM on Thu, Oct 29",
+      "arrival": "3:20 PM on Fri, Oct 30",
+      "duration": "25 hr 10 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2090",
+      "departure": "8:05 AM on Thu, Oct 29",
+      "arrival": "6:45 AM on Fri, Oct 30",
+      "duration": "28 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Brussels Airlines, SWISS, LATAM",
+      "price": "€1499",
+      "departure": "8:10 PM on Thu, Oct 29",
+      "arrival": "4:35 PM on Fri, Oct 30",
+      "duration": "26 hr 25 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, SWISS, LATAM",
+      "price": "€1499",
+      "departure": "8:10 PM on Thu, Oct 29",
+      "arrival": "5:40 PM on Fri, Oct 30",
+      "duration": "27 hr 30 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2090",
+      "departure": "6:15 AM on Thu, Oct 29",
+      "arrival": "6:45 AM on Fri, Oct 30",
+      "duration": "30 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2090",
+      "departure": "6:15 AM on Thu, Oct 29",
+      "arrival": "7:20 AM on Fri, Oct 30",
+      "duration": "31 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2090",
+      "departure": "8:05 AM on Thu, Oct 29",
+      "arrival": "7:20 AM on Fri, Oct 30",
+      "duration": "29 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Lufthansa, Avianca, LATAM",
+      "price": "€9169",
+      "departure": "9:00 AM on Thu, Oct 29",
+      "arrival": "6:45 AM on Fri, Oct 30",
+      "duration": "27 hr 45 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, Lufthansa, LATAM",
+      "price": "€9571",
+      "departure": "7:30 PM on Thu, Oct 29",
+      "arrival": "3:20 PM on Fri, Oct 30",
+      "duration": "25 hr 50 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, Lufthansa, LATAM",
+      "price": "€9571",
+      "departure": "7:30 PM on Thu, Oct 29",
+      "arrival": "3:20 PM on Fri, Oct 30",
+      "duration": "25 hr 50 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, SWISS, LATAM",
+      "price": "€1499",
+      "departure": "8:10 PM on Thu, Oct 29",
+      "arrival": "3:20 PM on Fri, Oct 30",
+      "duration": "25 hr 10 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, SWISS, LATAM",
+      "price": "€1499",
+      "departure": "8:10 PM on Thu, Oct 29",
+      "arrival": "4:35 PM on Fri, Oct 30",
+      "duration": "26 hr 25 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, SWISS, LATAM",
+      "price": "€1499",
+      "departure": "8:10 PM on Thu, Oct 29",
+      "arrival": "5:40 PM on Fri, Oct 30",
+      "duration": "27 hr 30 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2090",
+      "departure": "6:15 AM on Thu, Oct 29",
+      "arrival": "6:45 AM on Fri, Oct 30",
+      "duration": "30 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2090",
+      "departure": "6:15 AM on Thu, Oct 29",
+      "arrival": "7:20 AM on Fri, Oct 30",
+      "duration": "31 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2090",
+      "departure": "8:05 AM on Thu, Oct 29",
+      "arrival": "7:20 AM on Fri, Oct 30",
+      "duration": "29 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Lufthansa, Avianca, LATAM",
+      "price": "€9169",
+      "departure": "9:00 AM on Thu, Oct 29",
+      "arrival": "6:45 AM on Fri, Oct 30",
+      "duration": "27 hr 45 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, Lufthansa, LATAM",
+      "price": "€9571",
+      "departure": "7:30 PM on Thu, Oct 29",
+      "arrival": "3:20 PM on Fri, Oct 30",
+      "duration": "25 hr 50 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, Lufthansa, LATAM",
+      "price": "€9571",
+      "departure": "7:30 PM on Thu, Oct 29",
+      "arrival": "3:20 PM on Fri, Oct 30",
+      "duration": "25 hr 50 min",
+      "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

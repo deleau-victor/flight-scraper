@@ -1,0 +1,61 @@
+{
+  "cached_at": "2026-05-07T09:41:04.410293",
+  "current_price": "",
+  "flights": [
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1490",
+      "departure": "10:45 AM on Thu, Oct 8",
+      "arrival": "11:05 AM on Fri, Oct 9",
+      "duration": "31 hr 20 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1490",
+      "departure": "6:55 PM on Thu, Oct 8",
+      "arrival": "11:05 AM on Fri, Oct 9",
+      "duration": "23 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "",
+      "price": "0",
+      "departure": "",
+      "arrival": "",
+      "duration": "",
+      "stops": "Unknown",
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1490",
+      "departure": "10:45 AM on Thu, Oct 8",
+      "arrival": "11:05 AM on Fri, Oct 9",
+      "duration": "31 hr 20 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1490",
+      "departure": "6:55 PM on Thu, Oct 8",
+      "arrival": "11:05 AM on Fri, Oct 9",
+      "duration": "23 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

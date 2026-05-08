@@ -1,0 +1,149 @@
+{
+  "cached_at": "2026-05-06T23:48:35.948823",
+  "current_price": "high",
+  "flights": [
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1635",
+      "departure": "6:45 PM on Fri, Oct 30",
+      "arrival": "9:45 AM on Sat, Oct 31",
+      "duration": "21 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1720",
+      "departure": "6:45 PM on Fri, Oct 30",
+      "arrival": "9:20 AM on Sat, Oct 31",
+      "duration": "20 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1825",
+      "departure": "6:45 PM on Fri, Oct 30",
+      "arrival": "9:45 AM on Sat, Oct 31",
+      "duration": "21 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2046",
+      "departure": "9:05 AM on Fri, Oct 30",
+      "arrival": "9:20 PM on Fri, Oct 30",
+      "duration": "18 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2046",
+      "departure": "9:05 AM on Fri, Oct 30",
+      "arrival": "10:00 PM on Fri, Oct 30",
+      "duration": "18 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2046",
+      "departure": "9:05 AM on Fri, Oct 30",
+      "arrival": "10:35 PM on Fri, Oct 30",
+      "duration": "19 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "",
+      "price": "0",
+      "departure": "",
+      "arrival": "",
+      "duration": "",
+      "stops": "Unknown",
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1635",
+      "departure": "6:45 PM on Fri, Oct 30",
+      "arrival": "9:45 AM on Sat, Oct 31",
+      "duration": "21 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1720",
+      "departure": "6:45 PM on Fri, Oct 30",
+      "arrival": "9:20 AM on Sat, Oct 31",
+      "duration": "20 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1825",
+      "departure": "6:45 PM on Fri, Oct 30",
+      "arrival": "9:45 AM on Sat, Oct 31",
+      "duration": "21 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2046",
+      "departure": "9:05 AM on Fri, Oct 30",
+      "arrival": "9:20 PM on Fri, Oct 30",
+      "duration": "18 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2046",
+      "departure": "9:05 AM on Fri, Oct 30",
+      "arrival": "10:00 PM on Fri, Oct 30",
+      "duration": "18 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2046",
+      "departure": "9:05 AM on Fri, Oct 30",
+      "arrival": "10:35 PM on Fri, Oct 30",
+      "duration": "19 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

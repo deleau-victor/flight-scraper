@@ -1,0 +1,171 @@
+{
+  "cached_at": "2026-05-06T23:10:59.955334",
+  "current_price": "typical",
+  "flights": [
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1425",
+      "departure": "6:55 PM on Sat, Aug 29",
+      "arrival": "11:50 AM on Sun, Aug 30",
+      "duration": "23 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1539",
+      "departure": "7:40 PM on Sat, Aug 29",
+      "arrival": "10:00 AM on Sun, Aug 30",
+      "duration": "21 hr 20 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€1861",
+      "departure": "6:20 AM on Sat, Aug 29",
+      "arrival": "8:45 PM on Sat, Aug 29",
+      "duration": "21 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1614",
+      "departure": "7:40 PM on Sat, Aug 29",
+      "arrival": "10:50 AM on Sun, Aug 30",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1689",
+      "departure": "7:40 PM on Sat, Aug 29",
+      "arrival": "10:00 AM on Sun, Aug 30",
+      "duration": "21 hr 20 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2225",
+      "departure": "6:20 AM on Sat, Aug 29",
+      "arrival": "8:05 PM on Sat, Aug 29",
+      "duration": "20 hr 45 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2540",
+      "departure": "7:40 PM on Sat, Aug 29",
+      "arrival": "10:50 AM on Sun, Aug 30",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2930",
+      "departure": "6:20 AM on Sat, Aug 29",
+      "arrival": "6:45 PM on Sat, Aug 29",
+      "duration": "19 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1425",
+      "departure": "6:55 PM on Sat, Aug 29",
+      "arrival": "11:50 AM on Sun, Aug 30",
+      "duration": "23 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1539",
+      "departure": "7:40 PM on Sat, Aug 29",
+      "arrival": "10:00 AM on Sun, Aug 30",
+      "duration": "21 hr 20 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1614",
+      "departure": "7:40 PM on Sat, Aug 29",
+      "arrival": "10:50 AM on Sun, Aug 30",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1689",
+      "departure": "7:40 PM on Sat, Aug 29",
+      "arrival": "10:00 AM on Sun, Aug 30",
+      "duration": "21 hr 20 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2225",
+      "departure": "6:20 AM on Sat, Aug 29",
+      "arrival": "8:05 PM on Sat, Aug 29",
+      "duration": "20 hr 45 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2540",
+      "departure": "7:40 PM on Sat, Aug 29",
+      "arrival": "10:50 AM on Sun, Aug 30",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€2930",
+      "departure": "6:20 AM on Sat, Aug 29",
+      "arrival": "6:45 PM on Sat, Aug 29",
+      "duration": "19 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

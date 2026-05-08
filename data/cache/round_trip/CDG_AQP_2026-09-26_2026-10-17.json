@@ -1,0 +1,171 @@
+{
+  "cached_at": "2026-05-06T23:27:51.990753",
+  "current_price": "typical",
+  "flights": [
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1456",
+      "departure": "6:50 PM on Sat, Sep 26",
+      "arrival": "10:00 AM on Sun, Sep 27",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1456",
+      "departure": "6:50 PM on Sat, Sep 26",
+      "arrival": "10:00 AM on Sun, Sep 27",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1456",
+      "departure": "6:50 PM on Sat, Sep 26",
+      "arrival": "10:50 AM on Sun, Sep 27",
+      "duration": "23 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1456",
+      "departure": "6:50 PM on Sat, Sep 26",
+      "arrival": "10:50 AM on Sun, Sep 27",
+      "duration": "23 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1541",
+      "departure": "6:55 PM on Sat, Sep 26",
+      "arrival": "10:00 AM on Sun, Sep 27",
+      "duration": "22 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1541",
+      "departure": "6:55 PM on Sat, Sep 26",
+      "arrival": "10:50 AM on Sun, Sep 27",
+      "duration": "22 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€4018",
+      "departure": "7:10 AM on Sat, Sep 26",
+      "arrival": "6:45 PM on Sat, Sep 26",
+      "duration": "18 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "",
+      "price": "0",
+      "departure": "",
+      "arrival": "",
+      "duration": "",
+      "stops": "Unknown",
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1456",
+      "departure": "6:50 PM on Sat, Sep 26",
+      "arrival": "10:00 AM on Sun, Sep 27",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1456",
+      "departure": "6:50 PM on Sat, Sep 26",
+      "arrival": "10:00 AM on Sun, Sep 27",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1456",
+      "departure": "6:50 PM on Sat, Sep 26",
+      "arrival": "10:50 AM on Sun, Sep 27",
+      "duration": "23 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1456",
+      "departure": "6:50 PM on Sat, Sep 26",
+      "arrival": "10:50 AM on Sun, Sep 27",
+      "duration": "23 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1541",
+      "departure": "6:55 PM on Sat, Sep 26",
+      "arrival": "10:00 AM on Sun, Sep 27",
+      "duration": "22 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1541",
+      "departure": "6:55 PM on Sat, Sep 26",
+      "arrival": "10:50 AM on Sun, Sep 27",
+      "duration": "22 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€4018",
+      "departure": "7:10 AM on Sat, Sep 26",
+      "arrival": "6:45 PM on Sat, Sep 26",
+      "duration": "18 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

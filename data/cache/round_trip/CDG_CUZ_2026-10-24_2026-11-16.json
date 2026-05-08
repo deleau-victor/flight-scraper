@@ -1,0 +1,215 @@
+{
+  "cached_at": "2026-05-07T10:17:50.825526",
+  "current_price": "typical",
+  "flights": [
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€1334",
+      "departure": "10:05 AM on Sat, Oct 24",
+      "arrival": "11:20 AM on Sun, Oct 25",
+      "duration": "32 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€1334",
+      "departure": "2:10 PM on Sat, Oct 24",
+      "arrival": "11:20 AM on Sun, Oct 25",
+      "duration": "28 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1540",
+      "departure": "6:50 AM on Sat, Oct 24",
+      "arrival": "10:00 PM on Sat, Oct 24",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1640",
+      "departure": "6:50 PM on Sat, Oct 24",
+      "arrival": "9:20 AM on Sun, Oct 25",
+      "duration": "21 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1640",
+      "departure": "6:55 PM on Sat, Oct 24",
+      "arrival": "9:20 AM on Sun, Oct 25",
+      "duration": "21 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1840",
+      "departure": "6:50 PM on Sat, Oct 24",
+      "arrival": "9:45 AM on Sun, Oct 25",
+      "duration": "21 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1840",
+      "departure": "6:55 PM on Sat, Oct 24",
+      "arrival": "9:45 AM on Sun, Oct 25",
+      "duration": "21 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2240",
+      "departure": "6:50 PM on Sat, Oct 24",
+      "arrival": "9:45 AM on Sun, Oct 25",
+      "duration": "21 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2240",
+      "departure": "6:55 PM on Sat, Oct 24",
+      "arrival": "9:45 AM on Sun, Oct 25",
+      "duration": "21 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "",
+      "price": "0",
+      "departure": "",
+      "arrival": "",
+      "duration": "",
+      "stops": "Unknown",
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€1334",
+      "departure": "10:05 AM on Sat, Oct 24",
+      "arrival": "11:20 AM on Sun, Oct 25",
+      "duration": "32 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€1334",
+      "departure": "2:10 PM on Sat, Oct 24",
+      "arrival": "11:20 AM on Sun, Oct 25",
+      "duration": "28 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1540",
+      "departure": "6:50 AM on Sat, Oct 24",
+      "arrival": "10:00 PM on Sat, Oct 24",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1640",
+      "departure": "6:50 PM on Sat, Oct 24",
+      "arrival": "9:20 AM on Sun, Oct 25",
+      "duration": "21 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1640",
+      "departure": "6:55 PM on Sat, Oct 24",
+      "arrival": "9:20 AM on Sun, Oct 25",
+      "duration": "21 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1840",
+      "departure": "6:50 PM on Sat, Oct 24",
+      "arrival": "9:45 AM on Sun, Oct 25",
+      "duration": "21 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1840",
+      "departure": "6:55 PM on Sat, Oct 24",
+      "arrival": "9:45 AM on Sun, Oct 25",
+      "duration": "21 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2240",
+      "departure": "6:50 PM on Sat, Oct 24",
+      "arrival": "9:45 AM on Sun, Oct 25",
+      "duration": "21 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2240",
+      "departure": "6:55 PM on Sat, Oct 24",
+      "arrival": "9:45 AM on Sun, Oct 25",
+      "duration": "21 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

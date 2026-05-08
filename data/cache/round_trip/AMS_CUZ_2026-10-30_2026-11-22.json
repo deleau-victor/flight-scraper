@@ -1,0 +1,281 @@
+{
+  "cached_at": "2026-05-07T09:48:02.668330",
+  "current_price": "",
+  "flights": [
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1571",
+      "departure": "7:00 PM on Fri, Oct 30",
+      "arrival": "11:25 AM on Sat, Oct 31",
+      "duration": "22 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Lufthansa, Avianca",
+      "price": "€1715",
+      "departure": "7:15 AM on Fri, Oct 30",
+      "arrival": "11:20 AM on Sat, Oct 31",
+      "duration": "34 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Lufthansa, Avianca",
+      "price": "€1715",
+      "departure": "8:40 AM on Fri, Oct 30",
+      "arrival": "11:20 AM on Sat, Oct 31",
+      "duration": "32 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Dolomiti, Lufthansa, Avianca",
+      "price": "€1715",
+      "departure": "10:40 AM on Fri, Oct 30",
+      "arrival": "11:20 AM on Sat, Oct 31",
+      "duration": "30 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1861",
+      "departure": "11:00 AM on Fri, Oct 30",
+      "arrival": "11:25 AM on Sat, Oct 31",
+      "duration": "30 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, Air Europa, Sky Airline",
+      "price": "€1862",
+      "departure": "9:40 AM on Fri, Oct 30",
+      "arrival": "11:25 AM on Sat, Oct 31",
+      "duration": "31 hr 45 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3398",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "9:20 PM on Fri, Oct 30",
+      "duration": "15 hr 40 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3398",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "10:00 PM on Fri, Oct 30",
+      "duration": "16 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3398",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "10:35 PM on Fri, Oct 30",
+      "duration": "16 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3398",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "11:25 PM on Fri, Oct 30",
+      "duration": "17 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3398",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "7:20 AM on Sat, Oct 31",
+      "duration": "25 hr 40 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3593",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "12:40 AM on Sat, Oct 31",
+      "duration": "19 hr",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€5820",
+      "departure": "9:50 PM on Fri, Oct 30",
+      "arrival": "5:10 PM on Sat, Oct 31",
+      "duration": "25 hr 20 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Lufthansa, Avianca",
+      "price": "€1715",
+      "departure": "7:15 AM on Fri, Oct 30",
+      "arrival": "11:20 AM on Sat, Oct 31",
+      "duration": "34 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Lufthansa, Avianca",
+      "price": "€1715",
+      "departure": "8:40 AM on Fri, Oct 30",
+      "arrival": "11:20 AM on Sat, Oct 31",
+      "duration": "32 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Dolomiti, Lufthansa, Avianca",
+      "price": "€1715",
+      "departure": "10:40 AM on Fri, Oct 30",
+      "arrival": "11:20 AM on Sat, Oct 31",
+      "duration": "30 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1861",
+      "departure": "11:00 AM on Fri, Oct 30",
+      "arrival": "11:25 AM on Sat, Oct 31",
+      "duration": "30 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, Air Europa, Sky Airline",
+      "price": "€1862",
+      "departure": "9:40 AM on Fri, Oct 30",
+      "arrival": "11:25 AM on Sat, Oct 31",
+      "duration": "31 hr 45 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3398",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "9:20 PM on Fri, Oct 30",
+      "duration": "15 hr 40 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3398",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "10:00 PM on Fri, Oct 30",
+      "duration": "16 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3398",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "10:35 PM on Fri, Oct 30",
+      "duration": "16 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3398",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "11:25 PM on Fri, Oct 30",
+      "duration": "17 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3398",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "7:20 AM on Sat, Oct 31",
+      "duration": "25 hr 40 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€3593",
+      "departure": "11:40 AM on Fri, Oct 30",
+      "arrival": "12:40 AM on Sat, Oct 31",
+      "duration": "19 hr",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "KLM, LATAM",
+      "price": "€5820",
+      "departure": "9:50 PM on Fri, Oct 30",
+      "arrival": "5:10 PM on Sat, Oct 31",
+      "duration": "25 hr 20 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

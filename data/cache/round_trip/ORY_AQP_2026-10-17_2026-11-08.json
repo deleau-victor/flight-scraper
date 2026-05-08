@@ -1,0 +1,171 @@
+{
+  "cached_at": "2026-05-07T10:16:25.809790",
+  "current_price": "typical",
+  "flights": [
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1436",
+      "departure": "5:10 PM on Sat, Oct 17",
+      "arrival": "11:05 AM on Sun, Oct 18",
+      "duration": "24 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1476",
+      "departure": "7:25 PM on Sat, Oct 17",
+      "arrival": "11:05 AM on Sun, Oct 18",
+      "duration": "22 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1636",
+      "departure": "10:55 AM on Sat, Oct 17",
+      "arrival": "11:05 AM on Sun, Oct 18",
+      "duration": "31 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1690",
+      "departure": "5:20 PM on Sat, Oct 17",
+      "arrival": "10:00 AM on Sun, Oct 18",
+      "duration": "23 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2290",
+      "departure": "5:20 PM on Sat, Oct 17",
+      "arrival": "10:50 AM on Sun, Oct 18",
+      "duration": "24 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2353",
+      "departure": "5:20 PM on Sat, Oct 17",
+      "arrival": "10:00 AM on Sun, Oct 18",
+      "duration": "23 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2540",
+      "departure": "5:20 PM on Sat, Oct 17",
+      "arrival": "10:50 AM on Sun, Oct 18",
+      "duration": "24 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "",
+      "price": "0",
+      "departure": "",
+      "arrival": "",
+      "duration": "",
+      "stops": "Unknown",
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1436",
+      "departure": "5:10 PM on Sat, Oct 17",
+      "arrival": "11:05 AM on Sun, Oct 18",
+      "duration": "24 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1476",
+      "departure": "7:25 PM on Sat, Oct 17",
+      "arrival": "11:05 AM on Sun, Oct 18",
+      "duration": "22 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1636",
+      "departure": "10:55 AM on Sat, Oct 17",
+      "arrival": "11:05 AM on Sun, Oct 18",
+      "duration": "31 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1690",
+      "departure": "5:20 PM on Sat, Oct 17",
+      "arrival": "10:00 AM on Sun, Oct 18",
+      "duration": "23 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2290",
+      "departure": "5:20 PM on Sat, Oct 17",
+      "arrival": "10:50 AM on Sun, Oct 18",
+      "duration": "24 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2353",
+      "departure": "5:20 PM on Sat, Oct 17",
+      "arrival": "10:00 AM on Sun, Oct 18",
+      "duration": "23 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2540",
+      "departure": "5:20 PM on Sat, Oct 17",
+      "arrival": "10:50 AM on Sun, Oct 18",
+      "duration": "24 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

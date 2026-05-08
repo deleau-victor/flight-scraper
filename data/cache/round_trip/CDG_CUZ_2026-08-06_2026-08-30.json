@@ -1,0 +1,39 @@
+{
+  "cached_at": "2026-05-07T10:04:13.592271",
+  "current_price": "high",
+  "flights": [
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€2134",
+      "departure": "10:05 AM on Thu, Aug 6",
+      "arrival": "11:20 AM on Fri, Aug 7",
+      "duration": "32 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€2284",
+      "departure": "2:10 PM on Thu, Aug 6",
+      "arrival": "11:20 AM on Fri, Aug 7",
+      "duration": "28 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€2134",
+      "departure": "10:05 AM on Thu, Aug 6",
+      "arrival": "11:20 AM on Fri, Aug 7",
+      "duration": "32 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

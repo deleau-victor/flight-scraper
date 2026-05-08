@@ -1,0 +1,83 @@
+{
+  "cached_at": "2026-05-07T09:14:37.321102",
+  "current_price": "",
+  "flights": [
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2208",
+      "departure": "2:35 PM on Fri, Jul 3",
+      "arrival": "8:05 AM on Sat, Jul 4",
+      "duration": "24 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2358",
+      "departure": "5:00 PM on Fri, Jul 3",
+      "arrival": "8:05 AM on Sat, Jul 4",
+      "duration": "22 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2358",
+      "departure": "5:00 PM on Fri, Jul 3",
+      "arrival": "11:35 AM on Sat, Jul 4",
+      "duration": "25 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "",
+      "price": "0",
+      "departure": "",
+      "arrival": "",
+      "duration": "",
+      "stops": "Unknown",
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2208",
+      "departure": "2:35 PM on Fri, Jul 3",
+      "arrival": "8:05 AM on Sat, Jul 4",
+      "duration": "24 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2358",
+      "departure": "5:00 PM on Fri, Jul 3",
+      "arrival": "8:05 AM on Sat, Jul 4",
+      "duration": "22 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2358",
+      "departure": "5:00 PM on Fri, Jul 3",
+      "arrival": "11:35 AM on Sat, Jul 4",
+      "duration": "25 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

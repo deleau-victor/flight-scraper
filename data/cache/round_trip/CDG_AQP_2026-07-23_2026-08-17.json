@@ -1,0 +1,171 @@
+{
+  "cached_at": "2026-05-06T22:47:51.924916",
+  "current_price": "high",
+  "flights": [
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2551",
+      "departure": "6:50 PM on Thu, Jul 23",
+      "arrival": "10:00 AM on Fri, Jul 24",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2551",
+      "departure": "6:50 PM on Thu, Jul 23",
+      "arrival": "10:50 AM on Fri, Jul 24",
+      "duration": "23 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2551",
+      "departure": "6:50 PM on Thu, Jul 23",
+      "arrival": "12:05 PM on Fri, Jul 24",
+      "duration": "24 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2741",
+      "departure": "6:50 PM on Thu, Jul 23",
+      "arrival": "10:00 AM on Fri, Jul 24",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2741",
+      "departure": "6:50 PM on Thu, Jul 23",
+      "arrival": "10:50 AM on Fri, Jul 24",
+      "duration": "23 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€6811",
+      "departure": "7:10 AM on Thu, Jul 23",
+      "arrival": "6:45 PM on Thu, Jul 23",
+      "duration": "18 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€6811",
+      "departure": "7:10 AM on Thu, Jul 23",
+      "arrival": "8:05 PM on Thu, Jul 23",
+      "duration": "19 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "",
+      "price": "0",
+      "departure": "",
+      "arrival": "",
+      "duration": "",
+      "stops": "Unknown",
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2551",
+      "departure": "6:50 PM on Thu, Jul 23",
+      "arrival": "10:00 AM on Fri, Jul 24",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2551",
+      "departure": "6:50 PM on Thu, Jul 23",
+      "arrival": "10:50 AM on Fri, Jul 24",
+      "duration": "23 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2551",
+      "departure": "6:50 PM on Thu, Jul 23",
+      "arrival": "12:05 PM on Fri, Jul 24",
+      "duration": "24 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2741",
+      "departure": "6:50 PM on Thu, Jul 23",
+      "arrival": "10:00 AM on Fri, Jul 24",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2741",
+      "departure": "6:50 PM on Thu, Jul 23",
+      "arrival": "10:50 AM on Fri, Jul 24",
+      "duration": "23 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€6811",
+      "departure": "7:10 AM on Thu, Jul 23",
+      "arrival": "6:45 PM on Thu, Jul 23",
+      "duration": "18 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€6811",
+      "departure": "7:10 AM on Thu, Jul 23",
+      "arrival": "8:05 PM on Thu, Jul 23",
+      "duration": "19 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

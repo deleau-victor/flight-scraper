@@ -1,0 +1,127 @@
+{
+  "cached_at": "2026-05-07T09:41:19.331787",
+  "current_price": "",
+  "flights": [
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€2593",
+      "departure": "7:10 AM on Fri, Oct 9",
+      "arrival": "8:40 PM on Fri, Oct 9",
+      "duration": "20 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€2593",
+      "departure": "7:10 AM on Fri, Oct 9",
+      "arrival": "8:50 PM on Fri, Oct 9",
+      "duration": "20 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€2593",
+      "departure": "7:10 AM on Fri, Oct 9",
+      "arrival": "9:20 PM on Fri, Oct 9",
+      "duration": "21 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€2593",
+      "departure": "7:10 AM on Fri, Oct 9",
+      "arrival": "10:00 PM on Fri, Oct 9",
+      "duration": "21 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€5581",
+      "departure": "7:10 AM on Fri, Oct 9",
+      "arrival": "7:40 PM on Fri, Oct 9",
+      "duration": "19 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "",
+      "price": "0",
+      "departure": "",
+      "arrival": "",
+      "duration": "",
+      "stops": "Unknown",
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€2593",
+      "departure": "7:10 AM on Fri, Oct 9",
+      "arrival": "8:40 PM on Fri, Oct 9",
+      "duration": "20 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€2593",
+      "departure": "7:10 AM on Fri, Oct 9",
+      "arrival": "8:50 PM on Fri, Oct 9",
+      "duration": "20 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€2593",
+      "departure": "7:10 AM on Fri, Oct 9",
+      "arrival": "9:20 PM on Fri, Oct 9",
+      "duration": "21 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€2593",
+      "departure": "7:10 AM on Fri, Oct 9",
+      "arrival": "10:00 PM on Fri, Oct 9",
+      "duration": "21 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€5581",
+      "departure": "7:10 AM on Fri, Oct 9",
+      "arrival": "7:40 PM on Fri, Oct 9",
+      "duration": "19 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

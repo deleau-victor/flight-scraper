@@ -1,0 +1,12 @@
+[project]
+name = "flight-scraper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fast-flights[local]>=2.2",
+    "playwright>=1.59.0",
+    "playwright-stealth>=2.0",
+    "rich>=13.7",
+]

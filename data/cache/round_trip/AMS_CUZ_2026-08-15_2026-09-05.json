@@ -1,0 +1,215 @@
+{
+  "cached_at": "2026-05-07T09:28:34.414190",
+  "current_price": "",
+  "flights": [
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "9:30 AM on Sun, Aug 16",
+      "duration": "21 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "10:00 AM on Sun, Aug 16",
+      "duration": "22 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "10:35 AM on Sun, Aug 16",
+      "duration": "22 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "11:10 AM on Sun, Aug 16",
+      "duration": "23 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "11:35 AM on Sun, Aug 16",
+      "duration": "23 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "12:10 PM on Sun, Aug 16",
+      "duration": "24 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "1:05 PM on Sun, Aug 16",
+      "duration": "25 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "1:35 PM on Sun, Aug 16",
+      "duration": "25 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "2:00 PM on Sun, Aug 16",
+      "duration": "26 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "",
+      "price": "0",
+      "departure": "",
+      "arrival": "",
+      "duration": "",
+      "stops": "Unknown",
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "9:30 AM on Sun, Aug 16",
+      "duration": "21 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "10:00 AM on Sun, Aug 16",
+      "duration": "22 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "10:35 AM on Sun, Aug 16",
+      "duration": "22 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "11:10 AM on Sun, Aug 16",
+      "duration": "23 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "11:35 AM on Sun, Aug 16",
+      "duration": "23 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "12:10 PM on Sun, Aug 16",
+      "duration": "24 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "1:05 PM on Sun, Aug 16",
+      "duration": "25 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "1:35 PM on Sun, Aug 16",
+      "duration": "25 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, LATAM",
+      "price": "€4211",
+      "departure": "7:00 PM on Sat, Aug 15",
+      "arrival": "2:00 PM on Sun, Aug 16",
+      "duration": "26 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

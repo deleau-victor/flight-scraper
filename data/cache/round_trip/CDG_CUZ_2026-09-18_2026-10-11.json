@@ -1,0 +1,83 @@
+{
+  "cached_at": "2026-05-07T09:36:38.660151",
+  "current_price": "",
+  "flights": [
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2026",
+      "departure": "2:35 PM on Fri, Sep 18",
+      "arrival": "8:05 AM on Sat, Sep 19",
+      "duration": "24 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2176",
+      "departure": "5:00 PM on Fri, Sep 18",
+      "arrival": "8:05 AM on Sat, Sep 19",
+      "duration": "22 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2176",
+      "departure": "5:00 PM on Fri, Sep 18",
+      "arrival": "11:35 AM on Sat, Sep 19",
+      "duration": "25 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "",
+      "price": "0",
+      "departure": "",
+      "arrival": "",
+      "duration": "",
+      "stops": "Unknown",
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2026",
+      "departure": "2:35 PM on Fri, Sep 18",
+      "arrival": "8:05 AM on Sat, Sep 19",
+      "duration": "24 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2176",
+      "departure": "5:00 PM on Fri, Sep 18",
+      "arrival": "8:05 AM on Sat, Sep 19",
+      "duration": "22 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, Air Europa, Sky Airline",
+      "price": "€2176",
+      "departure": "5:00 PM on Fri, Sep 18",
+      "arrival": "11:35 AM on Sat, Sep 19",
+      "duration": "25 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}
