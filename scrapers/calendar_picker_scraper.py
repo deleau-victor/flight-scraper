@@ -30,7 +30,9 @@ from config import (
     CALENDAR_SLIDE_THROTTLE_MIN, CALENDAR_SLIDE_THROTTLE_MAX,
     CALENDAR_GOTO_TIMEOUT_MS, CALENDAR_RESULTS_TIMEOUT_MS,
     CALENDAR_WAIT_FOR_MATRIX_MS,
+    USE_CACHE,
 )
+from cache import get_calendar_cache, save_calendar_cache
 
 
 @dataclass(frozen=True)
@@ -322,7 +324,7 @@ _SEL_SCROLL_DOWN = 'button[aria-label="Scroll down"]'
 _GET_CALENDAR_GRID_URL_FRAGMENT = "/GetCalendarGrid"
 
 
-async def scrape_calendar_for_route(
+async def _scrape_calendar_for_route_uncached(
     dep: str,
     arrival: str,
     start_anchor: date,
@@ -416,3 +418,30 @@ async def scrape_calendar_for_route(
                     cells_by_key[key] = cell
 
     return list(cells_by_key.values())
+
+
+async def scrape_calendar_for_route(
+    dep: str,
+    arrival: str,
+    start_anchor: date,
+    end_anchor: date,
+    *,
+    max_clicks: int = 250,
+) -> list[CalendarCell]:
+    """Scrape la matrice calendaire pour 1 route. Cf docstring détaillé du module.
+
+    Cache disque par (dep, arrival, start_anchor). TTL = CACHE_TTL_HOURS.
+    """
+    if USE_CACHE:
+        cached = get_calendar_cache(dep, arrival, start_anchor)
+        if cached is not None:
+            return cached
+
+    cells = await _scrape_calendar_for_route_uncached(
+        dep, arrival, start_anchor, end_anchor, max_clicks=max_clicks,
+    )
+
+    if USE_CACHE and cells:
+        save_calendar_cache(dep, arrival, start_anchor, cells)
+
+    return cells
