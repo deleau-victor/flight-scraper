@@ -80,3 +80,48 @@ def extract_wrb_payload(frame) -> object | None:
         return json.loads(inner_str)
     except json.JSONDecodeError:
         return None
+
+
+def extract_cells(payload, dep: str, arrival: str) -> list[CalendarCell]:
+    """Extrait les CalendarCell d'un payload wrb.fr (parsé via extract_wrb_payload).
+
+    Format cellule : [date_aller_iso, date_retour_iso, [[null, prix_int], token], status]
+    status == 1 → valide ; 2 → invalide (prix slot = null).
+    """
+    if not isinstance(payload, list) or len(payload) < 2:
+        return []
+    cells_data = payload[1]
+    if not isinstance(cells_data, list):
+        return []
+
+    out = []
+    for entry in cells_data:
+        if not isinstance(entry, list) or len(entry) < 4:
+            continue
+        date_aller_str, date_retour_str, price_data, status = entry[:4]
+        if status != 1 or not price_data:
+            continue
+        try:
+            prix = price_data[0][1]
+        except (IndexError, TypeError):
+            continue
+        if prix is None:
+            continue
+        try:
+            token = price_data[1] if len(price_data) > 1 else ""
+        except (IndexError, TypeError):
+            token = ""
+        try:
+            d_aller = date.fromisoformat(date_aller_str)
+            d_retour = date.fromisoformat(date_retour_str)
+        except (ValueError, TypeError):
+            continue
+        out.append(CalendarCell(
+            date_aller=d_aller,
+            date_retour=d_retour,
+            dep=dep,
+            arrival=arrival,
+            prix=float(prix),
+            deeplink_token=token if isinstance(token, str) else "",
+        ))
+    return out

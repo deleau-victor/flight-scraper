@@ -72,3 +72,44 @@ def test_extract_wrb_payload_malformed_returns_none():
     assert extract_wrb_payload([]) is None
     assert extract_wrb_payload(None) is None
     assert extract_wrb_payload([["wrb.fr", None, "not-json"]]) is None
+
+
+from scrapers.calendar_picker_scraper import extract_cells
+
+
+def test_extract_cells_valid_only():
+    payload = [
+        ["meta"],
+        [
+            ["2026-08-30", "2026-08-31", [[None, 1107], "tok1"], 1],
+            ["2026-08-30", "2026-09-01", [[None, 1019], "tok2"], 1],
+            ["2026-08-29", "2026-08-28", None, 2],  # invalid (return < dep)
+        ],
+    ]
+    cells = extract_cells(payload, dep="CDG", arrival="LIM")
+    assert len(cells) == 2
+    assert cells[0].date_aller == date(2026, 8, 30)
+    assert cells[0].date_retour == date(2026, 8, 31)
+    assert cells[0].dep == "CDG"
+    assert cells[0].arrival == "LIM"
+    assert cells[0].prix == 1107.0
+    assert cells[0].deeplink_token == "tok1"
+    assert cells[1].prix == 1019.0
+
+
+def test_extract_cells_handles_missing_token():
+    payload = [["meta"], [["2026-08-30", "2026-08-31", [[None, 1107]], 1]]]
+    cells = extract_cells(payload, dep="CDG", arrival="LIM")
+    assert len(cells) == 1
+    assert cells[0].deeplink_token == ""
+
+
+def test_extract_cells_skips_status_2():
+    payload = [["meta"], [["2026-08-29", "2026-08-28", None, 2]]]
+    assert extract_cells(payload, dep="X", arrival="Y") == []
+
+
+def test_extract_cells_empty_payload():
+    assert extract_cells([["meta"], []], dep="X", arrival="Y") == []
+    assert extract_cells(None, dep="X", arrival="Y") == []
+    assert extract_cells([["meta"]], dep="X", arrival="Y") == []
