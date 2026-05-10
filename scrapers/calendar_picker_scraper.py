@@ -9,9 +9,13 @@ Format de réponse : voir spec docs/superpowers/specs/2026-05-10-calendar-picker
 
 import json
 from collections import defaultdict
+from contextlib import asynccontextmanager
 from dataclasses import dataclass
 from datetime import date
 from typing import Iterator
+
+from playwright.async_api import async_playwright
+from playwright_stealth import Stealth
 
 from config import (
     START_DATE, END_DATE, TRIP_DURATIONS,
@@ -205,3 +209,70 @@ def filter_and_select_top_n(
             duration = (c.date_retour - c.date_aller).days
             out.append((c.date_aller, c.date_retour, duration, c.dep, c.arrival))
     return out
+
+
+# ============ Stealth Playwright setup (duplicated from fast_flights_patch.py) ============
+
+REALISTIC_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+)
+_stealth = Stealth()
+
+
+@asynccontextmanager
+async def _stealth_browser_context():
+    """Browser+context Chromium configuré identiquement à fast_flights_patch.py
+    (UA, locale, timezone, cookies CONSENT/SOCS, stealth patches).
+
+    Code dupliqué intentionnellement de fast_flights_patch.py — ne pas refactorer
+    pour mutualiser, le module doit rester intact (cf spec : préférence
+    duplication > refactor pour le code anti-détection qui marche).
+    """
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(
+            args=["--disable-blink-features=AutomationControlled"],
+        )
+        try:
+            context = await browser.new_context(
+                locale="en-US",
+                timezone_id="America/New_York",
+                user_agent=REALISTIC_UA,
+            )
+            await _stealth.apply_stealth_async(context)
+            await context.add_cookies([
+                {
+                    "name": "CONSENT",
+                    "value": "YES+cb.20210720-07-p0.en+FX+410",
+                    "domain": ".google.com",
+                    "path": "/",
+                },
+                {
+                    "name": "SOCS",
+                    "value": "CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg",
+                    "domain": ".google.com",
+                    "path": "/",
+                },
+            ])
+            yield context
+        finally:
+            await browser.close()
+
+
+async def _dismiss_consent_fallback(page):
+    """Cliquer 'Accept all' si la page consent apparaît malgré les cookies préchargés."""
+    selectors = [
+        'button:has-text("Accept all")',
+        'button:has-text("Tout accepter")',
+        'button[aria-label*="Accept"]',
+        'button[aria-label*="Accepter"]',
+    ]
+    for sel in selectors:
+        btn = page.locator(sel)
+        if await btn.count() > 0:
+            try:
+                await btn.first.click(timeout=2000)
+                await page.wait_for_load_state("networkidle", timeout=5000)
+            except Exception:
+                pass
+            return
