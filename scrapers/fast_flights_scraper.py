@@ -355,46 +355,52 @@ async def process_combo(
     await tracker.record(line=line, kind=kind, success=success, duration=elapsed)
 
 
-async def run_google_flights_scraper_async() -> list[FlightOffer]:
+async def run_google_flights_scraper_async(
+    combos_override: list | None = None,
+) -> list[FlightOffer]:
     global _semaphore
     _semaphore = asyncio.Semaphore(PARALLEL_WORKERS)
-    
+
     print("\n" + "═" * 80)
     print(f"{'🛫 SCRAPER GOOGLE FLIGHTS (async + cache)':^80}")
     print("═" * 80 + "\n")
-    
-    valid_routes = {}
-    if USE_PREFILTER:
-        valid_routes = await prefilter_routes_async()
 
-    all_combos = generate_combinations()
-
-    if valid_routes:
-        combos = []
-        eliminated_invalid = 0
-        eliminated_cold = 0
-        for c in all_combos:
-            date_aller, _, _, dep, arrival = c
-            info = valid_routes.get((dep, arrival))
-            if info is None:
-                combos.append(c)
-                continue
-            if not info["is_valid"]:
-                eliminated_invalid += 1
-                continue
-            if info["hot_zones"] and not is_date_in_hot_zones(date_aller, info["hot_zones"]):
-                eliminated_cold += 1
-                continue
-            combos.append(c)
-        eliminated = eliminated_invalid + eliminated_cold
-        if eliminated:
-            print(
-                f"\n🔪 {eliminated} combinaisons éliminées par le préfiltrage "
-                f"({eliminated_invalid} routes mortes + {eliminated_cold} hors hot zones)"
-            )
+    if combos_override is not None:
+        combos = combos_override
+        print(f"🎯 Mode ciblé : {len(combos)} combos passés en override (skip prefilter)\n")
     else:
-        combos = all_combos
-    
+        valid_routes = {}
+        if USE_PREFILTER:
+            valid_routes = await prefilter_routes_async()
+
+        all_combos = generate_combinations()
+
+        if valid_routes:
+            combos = []
+            eliminated_invalid = 0
+            eliminated_cold = 0
+            for c in all_combos:
+                date_aller, _, _, dep, arrival = c
+                info = valid_routes.get((dep, arrival))
+                if info is None:
+                    combos.append(c)
+                    continue
+                if not info["is_valid"]:
+                    eliminated_invalid += 1
+                    continue
+                if info["hot_zones"] and not is_date_in_hot_zones(date_aller, info["hot_zones"]):
+                    eliminated_cold += 1
+                    continue
+                combos.append(c)
+            eliminated = eliminated_invalid + eliminated_cold
+            if eliminated:
+                print(
+                    f"\n🔪 {eliminated} combinaisons éliminées par le préfiltrage "
+                    f"({eliminated_invalid} routes mortes + {eliminated_cold} hors hot zones)"
+                )
+        else:
+            combos = all_combos
+
     total = len(combos)
     estimated_time = total * 8 / PARALLEL_WORKERS / 60
     print(f"\n🔍 {total} combinaisons | {PARALLEL_WORKERS} workers")
@@ -429,6 +435,6 @@ async def run_google_flights_scraper_async() -> list[FlightOffer]:
     return results
 
 
-def run_google_flights_scraper() -> list[FlightOffer]:
+def run_google_flights_scraper(combos_override: list | None = None) -> list[FlightOffer]:
     """Wrapper sync"""
-    return asyncio.run(run_google_flights_scraper_async())
+    return asyncio.run(run_google_flights_scraper_async(combos_override))
