@@ -20,3 +20,10 @@ class CalendarCell:
     arrival: str
     prix: float
     deeplink_token: str = ""
+
+
+def strip_xssi_prefix(text: str) -> str:
+    """Retire le préfixe anti-XSSI de Google `)]}'` et les newlines en tête."""
+    if text.startswith(")]}'"):
+        text = text[4:]
+    return text.lstrip("\n")
