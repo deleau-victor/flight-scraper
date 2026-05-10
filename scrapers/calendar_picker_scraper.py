@@ -8,9 +8,16 @@ Format de réponse : voir spec docs/superpowers/specs/2026-05-10-calendar-picker
 """
 
 import json
+from collections import defaultdict
 from dataclasses import dataclass
 from datetime import date
 from typing import Iterator
+
+from config import (
+    START_DATE, END_DATE, TRIP_DURATIONS,
+    ALLOWED_DEPARTURE_WEEKDAYS, ALLOWED_RETURN_WEEKDAYS,
+    MIN_PRICE, MAX_PRICE,
+)
 
 
 @dataclass(frozen=True)
@@ -141,3 +148,60 @@ def parse_calendar_response(raw: str, dep: str, arrival: str) -> list[CalendarCe
             continue
         cells.extend(extract_cells(payload, dep=dep, arrival=arrival))
     return cells
+
+
+def filter_and_select_top_n(
+    cells: list[CalendarCell],
+    top_n: int,
+) -> list[tuple]:
+    """Pipeline de filtrage côté Python sur les cellules de la matrice :
+
+        1. weekday  : date_aller.weekday() ∈ ALLOWED_DEPARTURE_WEEKDAYS
+                      date_retour.weekday() ∈ ALLOWED_RETURN_WEEKDAYS
+        2. durée    : (date_retour - date_aller).days ∈ TRIP_DURATIONS
+                      (convention de utils.generate_combinations)
+        3. prix     : MIN_PRICE < prix < MAX_PRICE
+        4. range    : date_aller >= START_DATE, date_retour <= END_DATE
+        5. dédup    : par (dep, arr, date_aller, date_retour), garde le moins cher
+        6. group by route, sort by prix asc, take [:top_n]
+
+    Retourne : list[(date_aller, date_retour, duration, dep, arrival)]
+    Format identique à `utils.generate_combinations()` / consommé par
+    `fast_flights_scraper.process_combo()`.
+    """
+    # Étapes 1-4 : filtres
+    valid: list[CalendarCell] = []
+    for c in cells:
+        if c.date_aller.weekday() not in ALLOWED_DEPARTURE_WEEKDAYS:
+            continue
+        if c.date_retour.weekday() not in ALLOWED_RETURN_WEEKDAYS:
+            continue
+        duration = (c.date_retour - c.date_aller).days
+        if duration not in TRIP_DURATIONS:
+            continue
+        if not (MIN_PRICE < c.prix < MAX_PRICE):
+            continue
+        if c.date_aller < START_DATE or c.date_retour > END_DATE:
+            continue
+        valid.append(c)
+
+    # Étape 5 : dédup par (dep, arr, da, dr) en gardant le moins cher
+    dedup: dict[tuple, CalendarCell] = {}
+    for c in valid:
+        key = (c.dep, c.arrival, c.date_aller, c.date_retour)
+        prev = dedup.get(key)
+        if prev is None or c.prix < prev.prix:
+            dedup[key] = c
+
+    # Étape 6 : group by route, top-N par route
+    by_route: dict[tuple, list[CalendarCell]] = defaultdict(list)
+    for c in dedup.values():
+        by_route[(c.dep, c.arrival)].append(c)
+
+    out: list[tuple] = []
+    for route_cells in by_route.values():
+        route_cells.sort(key=lambda c: c.prix)
+        for c in route_cells[:top_n]:
+            duration = (c.date_retour - c.date_aller).days
+            out.append((c.date_aller, c.date_retour, duration, c.dep, c.arrival))
+    return out
