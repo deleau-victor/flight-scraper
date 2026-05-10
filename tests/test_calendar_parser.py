@@ -135,6 +135,17 @@ def test_parse_calendar_response_only_xssi():
     assert parse_calendar_response(")]}'\n", dep="X", arrival="Y") == []
 
 
+def test_parse_calendar_response_real_capture_has_49_cells():
+    """Régression : le size header de Google peut être off-by-N (capture observée
+    annonçait 8859 pour un JSON de 8857 chars). raw_decode trouve la fin réelle
+    du JSON. Capture réelle CDG→LIM = 7×7 = 49 cellules."""
+    raw = (FIXTURES_DIR / "calendar_response_real_capture.txt").read_text(encoding="utf-8")
+    cells = parse_calendar_response(raw, dep="CDG", arrival="LIM")
+    assert len(cells) == 49
+    assert all(c.dep == "CDG" and c.arrival == "LIM" for c in cells)
+    assert all(800 < c.prix < 3000 for c in cells)
+
+
 from scrapers.calendar_picker_scraper import build_google_flights_url
 
 

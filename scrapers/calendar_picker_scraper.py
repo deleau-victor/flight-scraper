@@ -59,18 +59,23 @@ def strip_xssi_prefix(text: str) -> str:
     return text.lstrip("\n")
 
 
+_DECODER = json.JSONDecoder()
+
+
 def iter_frames(body: str) -> Iterator[object]:
     """Itère sur les frames JSON d'une réponse Google chunked.
 
-    Format : `<size>\\n<frame_of_size_bytes>` répété.
-    Skip silencieusement les frames non-JSON ou les size non-numériques (fin de stream).
+    Format : `<size>\\n<json_frame>` répété, séparés par whitespace.
+    On utilise `JSONDecoder.raw_decode` plutôt que de faire confiance au header
+    de taille — Google peut renvoyer une taille qui couvre plus que le JSON
+    (incluant des chars de framing). raw_decode trouve la fin réelle du JSON.
+
+    Skip silencieusement les size non-numériques (fin de stream).
     """
     pos = 0
     while pos < len(body):
-        # Skip any leading newlines
-        while pos < len(body) and body[pos] == '\n':
+        while pos < len(body) and body[pos] in " \t\n\r":
             pos += 1
-
         if pos >= len(body):
             return
 
@@ -80,14 +85,13 @@ def iter_frames(body: str) -> Iterator[object]:
         size_str = body[pos:nl].strip()
         if not size_str.isdigit():
             return
-        size = int(size_str)
         pos = nl + 1
-        frame_text = body[pos:pos + size]
-        pos += size
         try:
-            yield json.loads(frame_text)
+            obj, end = _DECODER.raw_decode(body, pos)
         except json.JSONDecodeError:
-            continue
+            return
+        yield obj
+        pos = end
 
 
 def extract_wrb_payload(frame) -> object | None:
