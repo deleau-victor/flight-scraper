@@ -17,6 +17,10 @@ from typing import Iterator
 from playwright.async_api import async_playwright
 from playwright_stealth import Stealth
 
+import fast_flights_patch  # noqa: F401  — DOIT être importé pour appliquer le monkey-patch protobuf type=1
+from fast_flights import FlightData, Passengers
+from fast_flights.filter import TFSData
+
 from config import (
     START_DATE, END_DATE, TRIP_DURATIONS,
     ALLOWED_DEPARTURE_WEEKDAYS, ALLOWED_RETURN_WEEKDAYS,
@@ -276,3 +280,29 @@ async def _dismiss_consent_fallback(page):
             except Exception:
                 pass
             return
+
+
+def build_google_flights_url(
+    dep: str, arrival: str,
+    date_aller: date, date_retour: date,
+) -> str:
+    """Construit l'URL Google Flights round-trip qu'on visite avant d'ouvrir Date grid.
+
+    Réutilise le builder TFSData de fast-flights (avec son monkey-patch type=1
+    qui répare CUZ/AQP). Locale en-US/FR pour cohérence avec l'exploration manuelle.
+    """
+    tfs = TFSData.from_interface(
+        flight_data=[
+            FlightData(date=date_aller.isoformat(), from_airport=dep, to_airport=arrival),
+            FlightData(date=date_retour.isoformat(), from_airport=arrival, to_airport=dep),
+        ],
+        trip="round-trip",
+        seat="economy",
+        passengers=Passengers(adults=1),
+        max_stops=None,
+    )
+    tfs_b64 = tfs.as_b64().decode("utf-8")
+    return (
+        "https://www.google.com/travel/flights"
+        f"?tfs={tfs_b64}&hl=en-US&gl=FR&curr=EUR"
+    )

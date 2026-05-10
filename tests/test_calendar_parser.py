@@ -133,3 +133,18 @@ def test_parse_calendar_response_empty_string():
 
 def test_parse_calendar_response_only_xssi():
     assert parse_calendar_response(")]}'\n", dep="X", arrival="Y") == []
+
+
+from scrapers.calendar_picker_scraper import build_google_flights_url
+
+
+def test_build_google_flights_url_round_trip():
+    # Must NOT raise; must return a https URL with tfs=, hl=en-US, gl=FR
+    url = build_google_flights_url(
+        dep="CDG", arrival="LIM",
+        date_aller=date(2026, 8, 27), date_retour=date(2026, 9, 19),
+    )
+    assert url.startswith("https://www.google.com/travel/flights")
+    assert "tfs=" in url
+    assert "hl=en-US" in url
+    assert "gl=FR" in url
