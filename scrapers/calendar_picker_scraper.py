@@ -341,6 +341,7 @@ async def _scrape_calendar_for_route_uncached(
     end_anchor: date,
     *,
     max_clicks: int = 250,
+    on_progress=None,
 ) -> list[CalendarCell]:
     """Scrape la matrice calendaire pour 1 route.
 
@@ -352,6 +353,10 @@ async def _scrape_calendar_for_route_uncached(
       5. Loop : alternate scroll_right + scroll_down clicks, capture chaque réponse,
          parse, jusqu'à atteindre end_anchor ou max_clicks
       6. Dédup les cellules par (date_aller, date_retour)
+
+    Si `on_progress` est fourni, il est appelé à chaque iter du slide loop avec
+    `(clicks, n_cells_captured, max_date_aller_so_far)` pour permettre un
+    heartbeat tracker live.
     """
     median_duration = sorted(TRIP_DURATIONS)[len(TRIP_DURATIONS) // 2]  # 24
     anchor_aller = start_anchor
@@ -368,6 +373,15 @@ async def _scrape_calendar_for_route_uncached(
                 pass
 
     cells_by_key: dict[tuple, CalendarCell] = {}
+
+    async def _emit_progress(clicks_so_far: int):
+        if on_progress is None:
+            return
+        max_da = max((c.date_aller for c in cells_by_key.values()), default=None)
+        try:
+            await on_progress(clicks_so_far, len(cells_by_key), max_da)
+        except Exception:
+            pass
 
     async with _stealth_browser_context() as context:
         page = await context.new_page()
@@ -396,6 +410,8 @@ async def _scrape_calendar_for_route_uncached(
                     if prev is None or cell.prix < prev.prix:
                         cells_by_key[key] = cell
             captured.clear()
+
+            await _emit_progress(clicks)
 
             # Termination: if we have at least one cell with date_aller >= max_aller, done
             if cells_by_key and max(c.date_aller for c in cells_by_key.values()) >= max_aller:
@@ -426,6 +442,8 @@ async def _scrape_calendar_for_route_uncached(
                 prev = cells_by_key.get(key)
                 if prev is None or cell.prix < prev.prix:
                     cells_by_key[key] = cell
+
+        await _emit_progress(clicks)
 
     return list(cells_by_key.values())
 
@@ -458,7 +476,7 @@ async def scrape_calendar_for_route(
 
 
 class _CalendarTracker:
-    """Live tracker pour Phase 1 : barre + stats par route + 10 lignes roulantes."""
+    """Live tracker pour Phase 1 : barre + stats + heartbeat in-flight + 10 lignes roulantes."""
     MAX_RESULTS = 10
     BAR_WIDTH = 40
 
@@ -475,6 +493,8 @@ class _CalendarTracker:
             [Text(" ")] * self.MAX_RESULTS,
             maxlen=self.MAX_RESULTS,
         )
+        # Heartbeat : route actuellement en cours -> (clicks, n_cells, max_date_aller, t_start)
+        self.in_flight: dict[tuple, tuple] = {}
 
     async def record(self, *, line: Text, kind: str, n_cells: int):
         async with self.lock:
@@ -487,6 +507,20 @@ class _CalendarTracker:
             elif kind == "error":
                 self.errors += 1
             self.last_results.append(line)
+
+    async def mark_started(self, dep: str, arrival: str):
+        async with self.lock:
+            self.in_flight[(dep, arrival)] = (0, 0, None, time.perf_counter())
+
+    async def update_progress(self, dep: str, arrival: str, clicks: int, n_cells: int, max_da):
+        async with self.lock:
+            entry = self.in_flight.get((dep, arrival))
+            t_start = entry[3] if entry else time.perf_counter()
+            self.in_flight[(dep, arrival)] = (clicks, n_cells, max_da, t_start)
+
+    async def mark_finished(self, dep: str, arrival: str):
+        async with self.lock:
+            self.in_flight.pop((dep, arrival), None)
 
     @staticmethod
     def _fmt_time(seconds: float) -> str:
@@ -512,7 +546,25 @@ class _CalendarTracker:
             "🌐 ", (f"{self.from_network}", "bold cyan"), " net  ",
             "❌ ", (f"{self.errors}", "bold red"), " err",
         )
-        return Group(header, stats, Text(""), *list(self.last_results))
+        # Snapshot atomic-ish des in_flight (le lock peut être tenu par la coroutine
+        # appelante, mais __rich__ est appelé par Live dans un thread séparé)
+        in_flight_lines = []
+        for (dep, arr), (clicks, n_cells, max_da, t_start) in sorted(self.in_flight.items()):
+            elapsed_route = self._fmt_time(time.perf_counter() - t_start)
+            max_da_str = max_da.isoformat() if max_da else "—"
+            in_flight_lines.append(Text(
+                f"🔄 {dep}→{arr}: {clicks} clicks | {n_cells} cellules | "
+                f"max date_aller {max_da_str} | {elapsed_route}",
+                style="cyan", no_wrap=True, overflow="ellipsis",
+            ))
+        if not in_flight_lines:
+            in_flight_lines = [Text(" ")]
+        return Group(
+            header, stats, Text(""),
+            *in_flight_lines,
+            Text(""),
+            *list(self.last_results),
+        )
 
 
 async def _process_route(
@@ -537,9 +589,15 @@ async def _process_route(
         return
 
     async with semaphore:
+        await tracker.mark_started(dep, arrival)
+
+        async def _on_progress(clicks: int, n_cells: int, max_da):
+            await tracker.update_progress(dep, arrival, clicks, n_cells, max_da)
+
         try:
             cells = await _scrape_calendar_for_route_uncached(
                 dep, arrival, start_anchor, end_anchor,
+                on_progress=_on_progress,
             )
             if USE_CACHE and cells:
                 save_calendar_cache(dep, arrival, start_anchor, cells)
@@ -561,6 +619,8 @@ async def _process_route(
                           style="red", no_wrap=True, overflow="ellipsis"),
                 kind="error", n_cells=0,
             )
+        finally:
+            await tracker.mark_finished(dep, arrival)
 
 
 async def run_calendar_picker_scraper_async(
