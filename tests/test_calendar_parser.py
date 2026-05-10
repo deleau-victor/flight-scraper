@@ -113,3 +113,23 @@ def test_extract_cells_empty_payload():
     assert extract_cells([["meta"], []], dep="X", arrival="Y") == []
     assert extract_cells(None, dep="X", arrival="Y") == []
     assert extract_cells([["meta"]], dep="X", arrival="Y") == []
+
+
+from tests.conftest import FIXTURES_DIR
+from scrapers.calendar_picker_scraper import parse_calendar_response
+
+
+def test_parse_calendar_response_full_fixture():
+    raw = (FIXTURES_DIR / "calendar_response_sample.txt").read_text(encoding="utf-8")
+    cells = parse_calendar_response(raw, dep="CDG", arrival="LIM")
+    assert len(cells) == 2
+    assert {c.prix for c in cells} == {1107.0, 1019.0}
+    assert all(c.dep == "CDG" and c.arrival == "LIM" for c in cells)
+
+
+def test_parse_calendar_response_empty_string():
+    assert parse_calendar_response("", dep="X", arrival="Y") == []
+
+
+def test_parse_calendar_response_only_xssi():
+    assert parse_calendar_response(")]}'\n", dep="X", arrival="Y") == []

@@ -125,3 +125,19 @@ def extract_cells(payload, dep: str, arrival: str) -> list[CalendarCell]:
             deeplink_token=token if isinstance(token, str) else "",
         ))
     return out
+
+
+def parse_calendar_response(raw: str, dep: str, arrival: str) -> list[CalendarCell]:
+    """Parse une réponse complète `GetCalendarGrid` → liste de CalendarCell.
+
+    Pipeline : strip XSSI → iter chunked frames → extract wrb.fr payload → extract cells.
+    Skip silencieusement les frames di/e/af.httprm.
+    """
+    body = strip_xssi_prefix(raw)
+    cells: list[CalendarCell] = []
+    for frame in iter_frames(body):
+        payload = extract_wrb_payload(frame)
+        if payload is None:
+            continue
+        cells.extend(extract_cells(payload, dep=dep, arrival=arrival))
+    return cells
