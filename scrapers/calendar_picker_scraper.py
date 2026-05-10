@@ -7,11 +7,13 @@ Endpoint cible :
 Format de réponse : voir spec docs/superpowers/specs/2026-05-10-calendar-picker-design.md
 """
 
+import asyncio
 import json
+import random
 from collections import defaultdict
 from contextlib import asynccontextmanager
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, timedelta
 from typing import Iterator
 
 from playwright.async_api import async_playwright
@@ -25,6 +27,9 @@ from config import (
     START_DATE, END_DATE, TRIP_DURATIONS,
     ALLOWED_DEPARTURE_WEEKDAYS, ALLOWED_RETURN_WEEKDAYS,
     MIN_PRICE, MAX_PRICE,
+    CALENDAR_SLIDE_THROTTLE_MIN, CALENDAR_SLIDE_THROTTLE_MAX,
+    CALENDAR_GOTO_TIMEOUT_MS, CALENDAR_RESULTS_TIMEOUT_MS,
+    CALENDAR_WAIT_FOR_MATRIX_MS,
 )
 
 
@@ -306,3 +311,108 @@ def build_google_flights_url(
         "https://www.google.com/travel/flights"
         f"?tfs={tfs_b64}&hl=en-US&gl=FR&curr=EUR"
     )
+
+
+# Selectors confirmed via manual DOM exploration (cf. exploration.md at project root)
+_SEL_RESULTS_LOADED = ".eQ35Ce"
+_SEL_DATE_GRID_BUTTON = 'button[jsname="KqtnKd"]'
+_SEL_MATRIX_CANVAS = 'canvas[jsname="qTwgI"]'
+_SEL_SCROLL_RIGHT = 'button[aria-label="Scroll right"]'
+_SEL_SCROLL_DOWN = 'button[aria-label="Scroll down"]'
+_GET_CALENDAR_GRID_URL_FRAGMENT = "/GetCalendarGrid"
+
+
+async def scrape_calendar_for_route(
+    dep: str,
+    arrival: str,
+    start_anchor: date,
+    end_anchor: date,
+    *,
+    max_clicks: int = 250,
+) -> list[CalendarCell]:
+    """Scrape la matrice calendaire pour 1 route.
+
+    Pattern :
+      1. Build URL avec anchor (start_anchor, start_anchor + median_duration)
+      2. Navigate, wait results, dismiss consent
+      3. Set up page.on("response") qui filtre sur /GetCalendarGrid et stocke les bodies
+      4. Click Date grid button (jsname=KqtnKd) → 1ère réponse
+      5. Loop : alternate scroll_right + scroll_down clicks, capture chaque réponse,
+         parse, jusqu'à atteindre end_anchor ou max_clicks
+      6. Dédup les cellules par (date_aller, date_retour)
+    """
+    median_duration = sorted(TRIP_DURATIONS)[len(TRIP_DURATIONS) // 2]  # 24
+    anchor_aller = start_anchor
+    anchor_retour = start_anchor + timedelta(days=median_duration)
+    url = build_google_flights_url(dep, arrival, anchor_aller, anchor_retour)
+
+    captured: list[str] = []
+
+    async def on_response(response):
+        if _GET_CALENDAR_GRID_URL_FRAGMENT in response.url:
+            try:
+                captured.append(await response.text())
+            except Exception:
+                pass
+
+    cells_by_key: dict[tuple, CalendarCell] = {}
+
+    async with _stealth_browser_context() as context:
+        page = await context.new_page()
+        page.on("response", on_response)
+
+        await page.goto(url, timeout=CALENDAR_GOTO_TIMEOUT_MS)
+        await _dismiss_consent_fallback(page)
+        await page.locator(_SEL_RESULTS_LOADED).wait_for(timeout=CALENDAR_RESULTS_TIMEOUT_MS)
+
+        # Open Date grid → triggers initial GetCalendarGrid
+        await page.locator(_SEL_DATE_GRID_BUTTON).click(timeout=5000)
+        await page.locator(_SEL_MATRIX_CANVAS).wait_for(timeout=CALENDAR_WAIT_FOR_MATRIX_MS)
+        # Wait a moment for the response listener to capture
+        await asyncio.sleep(0.8)
+
+        # Slide loop: alternate scroll_right and scroll_down (advance both axes by 1)
+        clicks = 0
+        max_aller = end_anchor  # we want date_aller to reach this
+
+        while clicks < max_clicks:
+            # Parse what we have so far to know our coverage
+            for raw in captured:
+                for cell in parse_calendar_response(raw, dep=dep, arrival=arrival):
+                    key = (cell.date_aller, cell.date_retour)
+                    prev = cells_by_key.get(key)
+                    if prev is None or cell.prix < prev.prix:
+                        cells_by_key[key] = cell
+            captured.clear()
+
+            # Termination: if we have at least one cell with date_aller >= max_aller, done
+            if cells_by_key and max(c.date_aller for c in cells_by_key.values()) >= max_aller:
+                break
+
+            # Click pair: scroll right (advance date_aller) then scroll down (advance date_retour)
+            try:
+                await page.locator(_SEL_SCROLL_RIGHT).click(timeout=3000)
+                await asyncio.sleep(random.uniform(
+                    CALENDAR_SLIDE_THROTTLE_MIN, CALENDAR_SLIDE_THROTTLE_MAX
+                ))
+                clicks += 1
+                if clicks >= max_clicks:
+                    break
+                await page.locator(_SEL_SCROLL_DOWN).click(timeout=3000)
+                await asyncio.sleep(random.uniform(
+                    CALENDAR_SLIDE_THROTTLE_MIN, CALENDAR_SLIDE_THROTTLE_MAX
+                ))
+                clicks += 1
+            except Exception:
+                # Buttons disabled (end of range) or vanished — break
+                break
+
+        # Final parse pass for any responses captured during the last sleep
+        for raw in captured:
+            for cell in parse_calendar_response(raw, dep=dep, arrival=arrival):
+                key = (cell.date_aller, cell.date_retour)
+                prev = cells_by_key.get(key)
+                if prev is None or cell.prix < prev.prix:
+                    cells_by_key[key] = cell
+
+    return list(cells_by_key.values())
