@@ -48,3 +48,27 @@ def test_iter_frames_skips_invalid_size_line():
 
 def test_iter_frames_empty():
     assert list(iter_frames("")) == []
+
+
+from scrapers.calendar_picker_scraper import extract_wrb_payload
+
+
+def test_extract_wrb_payload_valid():
+    inner = '[["meta"], [["2026-08-30","2026-08-31",[[null,1107],"tok"],1]]]'
+    frame = [["wrb.fr", None, inner]]
+    payload = extract_wrb_payload(frame)
+    assert payload == [["meta"], [["2026-08-30", "2026-08-31", [[None, 1107], "tok"], 1]]]
+
+
+def test_extract_wrb_payload_di_frame_returns_none():
+    assert extract_wrb_payload([["di", 527]]) is None
+
+
+def test_extract_wrb_payload_e_frame_returns_none():
+    assert extract_wrb_payload([["e", 8, None, None, 9236]]) is None
+
+
+def test_extract_wrb_payload_malformed_returns_none():
+    assert extract_wrb_payload([]) is None
+    assert extract_wrb_payload(None) is None
+    assert extract_wrb_payload([["wrb.fr", None, "not-json"]]) is None

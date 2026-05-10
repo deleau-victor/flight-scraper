@@ -60,3 +60,23 @@ def iter_frames(body: str) -> Iterator[object]:
             yield json.loads(frame_text)
         except json.JSONDecodeError:
             continue
+
+
+def extract_wrb_payload(frame) -> object | None:
+    """Extrait le payload JSON imbriqué d'une frame `wrb.fr`.
+
+    Format frame : `[["wrb.fr", null, "<json_stringified>"]]`.
+    Retourne None pour les frames non-`wrb.fr` ou malformées.
+    """
+    if not isinstance(frame, list) or not frame:
+        return None
+    head = frame[0]
+    if not isinstance(head, list) or len(head) < 3 or head[0] != "wrb.fr":
+        return None
+    inner_str = head[2]
+    if not isinstance(inner_str, str):
+        return None
+    try:
+        return json.loads(inner_str)
+    except json.JSONDecodeError:
+        return None
