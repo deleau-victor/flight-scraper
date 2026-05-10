@@ -163,14 +163,20 @@ def cache_stats():
     _ensure_cache_dirs()
     rt_files = [f for f in os.listdir(ROUND_TRIP_CACHE) if f.endswith(".json")] if os.path.exists(ROUND_TRIP_CACHE) else []
     ow_files = [f for f in os.listdir(ONE_WAY_CACHE) if f.endswith(".json")] if os.path.exists(ONE_WAY_CACHE) else []
-    
+    cal_files = [f for f in os.listdir(CALENDAR_CACHE) if f.endswith(".json")] if os.path.exists(CALENDAR_CACHE) else []
+
     total_size = sum(
         os.path.getsize(os.path.join(ROUND_TRIP_CACHE, f)) for f in rt_files
     ) + sum(
         os.path.getsize(os.path.join(ONE_WAY_CACHE, f)) for f in ow_files
+    ) + sum(
+        os.path.getsize(os.path.join(CALENDAR_CACHE, f)) for f in cal_files
     )
-    
-    print(f"📦 Cache : {len(rt_files)} round-trip + {len(ow_files)} one-way ({total_size / 1024:.1f} KB)")
+
+    print(
+        f"📦 Cache : {len(rt_files)} round-trip + {len(ow_files)} one-way + "
+        f"{len(cal_files)} calendar ({total_size / 1024:.1f} KB)"
+    )
 
 
 def clear_cache():
