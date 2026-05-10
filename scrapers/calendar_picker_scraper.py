@@ -10,11 +10,16 @@ Format de réponse : voir spec docs/superpowers/specs/2026-05-10-calendar-picker
 import asyncio
 import json
 import random
-from collections import defaultdict
+import time
+from collections import defaultdict, deque
 from contextlib import asynccontextmanager
 from dataclasses import dataclass
 from datetime import date, timedelta
 from typing import Iterator
+
+from rich.console import Console, Group
+from rich.live import Live
+from rich.text import Text
 
 from playwright.async_api import async_playwright
 from playwright_stealth import Stealth
@@ -31,6 +36,7 @@ from config import (
     CALENDAR_GOTO_TIMEOUT_MS, CALENDAR_RESULTS_TIMEOUT_MS,
     CALENDAR_WAIT_FOR_MATRIX_MS,
     USE_CACHE,
+    PARALLEL_WORKERS,
 )
 from cache import get_calendar_cache, save_calendar_cache
 
@@ -445,3 +451,157 @@ async def scrape_calendar_for_route(
         save_calendar_cache(dep, arrival, start_anchor, cells)
 
     return cells
+
+
+class _CalendarTracker:
+    """Live tracker pour Phase 1 : barre + stats par route + 10 lignes roulantes."""
+    MAX_RESULTS = 10
+    BAR_WIDTH = 40
+
+    def __init__(self, total_routes: int):
+        self.total = total_routes
+        self.done = 0
+        self.cells_count = 0
+        self.from_cache = 0
+        self.from_network = 0
+        self.errors = 0
+        self.start_time = time.perf_counter()
+        self.lock = asyncio.Lock()
+        self.last_results: deque = deque(
+            [Text(" ")] * self.MAX_RESULTS,
+            maxlen=self.MAX_RESULTS,
+        )
+
+    async def record(self, *, line: Text, kind: str, n_cells: int):
+        async with self.lock:
+            self.done += 1
+            self.cells_count += n_cells
+            if kind == "cache":
+                self.from_cache += 1
+            elif kind == "network":
+                self.from_network += 1
+            elif kind == "error":
+                self.errors += 1
+            self.last_results.append(line)
+
+    @staticmethod
+    def _fmt_time(seconds: float) -> str:
+        if seconds < 60:
+            return f"{seconds:.0f}s"
+        m, s = divmod(int(seconds), 60)
+        return f"{m}m{s:02d}s"
+
+    def __rich__(self):
+        pct = self.done / self.total if self.total else 1.0
+        filled = int(self.BAR_WIDTH * pct)
+        bar = "█" * filled + "░" * (self.BAR_WIDTH - filled)
+        elapsed = self._fmt_time(time.perf_counter() - self.start_time)
+        header = Text.assemble(
+            "📅 [", (bar, "magenta"), "] ",
+            (f"{self.done}/{self.total}", "bold"),
+            (f" ({pct * 100:.0f}%) ", "dim"),
+            "| ", (f"écoulé {elapsed}", "yellow"),
+        )
+        stats = Text.assemble(
+            "🧮 ", (f"{self.cells_count}", "bold green"), " cellules  ",
+            "📦 ", (f"{self.from_cache}", "bold blue"), " cache  ",
+            "🌐 ", (f"{self.from_network}", "bold cyan"), " net  ",
+            "❌ ", (f"{self.errors}", "bold red"), " err",
+        )
+        return Group(header, stats, Text(""), *list(self.last_results))
+
+
+async def _process_route(
+    dep: str, arrival: str,
+    start_anchor: date, end_anchor: date,
+    semaphore: asyncio.Semaphore,
+    tracker: _CalendarTracker,
+    out: list,
+    out_lock: asyncio.Lock,
+):
+    t0 = time.perf_counter()
+    cached = get_calendar_cache(dep, arrival, start_anchor) if USE_CACHE else None
+    if cached is not None:
+        async with out_lock:
+            out.extend(cached)
+        elapsed = time.perf_counter() - t0
+        await tracker.record(
+            line=Text(f"📦 ✅ {dep}→{arrival}: {len(cached)} cellules ({elapsed:.1f}s)",
+                      style="blue", no_wrap=True, overflow="ellipsis"),
+            kind="cache", n_cells=len(cached),
+        )
+        return
+
+    async with semaphore:
+        try:
+            cells = await _scrape_calendar_for_route_uncached(
+                dep, arrival, start_anchor, end_anchor,
+            )
+            if USE_CACHE and cells:
+                save_calendar_cache(dep, arrival, start_anchor, cells)
+            async with out_lock:
+                out.extend(cells)
+            elapsed = time.perf_counter() - t0
+            await tracker.record(
+                line=Text(
+                    f"🌐 ✅ {dep}→{arrival}: {len(cells)} cellules ({elapsed:.1f}s)",
+                    style="green", no_wrap=True, overflow="ellipsis",
+                ),
+                kind="network", n_cells=len(cells),
+            )
+        except Exception as e:
+            elapsed = time.perf_counter() - t0
+            err = f"{type(e).__name__}: {(str(e).splitlines() or [''])[0][:60]}"
+            await tracker.record(
+                line=Text(f"❌ {dep}→{arrival}: {err} ({elapsed:.1f}s)",
+                          style="red", no_wrap=True, overflow="ellipsis"),
+                kind="error", n_cells=0,
+            )
+
+
+async def run_calendar_picker_scraper_async(
+    valid_routes: dict | None = None,
+) -> list[CalendarCell]:
+    """Orchestre Phase 1 sur toutes les routes (DEPARTURE × ARRIVAL),
+    filtrées par valid_routes si fourni.
+    """
+    from config import DEPARTURE_AIRPORTS, ARRIVAL_AIRPORTS
+
+    routes = []
+    for d in DEPARTURE_AIRPORTS:
+        for arr in ARRIVAL_AIRPORTS:
+            if valid_routes is not None:
+                info = valid_routes.get((d, arr))
+                if info is not None and not info["is_valid"]:
+                    continue
+            routes.append((d, arr))
+
+    print("\n" + "═" * 80)
+    print(f"{'📅 PHASE 1 — CALENDAR PICKER':^80}")
+    print("═" * 80 + "\n")
+    print(f"🔍 {len(routes)} routes | {PARALLEL_WORKERS} workers\n")
+
+    semaphore = asyncio.Semaphore(PARALLEL_WORKERS)
+    tracker = _CalendarTracker(total_routes=len(routes))
+    out: list[CalendarCell] = []
+    out_lock = asyncio.Lock()
+
+    # Walk anchors covering the full range. For each route, one (start_anchor=START_DATE)
+    # call walks the matrix until END_DATE - min(TRIP_DURATIONS).
+    end_anchor = END_DATE - timedelta(days=min(TRIP_DURATIONS))
+
+    tasks = [
+        _process_route(d, arr, START_DATE, end_anchor, semaphore, tracker, out, out_lock)
+        for d, arr in routes
+    ]
+
+    console = Console()
+    with Live(tracker, refresh_per_second=8, console=console):
+        await asyncio.gather(*tasks)
+
+    print(f"\n✅ Phase 1 terminée : {len(out)} cellules brutes pour {len(routes)} routes")
+    return out
+
+
+def run_calendar_picker_scraper(valid_routes=None) -> list[CalendarCell]:
+    return asyncio.run(run_calendar_picker_scraper_async(valid_routes))
