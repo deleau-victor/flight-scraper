@@ -1,11 +1,47 @@
 """Aggrège les résultats des scrapers et fait le ranking final"""
 
 from collections import defaultdict
+from datetime import date
 
 from rich.rule import Rule
 
+from config import (
+    START_DATE, END_DATE, TRIP_DURATIONS,
+    ALLOWED_DEPARTURE_WEEKDAYS, ALLOWED_RETURN_WEEKDAYS,
+    MIN_PRICE, MAX_PRICE,
+)
 from models import FlightOffer
 from display import get_console
+
+
+def filter_flights_by_config(flights: list[FlightOffer]) -> list[FlightOffer]:
+    """Filtre des FlightOffer (typiquement rechargés d'un CSV) selon la config
+    courante : date range, durées autorisées, weekdays autorisés, fenêtre de prix.
+
+    Nécessaire après `load_flights_from_csv` car le CSV peut contenir des données
+    historiques générées avec un autre `START_DATE`/`END_DATE`. La pipeline live
+    génère déjà de la donnée filtrée à la source (via `generate_combinations` ou
+    `filter_and_select_top_n`), donc le filtre n'a pas à y être appelé.
+    """
+    out = []
+    for f in flights:
+        try:
+            da = date.fromisoformat(f.depart_date)
+            dr = date.fromisoformat(f.retour_date)
+        except (ValueError, TypeError):
+            continue
+        if da < START_DATE or dr > END_DATE:
+            continue
+        if (dr - da).days not in TRIP_DURATIONS:
+            continue
+        if da.weekday() not in ALLOWED_DEPARTURE_WEEKDAYS:
+            continue
+        if dr.weekday() not in ALLOWED_RETURN_WEEKDAYS:
+            continue
+        if not (MIN_PRICE < f.prix_billet < MAX_PRICE):
+            continue
+        out.append(f)
+    return out
 
 
 def deduplicate(flights: list[FlightOffer]) -> list[FlightOffer]:

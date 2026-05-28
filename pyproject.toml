@@ -10,3 +10,13 @@ dependencies = [
     "playwright-stealth>=2.0",
     "rich>=13.7",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

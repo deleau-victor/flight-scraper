@@ -9,6 +9,7 @@ from config import CACHE_TTL_HOURS
 CACHE_DIR = "data/cache"
 ROUND_TRIP_CACHE = f"{CACHE_DIR}/round_trip"
 ONE_WAY_CACHE = f"{CACHE_DIR}/one_way"
+CALENDAR_CACHE = f"{CACHE_DIR}/calendar"
 
 _dirs_ensured = False
 
@@ -21,6 +22,7 @@ def _ensure_cache_dirs():
         return
     os.makedirs(ROUND_TRIP_CACHE, exist_ok=True)
     os.makedirs(ONE_WAY_CACHE, exist_ok=True)
+    os.makedirs(CALENDAR_CACHE, exist_ok=True)
     _dirs_ensured = True
 
 
@@ -161,14 +163,20 @@ def cache_stats():
     _ensure_cache_dirs()
     rt_files = [f for f in os.listdir(ROUND_TRIP_CACHE) if f.endswith(".json")] if os.path.exists(ROUND_TRIP_CACHE) else []
     ow_files = [f for f in os.listdir(ONE_WAY_CACHE) if f.endswith(".json")] if os.path.exists(ONE_WAY_CACHE) else []
-    
+    cal_files = [f for f in os.listdir(CALENDAR_CACHE) if f.endswith(".json")] if os.path.exists(CALENDAR_CACHE) else []
+
     total_size = sum(
         os.path.getsize(os.path.join(ROUND_TRIP_CACHE, f)) for f in rt_files
     ) + sum(
         os.path.getsize(os.path.join(ONE_WAY_CACHE, f)) for f in ow_files
+    ) + sum(
+        os.path.getsize(os.path.join(CALENDAR_CACHE, f)) for f in cal_files
     )
-    
-    print(f"📦 Cache : {len(rt_files)} round-trip + {len(ow_files)} one-way ({total_size / 1024:.1f} KB)")
+
+    print(
+        f"📦 Cache : {len(rt_files)} round-trip + {len(ow_files)} one-way + "
+        f"{len(cal_files)} calendar ({total_size / 1024:.1f} KB)"
+    )
 
 
 def clear_cache():
@@ -177,3 +185,64 @@ def clear_cache():
         shutil.rmtree(CACHE_DIR)
     _ensure_cache_dirs()
     print("🗑️  Cache vidé")
+
+
+# ============== CALENDAR CACHE ==============
+
+def _calendar_key(dep: str, arrival: str, anchor: date) -> str:
+    return f"{dep}_{arrival}_{anchor.isoformat()}"
+
+
+def get_calendar_cache(dep: str, arrival: str, anchor: date):
+    """Retourne list[CalendarCell] ou None si miss/expiré.
+
+    Import local de CalendarCell pour éviter cycle d'import (cache importé
+    par calendar_picker_scraper).
+    """
+    _ensure_cache_dirs()
+    filepath = f"{CALENDAR_CACHE}/{_calendar_key(dep, arrival, anchor)}.json"
+    if not os.path.exists(filepath):
+        return None
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if not _is_cache_valid(data.get("cached_at", "")):
+            return None
+        from scrapers.calendar_picker_scraper import CalendarCell
+        return [
+            CalendarCell(
+                date_aller=date.fromisoformat(c["date_aller"]),
+                date_retour=date.fromisoformat(c["date_retour"]),
+                dep=c["dep"],
+                arrival=c["arrival"],
+                prix=float(c["prix"]),
+                deeplink_token=c.get("deeplink_token", ""),
+            )
+            for c in data.get("cells", [])
+        ]
+    except (json.JSONDecodeError, IOError, KeyError):
+        return None
+
+
+def save_calendar_cache(dep: str, arrival: str, anchor: date, cells: list):
+    _ensure_cache_dirs()
+    filepath = f"{CALENDAR_CACHE}/{_calendar_key(dep, arrival, anchor)}.json"
+    data = {
+        "cached_at": datetime.now().isoformat(),
+        "cells": [
+            {
+                "date_aller": c.date_aller.isoformat(),
+                "date_retour": c.date_retour.isoformat(),
+                "dep": c.dep,
+                "arrival": c.arrival,
+                "prix": c.prix,
+                "deeplink_token": c.deeplink_token,
+            }
+            for c in cells
+        ],
+    }
+    try:
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    except IOError as e:
+        print(f"      ⚠️  Erreur calendar cache write {_calendar_key(dep, arrival, anchor)}: {e}")
