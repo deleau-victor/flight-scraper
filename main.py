@@ -12,7 +12,7 @@ from config import (
 from models import save_flights_to_csv, load_flights_from_csv
 from scrapers.fast_flights_scraper import run_google_flights_scraper
 from scrapers.self_transfer_builder import run_self_transfer_builder
-from aggregator import aggregate_and_rank
+from aggregator import aggregate_and_rank, filter_flights_by_config
 from reporting import print_final_report
 
 
@@ -129,7 +129,13 @@ def main_google_only():
 
     self_transfer_results = load_flights_from_csv(SELF_TRANSFER_CSV)
     if self_transfer_results:
-        print(f"📂 Self-transfer rechargé depuis CSV : {len(self_transfer_results)} offres")
+        before = len(self_transfer_results)
+        self_transfer_results = filter_flights_by_config(self_transfer_results)
+        dropped = before - len(self_transfer_results)
+        msg = f"📂 Self-transfer rechargé depuis CSV : {len(self_transfer_results)} offres"
+        if dropped:
+            msg += f" ({dropped} filtrées hors config)"
+        print(msg)
     else:
         print("ℹ️  Pas de self-transfer.csv, ranking basé uniquement sur Google Flights")
 
@@ -144,7 +150,13 @@ def main_self_transfer_only():
     if not google_results:
         print("❌ Pas de CSV Google Flights, lance d'abord le run complet ou --google-only")
         return
-    print(f"📂 {len(google_results)} résultats Google chargés")
+    before = len(google_results)
+    google_results = filter_flights_by_config(google_results)
+    dropped = before - len(google_results)
+    msg = f"📂 {len(google_results)} résultats Google chargés"
+    if dropped:
+        msg += f" ({dropped} filtrés hors config)"
+    print(msg)
 
     self_transfer_results = run_self_transfer_builder(google_results)
     save_flights_to_csv(self_transfer_results, SELF_TRANSFER_CSV)
@@ -157,7 +169,17 @@ def main_self_transfer_only():
 def main_from_csv():
     google_results = load_flights_from_csv(GOOGLE_FLIGHTS_CSV)
     self_transfer_results = load_flights_from_csv(SELF_TRANSFER_CSV)
-    print(f"📂 Rechargement : {len(google_results)} Google + {len(self_transfer_results)} Self-transfer")
+
+    before_g, before_st = len(google_results), len(self_transfer_results)
+    google_results = filter_flights_by_config(google_results)
+    self_transfer_results = filter_flights_by_config(self_transfer_results)
+    dropped = (before_g - len(google_results)) + (before_st - len(self_transfer_results))
+    print(
+        f"📂 Rechargement : {len(google_results)} Google + {len(self_transfer_results)} Self-transfer "
+        f"(à partir de {before_g} + {before_st} dans les CSVs)"
+    )
+    if dropped:
+        print(f"🔪 {dropped} offres filtrées hors config (date range / durée / weekday / prix)")
 
     final = aggregate_and_rank(google_results, self_transfer_results)
     save_flights_to_csv(final, FINAL_RANKING_CSV)
