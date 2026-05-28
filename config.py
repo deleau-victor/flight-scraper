@@ -3,8 +3,8 @@
 from datetime import date
 
 # ============ DATES & DURÉES ============
-START_DATE = date(2026, 7, 1)
-END_DATE = date(2026, 10, 31)
+START_DATE = date(2026, 8, 20)
+END_DATE = date(2026, 9, 10)
 TRIP_DURATIONS = [21, 22, 23, 24, 25, 26, 27]
 
 # 0=lundi
@@ -18,17 +18,17 @@ ALLOWED_DEPARTURE_WEEKDAYS = [3, 4, 5]
 ALLOWED_RETURN_WEEKDAYS = [5, 6, 0]
 
 # ============ AÉROPORTS ============
-DEPARTURE_AIRPORTS = ["CDG", "ORY", "BVA", "CRL", "BRU", "AMS"]
+DEPARTURE_AIRPORTS = ["CDG", "ORY", "BVA", "CRL", "BRU"]
 ARRIVAL_AIRPORTS = ["LIM", "CUZ", "AQP"]
 
 # Coût d'acheminement A/R depuis ton domicile (€)
+# ESSENCE | PÉAGE | PARKING (29 jours)
 DEPARTURE_AIRPORTS_COST = {
-    "CDG": 60,
-    "ORY": 70,
-    "BVA": 80,
-    "CRL": 130,
-    "BRU": 100,
-    "AMS": 150,
+    "CDG": 155, #  50 | 10 | 120
+    "ORY": 180, #  70 | 15 | 130
+    "BVA": 110, #  20 | 00 | 100
+    "CRL": 280, # 100 | 30 | 150
+    "BRU": 180, # 100 | 30 |  50
 }
 
 # Coût d'acheminement local depuis l'aéroport d'arrivée (€)
