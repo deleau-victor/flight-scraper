@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T17:00:35.224120",
+  "flights": [
+    {
+      "name": "French bee",
+      "price": "€289",
+      "departure": "7:20 PM on Sat, Aug 29",
+      "arrival": "9:00 PM on Sat, Aug 29",
+      "duration": "7 hr 40 min",
+      "stops": 0,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€464",
+      "departure": "9:15 PM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "29 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€464",
+      "departure": "9:15 PM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "29 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, American",
+      "price": "€466",
+      "departure": "7:25 AM on Sat, Aug 29",
+      "arrival": "9:44 PM on Sat, Aug 29",
+      "duration": "20 hr 19 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, American",
+      "price": "€466",
+      "departure": "7:25 AM on Sat, Aug 29",
+      "arrival": "9:44 PM on Sat, Aug 29",
+      "duration": "20 hr 19 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€469",
+      "departure": "10:20 AM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "40 hr 50 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€469",
+      "departure": "12:00 PM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "39 hr 10 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€469",
+      "departure": "2:40 PM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "36 hr 30 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€469",
+      "departure": "4:45 PM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "34 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€469",
+      "departure": "10:20 AM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "40 hr 50 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€469",
+      "departure": "12:00 PM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "39 hr 10 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€469",
+      "departure": "2:40 PM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "36 hr 30 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€469",
+      "departure": "4:45 PM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "34 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€506",
+      "departure": "7:45 PM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "31 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€506",
+      "departure": "7:45 PM on Sat, Aug 29",
+      "arrival": "9:10 PM on Sun, Aug 30",
+      "duration": "31 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal, Air Canada",
+      "price": "€613",
+      "departure": "6:00 AM on Sat, Aug 29",
+      "arrival": "8:26 PM on Sat, Aug 29",
+      "duration": "20 hr 26 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

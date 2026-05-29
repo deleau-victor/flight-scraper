@@ -1,32 +1,10 @@
 {
-  "cached_at": "2026-05-07T10:06:21.883681",
-  "current_price": "typical",
+  "cached_at": "2026-05-28T15:05:39.315196",
+  "current_price": "high",
   "flights": [
     {
-      "name": "Air Europa, Sky Airline",
-      "price": "€1506",
-      "departure": "10:55 AM on Thu, Aug 20",
-      "arrival": "11:50 AM on Fri, Aug 21",
-      "duration": "31 hr 55 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": true
-    },
-    {
-      "name": "Air Europa, Sky Airline",
-      "price": "€1506",
-      "departure": "7:25 PM on Thu, Aug 20",
-      "arrival": "11:50 AM on Fri, Aug 21",
-      "duration": "23 hr 25 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": true
-    },
-    {
       "name": "Iberia, LATAM",
-      "price": "€1955",
+      "price": "€1930",
       "departure": "7:55 PM on Thu, Aug 20",
       "arrival": "10:00 AM on Fri, Aug 21",
       "duration": "21 hr 5 min",
@@ -37,7 +15,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1955",
+      "price": "€1930",
       "departure": "7:55 PM on Thu, Aug 20",
       "arrival": "10:50 AM on Fri, Aug 21",
       "duration": "21 hr 55 min",
@@ -48,7 +26,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1955",
+      "price": "€1930",
       "departure": "8:55 PM on Thu, Aug 20",
       "arrival": "10:00 AM on Fri, Aug 21",
       "duration": "20 hr 5 min",
@@ -59,7 +37,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1955",
+      "price": "€1930",
       "departure": "8:55 PM on Thu, Aug 20",
       "arrival": "10:50 AM on Fri, Aug 21",
       "duration": "20 hr 55 min",
@@ -70,7 +48,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1955",
+      "price": "€1930",
       "departure": "8:55 PM on Thu, Aug 20",
       "arrival": "12:05 PM on Fri, Aug 21",
       "duration": "22 hr 10 min",
@@ -81,7 +59,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2340",
+      "price": "€2380",
       "departure": "7:55 PM on Thu, Aug 20",
       "arrival": "10:00 AM on Fri, Aug 21",
       "duration": "21 hr 5 min",
@@ -92,32 +70,10 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2340",
-      "departure": "7:55 PM on Thu, Aug 20",
-      "arrival": "10:50 AM on Fri, Aug 21",
-      "duration": "21 hr 55 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": true
-    },
-    {
-      "name": "Iberia, LATAM",
-      "price": "€2340",
+      "price": "€2380",
       "departure": "8:55 PM on Thu, Aug 20",
       "arrival": "10:00 AM on Fri, Aug 21",
       "duration": "20 hr 5 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": true
-    },
-    {
-      "name": "Iberia, LATAM",
-      "price": "€2340",
-      "departure": "8:55 PM on Thu, Aug 20",
-      "arrival": "10:50 AM on Fri, Aug 21",
-      "duration": "20 hr 55 min",
       "stops": 2,
       "arrival_time_ahead": "+1",
       "delay": null,
@@ -135,30 +91,8 @@
       "is_best": true
     },
     {
-      "name": "Air Europa, Sky Airline",
-      "price": "€1506",
-      "departure": "10:55 AM on Thu, Aug 20",
-      "arrival": "11:50 AM on Fri, Aug 21",
-      "duration": "31 hr 55 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Air Europa, Sky Airline",
-      "price": "€1506",
-      "departure": "7:25 PM on Thu, Aug 20",
-      "arrival": "11:50 AM on Fri, Aug 21",
-      "duration": "23 hr 25 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
       "name": "Iberia, LATAM",
-      "price": "€1955",
+      "price": "€1930",
       "departure": "7:55 PM on Thu, Aug 20",
       "arrival": "10:00 AM on Fri, Aug 21",
       "duration": "21 hr 5 min",
@@ -169,7 +103,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1955",
+      "price": "€1930",
       "departure": "7:55 PM on Thu, Aug 20",
       "arrival": "10:50 AM on Fri, Aug 21",
       "duration": "21 hr 55 min",
@@ -180,7 +114,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1955",
+      "price": "€1930",
       "departure": "8:55 PM on Thu, Aug 20",
       "arrival": "10:00 AM on Fri, Aug 21",
       "duration": "20 hr 5 min",
@@ -191,7 +125,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1955",
+      "price": "€1930",
       "departure": "8:55 PM on Thu, Aug 20",
       "arrival": "10:50 AM on Fri, Aug 21",
       "duration": "20 hr 55 min",
@@ -202,7 +136,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1955",
+      "price": "€1930",
       "departure": "8:55 PM on Thu, Aug 20",
       "arrival": "12:05 PM on Fri, Aug 21",
       "duration": "22 hr 10 min",
@@ -213,7 +147,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2340",
+      "price": "€2380",
       "departure": "7:55 PM on Thu, Aug 20",
       "arrival": "10:00 AM on Fri, Aug 21",
       "duration": "21 hr 5 min",
@@ -224,32 +158,10 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2340",
-      "departure": "7:55 PM on Thu, Aug 20",
-      "arrival": "10:50 AM on Fri, Aug 21",
-      "duration": "21 hr 55 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia, LATAM",
-      "price": "€2340",
+      "price": "€2380",
       "departure": "8:55 PM on Thu, Aug 20",
       "arrival": "10:00 AM on Fri, Aug 21",
       "duration": "20 hr 5 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia, LATAM",
-      "price": "€2340",
-      "departure": "8:55 PM on Thu, Aug 20",
-      "arrival": "10:50 AM on Fri, Aug 21",
-      "duration": "20 hr 55 min",
       "stops": 2,
       "arrival_time_ahead": "+1",
       "delay": null,

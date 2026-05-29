@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:55:17.922958",
+  "flights": [
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "7:30 AM on Sun, Sep 20",
+      "arrival": "9:35 PM on Sun, Sep 20",
+      "duration": "13 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "1:40 AM on Sun, Sep 20",
+      "arrival": "9:35 PM on Sun, Sep 20",
+      "duration": "18 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "2:50 AM on Sun, Sep 20",
+      "arrival": "9:35 PM on Sun, Sep 20",
+      "duration": "17 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "7:30 AM on Sun, Sep 20",
+      "arrival": "9:35 PM on Sun, Sep 20",
+      "duration": "13 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "1:40 AM on Sun, Sep 20",
+      "arrival": "9:35 PM on Sun, Sep 20",
+      "duration": "18 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "2:50 AM on Sun, Sep 20",
+      "arrival": "9:35 PM on Sun, Sep 20",
+      "duration": "17 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "COPA",
+      "price": "€377",
+      "departure": "1:20 PM on Sun, Sep 20",
+      "arrival": "12:40 AM on Mon, Sep 21",
+      "duration": "10 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "American",
+      "price": "€377",
+      "departure": "10:00 PM on Sun, Sep 20",
+      "arrival": "10:52 PM on Mon, Sep 21",
+      "duration": "23 hr 52 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "American",
+      "price": "€377",
+      "departure": "10:00 PM on Sun, Sep 20",
+      "arrival": "10:52 PM on Mon, Sep 21",
+      "duration": "23 hr 52 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "American",
+      "price": "€377",
+      "departure": "10:00 PM on Sun, Sep 20",
+      "arrival": "10:52 PM on Mon, Sep 21",
+      "duration": "23 hr 52 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "American",
+      "price": "€377",
+      "departure": "11:45 PM on Sun, Sep 20",
+      "arrival": "10:52 PM on Mon, Sep 21",
+      "duration": "22 hr 7 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "American",
+      "price": "€377",
+      "departure": "11:45 PM on Sun, Sep 20",
+      "arrival": "10:52 PM on Mon, Sep 21",
+      "duration": "22 hr 7 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "COPA",
+      "price": "€377",
+      "departure": "2:35 AM on Sun, Sep 20",
+      "arrival": "12:40 AM on Mon, Sep 21",
+      "duration": "21 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "COPA",
+      "price": "€377",
+      "departure": "4:00 AM on Sun, Sep 20",
+      "arrival": "12:40 AM on Mon, Sep 21",
+      "duration": "19 hr 40 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "COPA",
+      "price": "€377",
+      "departure": "7:00 AM on Sun, Sep 20",
+      "arrival": "12:40 AM on Mon, Sep 21",
+      "duration": "16 hr 40 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "COPA",
+      "price": "€377",
+      "departure": "11:00 AM on Sun, Sep 20",
+      "arrival": "12:40 AM on Mon, Sep 21",
+      "duration": "12 hr 40 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

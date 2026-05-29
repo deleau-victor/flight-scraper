@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:53:53.751954",
+  "flights": [
+    {
+      "name": "LATAM, Delta",
+      "price": "€258",
+      "departure": "1:30 PM on Mon, Sep 14",
+      "arrival": "11:38 AM on Tue, Sep 15",
+      "duration": "21 hr 8 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "LATAM, Delta",
+      "price": "€258",
+      "departure": "1:30 PM on Mon, Sep 14",
+      "arrival": "11:38 AM on Tue, Sep 15",
+      "duration": "21 hr 8 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "7:30 AM on Mon, Sep 14",
+      "arrival": "9:35 PM on Mon, Sep 14",
+      "duration": "13 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "1:40 AM on Mon, Sep 14",
+      "arrival": "9:35 PM on Mon, Sep 14",
+      "duration": "18 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "2:50 AM on Mon, Sep 14",
+      "arrival": "9:35 PM on Mon, Sep 14",
+      "duration": "17 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "7:30 AM on Mon, Sep 14",
+      "arrival": "9:35 PM on Mon, Sep 14",
+      "duration": "13 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "1:40 AM on Mon, Sep 14",
+      "arrival": "9:35 PM on Mon, Sep 14",
+      "duration": "18 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Avianca",
+      "price": "€281",
+      "departure": "2:50 AM on Mon, Sep 14",
+      "arrival": "9:35 PM on Mon, Sep 14",
+      "duration": "17 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "LATAM, Air Canada",
+      "price": "€313",
+      "departure": "8:50 AM on Mon, Sep 14",
+      "arrival": "7:36 AM on Tue, Sep 15",
+      "duration": "21 hr 46 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "LATAM, Air Canada",
+      "price": "€313",
+      "departure": "8:50 AM on Mon, Sep 14",
+      "arrival": "8:20 AM on Tue, Sep 15",
+      "duration": "22 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "LATAM, Air Canada",
+      "price": "€313",
+      "departure": "12:10 PM on Mon, Sep 14",
+      "arrival": "7:36 AM on Tue, Sep 15",
+      "duration": "18 hr 26 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "LATAM, Air Canada",
+      "price": "€313",
+      "departure": "12:10 PM on Mon, Sep 14",
+      "arrival": "8:20 AM on Tue, Sep 15",
+      "duration": "19 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "LATAM, Air Canada",
+      "price": "€313",
+      "departure": "12:10 PM on Mon, Sep 14",
+      "arrival": "9:21 AM on Tue, Sep 15",
+      "duration": "20 hr 11 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "LATAM, Air Canada",
+      "price": "€313",
+      "departure": "12:10 PM on Mon, Sep 14",
+      "arrival": "10:21 AM on Tue, Sep 15",
+      "duration": "21 hr 11 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "LATAM, Air Canada",
+      "price": "€313",
+      "departure": "12:10 PM on Mon, Sep 14",
+      "arrival": "11:51 AM on Tue, Sep 15",
+      "duration": "22 hr 41 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "LATAM, Air Canada",
+      "price": "€313",
+      "departure": "8:50 AM on Mon, Sep 14",
+      "arrival": "7:36 AM on Tue, Sep 15",
+      "duration": "21 hr 46 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

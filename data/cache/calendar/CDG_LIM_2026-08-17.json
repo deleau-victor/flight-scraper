@@ -1,0 +1,1517 @@
+{
+  "cached_at": "2026-05-28T17:24:49.251574",
+  "cells": [
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-07",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1201.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDU6MjYzGgsI96kHEAIaA0VVUjgWcIbFCA=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-08",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 902.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDU6MjY0GgsImsAFEAIaA0VVUjgWcNW0Bg=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-09",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDU6MjY1GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-10",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 902.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDU6MjY2GgsImsAFEAIaA0VVUjgWcNW0Bg=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDU6MjY3GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 927.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDU6MjY4GgsI3tMFEAIaA0VVUjgWcLbLBg=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDU6MjY5GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-18",
+      "date_retour": "2026-09-07",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1150.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDM6MjYzGgsI54EHEAIaA0VVUjgWcKSWCA=="
+    },
+    {
+      "date_aller": "2026-08-18",
+      "date_retour": "2026-09-08",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1062.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDM6MjY0GgsImr0GEAIaA0VVUjgWcKvGBw=="
+    },
+    {
+      "date_aller": "2026-08-18",
+      "date_retour": "2026-09-09",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1066.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDM6MjY1GgsIu8AGEAIaA0VVUjgWcJHKBw=="
+    },
+    {
+      "date_aller": "2026-08-18",
+      "date_retour": "2026-09-10",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1062.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDM6MjY2GgsImr0GEAIaA0VVUjgWcKvGBw=="
+    },
+    {
+      "date_aller": "2026-08-18",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1066.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDM6MjY3GgsIu8AGEAIaA0VVUjgWcJHKBw=="
+    },
+    {
+      "date_aller": "2026-08-18",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1087.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDM6MjY4GgsI3tAGEAIaA0VVUjgWcIzdBw=="
+    },
+    {
+      "date_aller": "2026-08-18",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1091.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDM6MjY5GgsI/9MGEAIaA0VVUjgWcPLgBw=="
+    },
+    {
+      "date_aller": "2026-08-17",
+      "date_retour": "2026-09-07",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDI6MjYzGgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-17",
+      "date_retour": "2026-09-08",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1066.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDI6MjY0GgsIu8AGEAIaA0VVUjgWcJHKBw=="
+    },
+    {
+      "date_aller": "2026-08-17",
+      "date_retour": "2026-09-09",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1070.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDI6MjY1GgsI3MMGEAIaA0VVUjgWcPfNBw=="
+    },
+    {
+      "date_aller": "2026-08-17",
+      "date_retour": "2026-09-10",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1066.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDI6MjY2GgsIu8AGEAIaA0VVUjgWcJHKBw=="
+    },
+    {
+      "date_aller": "2026-08-17",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1070.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDI6MjY3GgsI3MMGEAIaA0VVUjgWcPfNBw=="
+    },
+    {
+      "date_aller": "2026-08-17",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1091.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDI6MjY4GgsI/9MGEAIaA0VVUjgWcPLgBw=="
+    },
+    {
+      "date_aller": "2026-08-17",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1095.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDI6MjY5GgsIoNcGEAIaA0VVUjgWcNjkBw=="
+    },
+    {
+      "date_aller": "2026-08-15",
+      "date_retour": "2026-09-07",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDA6MjYzGgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-15",
+      "date_retour": "2026-09-08",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1202.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDA6MjY0GgsIyqoHEAIaA0VVUjgWcObFCA=="
+    },
+    {
+      "date_aller": "2026-08-15",
+      "date_retour": "2026-09-09",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1206.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDA6MjY1GgsI660HEAIaA0VVUjgWcMzJCA=="
+    },
+    {
+      "date_aller": "2026-08-15",
+      "date_retour": "2026-09-10",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1202.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDA6MjY2GgsIyqoHEAIaA0VVUjgWcObFCA=="
+    },
+    {
+      "date_aller": "2026-08-15",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1206.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDA6MjY3GgsI660HEAIaA0VVUjgWcMzJCA=="
+    },
+    {
+      "date_aller": "2026-08-15",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1227.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDA6MjY4GgsIjr4HEAIaA0VVUjgWcMjcCA=="
+    },
+    {
+      "date_aller": "2026-08-15",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1231.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDA6MjY5GgsIr8EHEAIaA0VVUjgWcK7gCA=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-07",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1084.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDQ6MjYzGgsIsM4GEAIaA0VVUjgWcKzaBw=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-08",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1086.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDQ6MjY0GgsIi9AGEAIaA0VVUjgWcKzcBw=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-09",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1060.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDQ6MjY1GgsIv7sGEAIaA0VVUjgWcKzEBw=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-10",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1064.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDQ6MjY2GgsI4L4GEAIaA0VVUjgWcJLIBw=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1090.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDQ6MjY3GgsIrNMGEAIaA0VVUjgWcJLgBw=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1111.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDQ6MjY4GgsIz+MGEAIaA0VVUjgWcI3zBw=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1115.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDQ6MjY5GgsI8OYGEAIaA0VVUjgWcPP2Bw=="
+    },
+    {
+      "date_aller": "2026-08-16",
+      "date_retour": "2026-09-07",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDE6MjYzGgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-16",
+      "date_retour": "2026-09-08",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDE6MjY0GgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-16",
+      "date_retour": "2026-09-09",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDE6MjY1GgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-16",
+      "date_retour": "2026-09-10",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDE6MjY2GgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-16",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDE6MjY3GgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-16",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDE6MjY4GgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-16",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyNDE6MjY5GgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-14",
+      "date_retour": "2026-09-07",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyMzk6MjYzGgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-14",
+      "date_retour": "2026-09-08",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1134.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyMzk6MjY0GgsIzvUGEAIaA0VVUjgWcImICA=="
+    },
+    {
+      "date_aller": "2026-08-14",
+      "date_retour": "2026-09-09",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1138.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyMzk6MjY1GgsI7/gGEAIaA0VVUjgWcO+LCA=="
+    },
+    {
+      "date_aller": "2026-08-14",
+      "date_retour": "2026-09-10",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1134.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyMzk6MjY2GgsIzvUGEAIaA0VVUjgWcImICA=="
+    },
+    {
+      "date_aller": "2026-08-14",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1138.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyMzk6MjY3GgsI7/gGEAIaA0VVUjgWcO+LCA=="
+    },
+    {
+      "date_aller": "2026-08-14",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1245.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyMzk6MjY4GgsIsMwHEAIaA0VVUjgWcJjtCA=="
+    },
+    {
+      "date_aller": "2026-08-14",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpNU1FCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGh3RGdiQ1lBEgcyMzk6MjY5GgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-07",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1226.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2Z2Z0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGh3TE1KYjJBEgcyNDY6MjYzGgsI3r0HEAIaA0VVUjgWcJDcCA=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-08",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2Z2Z0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGh3TE1KYjJBEgcyNDY6MjY0GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-09",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2Z2Z0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGh3TE1KYjJBEgcyNDY6MjY1GgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-10",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2Z2Z0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGh3TE1KYjJBEgcyNDY6MjY2GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2Z2Z0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGh3TE1KYjJBEgcyNDY6MjY3GgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 956.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2Z2Z0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGh3TE1KYjJBEgcyNDY6MjY4GgsIw+oFEAIaA0VVUjgWcP7lBg=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 960.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2Z2Z0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGh3TE1KYjJBEgcyNDY6MjY5GgsI5O0FEAIaA0VVUjgWcOTpBg=="
+    },
+    {
+      "date_aller": "2026-08-17",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1070.0,
+      "deeplink_token": "CjRINml5azR4eGZZWDBBRkVtdXdCRy0tLS0tLS0tLS13Ymx1MUFBQUFBR29ZWGg0SlVqY1lBEgcyNDI6MjcwGgsI3MMGEAIaA0VVUjgWcPfNBw=="
+    },
+    {
+      "date_aller": "2026-08-15",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1206.0,
+      "deeplink_token": "CjRINml5azR4eGZZWDBBRkVtdXdCRy0tLS0tLS0tLS13Ymx1MUFBQUFBR29ZWGg0SlVqY1lBEgcyNDA6MjcwGgsI660HEAIaA0VVUjgWcMzJCA=="
+    },
+    {
+      "date_aller": "2026-08-18",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1066.0,
+      "deeplink_token": "CjRINml5azR4eGZZWDBBRkVtdXdCRy0tLS0tLS0tLS13Ymx1MUFBQUFBR29ZWGg0SlVqY1lBEgcyNDM6MjcwGgsIu8AGEAIaA0VVUjgWcJHKBw=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRINml5azR4eGZZWDBBRkVtdXdCRy0tLS0tLS0tLS13Ymx1MUFBQUFBR29ZWGg0SlVqY1lBEgcyNDU6MjcwGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-16",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRINml5azR4eGZZWDBBRkVtdXdCRy0tLS0tLS0tLS13Ymx1MUFBQUFBR29ZWGg0SlVqY1lBEgcyNDE6MjcwGgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1090.0,
+      "deeplink_token": "CjRINml5azR4eGZZWDBBRkVtdXdCRy0tLS0tLS0tLS13Ymx1MUFBQUFBR29ZWGg0SlVqY1lBEgcyNDQ6MjcwGgsIrNMGEAIaA0VVUjgWcJLgBw=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRINml5azR4eGZZWDBBRkVtdXdCRy0tLS0tLS0tLS13Ymx1MUFBQUFBR29ZWGg0SlVqY1lBEgcyNDY6MjcwGgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-08",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 987.0,
+      "deeplink_token": "CjRIOUltZ19iZWpvbndBQXBIeUFCRy0tLS0tLS0tLXdib2YxMkFBQUFBR29ZWGlFQlV5ZzRBEgcyNDc6MjY0GgsIzoIGEAIaA0VVUjgWcIeCBw=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-09",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 991.0,
+      "deeplink_token": "CjRIOUltZ19iZWpvbndBQXBIeUFCRy0tLS0tLS0tLXdib2YxMkFBQUFBR29ZWGlFQlV5ZzRBEgcyNDc6MjY1GgsI74UGEAIaA0VVUjgWcO2FBw=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-10",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 987.0,
+      "deeplink_token": "CjRIOUltZ19iZWpvbndBQXBIeUFCRy0tLS0tLS0tLXdib2YxMkFBQUFBR29ZWGlFQlV5ZzRBEgcyNDc6MjY2GgsIzoIGEAIaA0VVUjgWcIeCBw=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 991.0,
+      "deeplink_token": "CjRIOUltZ19iZWpvbndBQXBIeUFCRy0tLS0tLS0tLXdib2YxMkFBQUFBR29ZWGlFQlV5ZzRBEgcyNDc6MjY3GgsI74UGEAIaA0VVUjgWcO2FBw=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1012.0,
+      "deeplink_token": "CjRIOUltZ19iZWpvbndBQXBIeUFCRy0tLS0tLS0tLXdib2YxMkFBQUFBR29ZWGlFQlV5ZzRBEgcyNDc6MjY4GgsIkpYGEAIaA0VVUjgWcOiYBw=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1016.0,
+      "deeplink_token": "CjRIOUltZ19iZWpvbndBQXBIeUFCRy0tLS0tLS0tLXdib2YxMkFBQUFBR29ZWGlFQlV5ZzRBEgcyNDc6MjY5GgsIs5kGEAIaA0VVUjgWcM6cBw=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 991.0,
+      "deeplink_token": "CjRIOUltZ19iZWpvbndBQXBIeUFCRy0tLS0tLS0tLXdib2YxMkFBQUFBR29ZWGlFQlV5ZzRBEgcyNDc6MjcwGgsI74UGEAIaA0VVUjgWcO2FBw=="
+    },
+    {
+      "date_aller": "2026-08-17",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1066.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tCWWdCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGlNQmFjd2VBEgcyNDI6MjcxGgsIu8AGEAIaA0VVUjgWcJHKBw=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 987.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tCWWdCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGlNQmFjd2VBEgcyNDc6MjcxGgsIzoIGEAIaA0VVUjgWcIeCBw=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 902.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tCWWdCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGlNQmFjd2VBEgcyNDU6MjcxGgsImsAFEAIaA0VVUjgWcNW0Bg=="
+    },
+    {
+      "date_aller": "2026-08-18",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1062.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tCWWdCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGlNQmFjd2VBEgcyNDM6MjcxGgsImr0GEAIaA0VVUjgWcKvGBw=="
+    },
+    {
+      "date_aller": "2026-08-16",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1266.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tCWWdCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGlNQmFjd2VBEgcyNDE6MjcxGgsItdwHEAIaA0VVUjgWcPD/CA=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1086.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tCWWdCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGlNQmFjd2VBEgcyNDQ6MjcxGgsIi9AGEAIaA0VVUjgWcKzcBw=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tCWWdCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGlNQmFjd2VBEgcyNDY6MjcxGgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-09",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGE0cGdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGlRT1VyRGFBEgcyNDg6MjY1GgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-10",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGE0cGdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGlRT1VyRGFBEgcyNDg6MjY2GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGE0cGdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGlRT1VyRGFBEgcyNDg6MjY3GgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGE0cGdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGlRT1VyRGFBEgcyNDg6MjY4GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGE0cGdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGlRT1VyRGFBEgcyNDg6MjY5GgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGE0cGdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGlRT1VyRGFBEgcyNDg6MjcwGgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGE0cGdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGlRT1VyRGFBEgcyNDg6MjcxGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-17",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1070.0,
+      "deeplink_token": "CjRIVWQxRlV1d1ByUm9BRHJpWEFCRy0tLS0tLS0tLWVqYmgxNEFBQUFBR29ZWGlZTEI2cG1BEgcyNDI6MjcyGgsI3MMGEAIaA0VVUjgWcPfNBw=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 991.0,
+      "deeplink_token": "CjRIVWQxRlV1d1ByUm9BRHJpWEFCRy0tLS0tLS0tLWVqYmgxNEFBQUFBR29ZWGlZTEI2cG1BEgcyNDc6MjcyGgsI74UGEAIaA0VVUjgWcO2FBw=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIVWQxRlV1d1ByUm9BRHJpWEFCRy0tLS0tLS0tLWVqYmgxNEFBQUFBR29ZWGlZTEI2cG1BEgcyNDU6MjcyGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-18",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1066.0,
+      "deeplink_token": "CjRIVWQxRlV1d1ByUm9BRHJpWEFCRy0tLS0tLS0tLWVqYmgxNEFBQUFBR29ZWGlZTEI2cG1BEgcyNDM6MjcyGgsIu8AGEAIaA0VVUjgWcJHKBw=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIVWQxRlV1d1ByUm9BRHJpWEFCRy0tLS0tLS0tLWVqYmgxNEFBQUFBR29ZWGlZTEI2cG1BEgcyNDg6MjcyGgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1080.0,
+      "deeplink_token": "CjRIVWQxRlV1d1ByUm9BRHJpWEFCRy0tLS0tLS0tLWVqYmgxNEFBQUFBR29ZWGlZTEI2cG1BEgcyNDQ6MjcyGgsIj8sGEAIaA0VVUjgWcMfWBw=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 978.0,
+      "deeplink_token": "CjRIVWQxRlV1d1ByUm9BRHJpWEFCRy0tLS0tLS0tLWVqYmgxNEFBQUFBR29ZWGlZTEI2cG1BEgcyNDY6MjcyGgsI7/sFEAIaA0VVUjgWcJn6Bg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-10",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2YwV0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGlnTHRCTWVBEgcyNDk6MjY2GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2YwV0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGlnTHRCTWVBEgcyNDk6MjY3GgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2YwV0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGlnTHRCTWVBEgcyNDk6MjY4GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2YwV0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGlnTHRCTWVBEgcyNDk6MjY5GgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2YwV0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGlnTHRCTWVBEgcyNDk6MjcwGgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2YwV0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGlnTHRCTWVBEgcyNDk6MjcxGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRITmExc0dYNmlfbDRBR2YwV0FCRy0tLS0tLS0td2ZicWYxMkFBQUFBR29ZWGlnTHRCTWVBEgcyNDk6MjcyGgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWVzVUFCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGlvRzY0UFFBEgcyNDk6MjczGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 987.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWVzVUFCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGlvRzY0UFFBEgcyNDc6MjczGgsIzoIGEAIaA0VVUjgWcIeCBw=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 902.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWVzVUFCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGlvRzY0UFFBEgcyNDU6MjczGgsImsAFEAIaA0VVUjgWcNW0Bg=="
+    },
+    {
+      "date_aller": "2026-08-18",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1062.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWVzVUFCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGlvRzY0UFFBEgcyNDM6MjczGgsImr0GEAIaA0VVUjgWcKvGBw=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWVzVUFCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGlvRzY0UFFBEgcyNDg6MjczGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1086.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWVzVUFCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGlvRzY0UFFBEgcyNDQ6MjczGgsIi9AGEAIaA0VVUjgWcKzcBw=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 974.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWVzVUFCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGlvRzY0UFFBEgcyNDY6MjczGgsIzvgFEAIaA0VVUjgWcLP2Bg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-11",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tFLVFCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGl3SDhTSnNBEgcyNTA6MjY3GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 927.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tFLVFCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGl3SDhTSnNBEgcyNTA6MjY4GgsI3tMFEAIaA0VVUjgWcLbLBg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tFLVFCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGl3SDhTSnNBEgcyNTA6MjY5GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tFLVFCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGl3SDhTSnNBEgcyNTA6MjcwGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 902.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tFLVFCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGl3SDhTSnNBEgcyNTA6MjcxGgsImsAFEAIaA0VVUjgWcNW0Bg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tFLVFCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGl3SDhTSnNBEgcyNTA6MjcyGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 902.0,
+      "deeplink_token": "CjRIejJhaVhJaGtCRjBBR0tFLVFCRy0tLS0tLS0tLXdma2YzM0FBQUFBR29ZWGl3SDhTSnNBEgcyNTA6MjczGgsImsAFEAIaA0VVUjgWcNW0Bg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIUUVMRDBheUY0dGdBRm52OUFCRy0tLS0tLS0tLS13ZmsyNkFBQUFBR29ZWGk0RUdGRWtBEgcyNDk6Mjc0GgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 945.0,
+      "deeplink_token": "CjRIUUVMRDBheUY0dGdBRm52OUFCRy0tLS0tLS0tLS13ZmsyNkFBQUFBR29ZWGk0RUdGRWtBEgcyNDc6Mjc0GgsI0eEFEAIaA0VVUjgWcNDbBg=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIUUVMRDBheUY0dGdBRm52OUFCRy0tLS0tLS0tLS13ZmsyNkFBQUFBR29ZWGk0RUdGRWtBEgcyNDU6Mjc0GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIUUVMRDBheUY0dGdBRm52OUFCRy0tLS0tLS0tLS13ZmsyNkFBQUFBR29ZWGk0RUdGRWtBEgcyNTA6Mjc0GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIUUVMRDBheUY0dGdBRm52OUFCRy0tLS0tLS0tLS13ZmsyNkFBQUFBR29ZWGk0RUdGRWtBEgcyNDg6Mjc0GgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-19",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 945.0,
+      "deeplink_token": "CjRIUUVMRDBheUY0dGdBRm52OUFCRy0tLS0tLS0tLS13ZmsyNkFBQUFBR29ZWGk0RUdGRWtBEgcyNDQ6Mjc0GgsI0eEFEAIaA0VVUjgWcNDbBg=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 945.0,
+      "deeplink_token": "CjRIUUVMRDBheUY0dGdBRm52OUFCRy0tLS0tLS0tLS13ZmsyNkFBQUFBR29ZWGk0RUdGRWtBEgcyNDY6Mjc0GgsI0eEFEAIaA0VVUjgWcNDbBg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-12",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJSYmdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGpBRkhITGtBEgcyNTE6MjY4GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJSYmdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGpBRkhITGtBEgcyNTE6MjY5GgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJSYmdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGpBRkhITGtBEgcyNTE6MjcwGgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJSYmdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGpBRkhITGtBEgcyNTE6MjcxGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJSYmdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGpBRkhITGtBEgcyNTE6MjcyGgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJSYmdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGpBRkhITGtBEgcyNTE6MjczGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJSYmdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGpBRkhITGtBEgcyNTE6Mjc0GgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-19",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 951.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpUT3dCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGpFT3FMWldBEgcyNDk6Mjc1GgsIz+YFEAIaA0VVUjgWcLfhBg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-19",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 951.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpUT3dCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGpFT3FMWldBEgcyNTE6Mjc1GgsIz+YFEAIaA0VVUjgWcLfhBg=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-19",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1032.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpUT3dCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGpFT3FMWldBEgcyNDc6Mjc1GgsI4qUGEAIaA0VVUjgWcIOrBw=="
+    },
+    {
+      "date_aller": "2026-08-20",
+      "date_retour": "2026-09-19",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 947.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpUT3dCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGpFT3FMWldBEgcyNDU6Mjc1GgsIruMFEAIaA0VVUjgWcNHdBg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-19",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 947.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpUT3dCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGpFT3FMWldBEgcyNTA6Mjc1GgsIruMFEAIaA0VVUjgWcNHdBg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-19",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 951.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpUT3dCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGpFT3FMWldBEgcyNDg6Mjc1GgsIz+YFEAIaA0VVUjgWcLfhBg=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-19",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 976.0,
+      "deeplink_token": "CjRIcHAxRVZoenhjaFFBRXpUT3dCRy0tLS0tLS0tLXdibm4xMEFBQUFBR29ZWGpFT3FMWldBEgcyNDY6Mjc1GgsIk/oFEAIaA0VVUjgWcJn4Bg=="
+    },
+    {
+      "date_aller": "2026-08-27",
+      "date_retour": "2026-09-13",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIV1VyZ0hTSnlEQUVBQkttbXdCRy0tLS0tLS1scm9sOC1uMkFBQUFBR29ZWGpNTGhEa2VBEgcyNTI6MjY5GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-27",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIV1VyZ0hTSnlEQUVBQkttbXdCRy0tLS0tLS1scm9sOC1uMkFBQUFBR29ZWGpNTGhEa2VBEgcyNTI6MjcwGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-27",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 902.0,
+      "deeplink_token": "CjRIV1VyZ0hTSnlEQUVBQkttbXdCRy0tLS0tLS1scm9sOC1uMkFBQUFBR29ZWGpNTGhEa2VBEgcyNTI6MjcxGgsImsAFEAIaA0VVUjgWcNW0Bg=="
+    },
+    {
+      "date_aller": "2026-08-27",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIV1VyZ0hTSnlEQUVBQkttbXdCRy0tLS0tLS1scm9sOC1uMkFBQUFBR29ZWGpNTGhEa2VBEgcyNTI6MjcyGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-27",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 902.0,
+      "deeplink_token": "CjRIV1VyZ0hTSnlEQUVBQkttbXdCRy0tLS0tLS1scm9sOC1uMkFBQUFBR29ZWGpNTGhEa2VBEgcyNTI6MjczGgsImsAFEAIaA0VVUjgWcNW0Bg=="
+    },
+    {
+      "date_aller": "2026-08-27",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIV1VyZ0hTSnlEQUVBQkttbXdCRy0tLS0tLS1scm9sOC1uMkFBQUFBR29ZWGpNTGhEa2VBEgcyNTI6Mjc0GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-27",
+      "date_retour": "2026-09-19",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 947.0,
+      "deeplink_token": "CjRIV1VyZ0hTSnlEQUVBQkttbXdCRy0tLS0tLS1scm9sOC1uMkFBQUFBR29ZWGpNTGhEa2VBEgcyNTI6Mjc1GgsIruMFEAIaA0VVUjgWcNHdBg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-20",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWV3MWdCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGpVSXV1YkVBEgcyNDk6Mjc2GgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-20",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWV3MWdCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGpVSXV1YkVBEgcyNTE6Mjc2GgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-20",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1016.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWV3MWdCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGpVSXV1YkVBEgcyNDc6Mjc2GgsIs5kGEAIaA0VVUjgWcM6cBw=="
+    },
+    {
+      "date_aller": "2026-08-27",
+      "date_retour": "2026-09-20",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWV3MWdCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGpVSXV1YkVBEgcyNTI6Mjc2GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-20",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWV3MWdCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGpVSXV1YkVBEgcyNTA6Mjc2GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-20",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWV3MWdCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGpVSXV1YkVBEgcyNDg6Mjc2GgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-21",
+      "date_retour": "2026-09-20",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 1003.0,
+      "deeplink_token": "CjRIWUJiV0diay1QWHNBRWV3MWdCRy0tLS0tLS0tLS13YnMyM0FBQUFBR29ZWGpVSXV1YkVBEgcyNDY6Mjc2GgsIs48GEAIaA0VVUjgWcPqQBw=="
+    },
+    {
+      "date_aller": "2026-08-28",
+      "date_retour": "2026-09-14",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRIUE5ZSWpsbGxyTTBBR1JySFFCRy0tLS0tLS0tLS13ZmplMUFBQUFBR29ZWGpZTXBFRnlBEgcyNTM6MjcwGgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-28",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIUE5ZSWpsbGxyTTBBR1JySFFCRy0tLS0tLS0tLS13ZmplMUFBQUFBR29ZWGpZTXBFRnlBEgcyNTM6MjcxGgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-28",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRIUE5ZSWpsbGxyTTBBR1JySFFCRy0tLS0tLS0tLS13ZmplMUFBQUFBR29ZWGpZTXBFRnlBEgcyNTM6MjcyGgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-28",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIUE5ZSWpsbGxyTTBBR1JySFFCRy0tLS0tLS0tLS13ZmplMUFBQUFBR29ZWGpZTXBFRnlBEgcyNTM6MjczGgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-28",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRIUE5ZSWpsbGxyTTBBR1JySFFCRy0tLS0tLS0tLS13ZmplMUFBQUFBR29ZWGpZTXBFRnlBEgcyNTM6Mjc0GgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-28",
+      "date_retour": "2026-09-19",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 976.0,
+      "deeplink_token": "CjRIUE5ZSWpsbGxyTTBBR1JySFFCRy0tLS0tLS0tLS13ZmplMUFBQUFBR29ZWGpZTXBFRnlBEgcyNTM6Mjc1GgsIk/oFEAIaA0VVUjgWcJn4Bg=="
+    },
+    {
+      "date_aller": "2026-08-28",
+      "date_retour": "2026-09-20",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 960.0,
+      "deeplink_token": "CjRIUE5ZSWpsbGxyTTBBR1JySFFCRy0tLS0tLS0tLS13ZmplMUFBQUFBR29ZWGpZTXBFRnlBEgcyNTM6Mjc2GgsI5O0FEAIaA0VVUjgWcOTpBg=="
+    },
+    {
+      "date_aller": "2026-08-28",
+      "date_retour": "2026-09-21",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGJBSXdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGpnSXNISUNBEgcyNTM6Mjc3GgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-21",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGJBSXdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGpnSXNISUNBEgcyNDk6Mjc3GgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-21",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGJBSXdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGpnSXNISUNBEgcyNTE6Mjc3GgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-22",
+      "date_retour": "2026-09-21",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 991.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGJBSXdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGpnSXNISUNBEgcyNDc6Mjc3GgsI74UGEAIaA0VVUjgWcO2FBw=="
+    },
+    {
+      "date_aller": "2026-08-27",
+      "date_retour": "2026-09-21",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGJBSXdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGpnSXNISUNBEgcyNTI6Mjc3GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-21",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGJBSXdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGpnSXNISUNBEgcyNTA6Mjc3GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-21",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIWUk0dW9WMnhUQXNBSGJBSXdCRy0tLS0tLS0tLXdmamkxM0FBQUFBR29ZWGpnSXNISUNBEgcyNDg6Mjc3GgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-29",
+      "date_retour": "2026-09-15",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 927.0,
+      "deeplink_token": "CjRIYXBzY0RVdnRSeW9BRW4wNmdCRy0tLS0tLS0td2JiaG8yM0FBQUFBR29ZWGpvRGxwRlNBEgcyNTQ6MjcxGgsI3tMFEAIaA0VVUjgWcLbLBg=="
+    },
+    {
+      "date_aller": "2026-08-29",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIYXBzY0RVdnRSeW9BRW4wNmdCRy0tLS0tLS0td2JiaG8yM0FBQUFBR29ZWGpvRGxwRlNBEgcyNTQ6MjcyGgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-29",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 927.0,
+      "deeplink_token": "CjRIYXBzY0RVdnRSeW9BRW4wNmdCRy0tLS0tLS0td2JiaG8yM0FBQUFBR29ZWGpvRGxwRlNBEgcyNTQ6MjczGgsI3tMFEAIaA0VVUjgWcLbLBg=="
+    },
+    {
+      "date_aller": "2026-08-29",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIYXBzY0RVdnRSeW9BRW4wNmdCRy0tLS0tLS0td2JiaG8yM0FBQUFBR29ZWGpvRGxwRlNBEgcyNTQ6Mjc0GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-29",
+      "date_retour": "2026-09-19",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 972.0,
+      "deeplink_token": "CjRIYXBzY0RVdnRSeW9BRW4wNmdCRy0tLS0tLS0td2JiaG8yM0FBQUFBR29ZWGpvRGxwRlNBEgcyNTQ6Mjc1GgsI8vYFEAIaA0VVUjgWcLP0Bg=="
+    },
+    {
+      "date_aller": "2026-08-29",
+      "date_retour": "2026-09-20",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 956.0,
+      "deeplink_token": "CjRIYXBzY0RVdnRSeW9BRW4wNmdCRy0tLS0tLS0td2JiaG8yM0FBQUFBR29ZWGpvRGxwRlNBEgcyNTQ6Mjc2GgsIw+oFEAIaA0VVUjgWcP7lBg=="
+    },
+    {
+      "date_aller": "2026-08-29",
+      "date_retour": "2026-09-21",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIYXBzY0RVdnRSeW9BRW4wNmdCRy0tLS0tLS0td2JiaG8yM0FBQUFBR29ZWGpvRGxwRlNBEgcyNTQ6Mjc3GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-28",
+      "date_retour": "2026-09-22",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 931.0,
+      "deeplink_token": "CjRIUWxCNHVqZ2hxRm9BR2VPN1FCRy0tLS0tLS0tLXdmZmsyMUFBQUFBR29ZWGp3QmVaX2dBEgcyNTM6Mjc4GgsI/9YFEAIaA0VVUjgWcJzPBg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-22",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIUWxCNHVqZ2hxRm9BR2VPN1FCRy0tLS0tLS0tLXdmZmsyMUFBQUFBR29ZWGp3QmVaX2dBEgcyNDk6Mjc4GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-22",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIUWxCNHVqZ2hxRm9BR2VPN1FCRy0tLS0tLS0tLXdmZmsyMUFBQUFBR29ZWGp3QmVaX2dBEgcyNTE6Mjc4GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-27",
+      "date_retour": "2026-09-22",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 902.0,
+      "deeplink_token": "CjRIUWxCNHVqZ2hxRm9BR2VPN1FCRy0tLS0tLS0tLXdmZmsyMUFBQUFBR29ZWGp3QmVaX2dBEgcyNTI6Mjc4GgsImsAFEAIaA0VVUjgWcNW0Bg=="
+    },
+    {
+      "date_aller": "2026-08-29",
+      "date_retour": "2026-09-22",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 927.0,
+      "deeplink_token": "CjRIUWxCNHVqZ2hxRm9BR2VPN1FCRy0tLS0tLS0tLXdmZmsyMUFBQUFBR29ZWGp3QmVaX2dBEgcyNTQ6Mjc4GgsI3tMFEAIaA0VVUjgWcLbLBg=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-22",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 902.0,
+      "deeplink_token": "CjRIUWxCNHVqZ2hxRm9BR2VPN1FCRy0tLS0tLS0tLXdmZmsyMUFBQUFBR29ZWGp3QmVaX2dBEgcyNTA6Mjc4GgsImsAFEAIaA0VVUjgWcNW0Bg=="
+    },
+    {
+      "date_aller": "2026-08-23",
+      "date_retour": "2026-09-22",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIUWxCNHVqZ2hxRm9BR2VPN1FCRy0tLS0tLS0tLXdmZmsyMUFBQUFBR29ZWGp3QmVaX2dBEgcyNDg6Mjc4GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-30",
+      "date_retour": "2026-09-16",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJYYWdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGo0QzVzSjhBEgcyNTU6MjcyGgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-30",
+      "date_retour": "2026-09-17",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJYYWdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGo0QzVzSjhBEgcyNTU6MjczGgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-30",
+      "date_retour": "2026-09-18",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJYYWdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGo0QzVzSjhBEgcyNTU6Mjc0GgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-30",
+      "date_retour": "2026-09-19",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 951.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJYYWdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGo0QzVzSjhBEgcyNTU6Mjc1GgsIz+YFEAIaA0VVUjgWcLfhBg=="
+    },
+    {
+      "date_aller": "2026-08-30",
+      "date_retour": "2026-09-20",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 935.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJYYWdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGo0QzVzSjhBEgcyNTU6Mjc2GgsIoNoFEAIaA0VVUjgWcILTBg=="
+    },
+    {
+      "date_aller": "2026-08-30",
+      "date_retour": "2026-09-21",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 910.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJYYWdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGo0QzVzSjhBEgcyNTU6Mjc3GgsI3MYFEAIaA0VVUjgWcKG8Bg=="
+    },
+    {
+      "date_aller": "2026-08-30",
+      "date_retour": "2026-09-22",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 906.0,
+      "deeplink_token": "CjRIV19TSEpxZ1g0QzhBRkJYYWdCRy0tLS0tLS0td2JiZ2kzM0FBQUFBR29ZWGo0QzVzSjhBEgcyNTU6Mjc4GgsIu8MFEAIaA0VVUjgWcLu4Bg=="
+    },
+    {
+      "date_aller": "2026-08-28",
+      "date_retour": "2026-09-23",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 995.0,
+      "deeplink_token": "CjRINUx5elQ2WkdhYXdBR0MtU0FCRy0tLS0tLS0tLXdmZmExN0FBQUFBR29ZWGo4TlM5VGNBEgcyNTM6Mjc5GgsIkIkGEAIaA0VVUjgWcNOJBw=="
+    },
+    {
+      "date_aller": "2026-08-30",
+      "date_retour": "2026-09-23",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 970.0,
+      "deeplink_token": "CjRINUx5elQ2WkdhYXdBR0MtU0FCRy0tLS0tLS0tLXdmZmExN0FBQUFBR29ZWGo4TlM5VGNBEgcyNTU6Mjc5GgsIzPUFEAIaA0VVUjgWcPHyBg=="
+    },
+    {
+      "date_aller": "2026-08-24",
+      "date_retour": "2026-09-23",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 970.0,
+      "deeplink_token": "CjRINUx5elQ2WkdhYXdBR0MtU0FCRy0tLS0tLS0tLXdmZmExN0FBQUFBR29ZWGo4TlM5VGNBEgcyNDk6Mjc5GgsIzPUFEAIaA0VVUjgWcPHyBg=="
+    },
+    {
+      "date_aller": "2026-08-26",
+      "date_retour": "2026-09-23",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 970.0,
+      "deeplink_token": "CjRINUx5elQ2WkdhYXdBR0MtU0FCRy0tLS0tLS0tLXdmZmExN0FBQUFBR29ZWGo4TlM5VGNBEgcyNTE6Mjc5GgsIzPUFEAIaA0VVUjgWcPHyBg=="
+    },
+    {
+      "date_aller": "2026-08-27",
+      "date_retour": "2026-09-23",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 966.0,
+      "deeplink_token": "CjRINUx5elQ2WkdhYXdBR0MtU0FCRy0tLS0tLS0tLXdmZmExN0FBQUFBR29ZWGo4TlM5VGNBEgcyNTI6Mjc5GgsIq/IFEAIaA0VVUjgWcIvvBg=="
+    },
+    {
+      "date_aller": "2026-08-29",
+      "date_retour": "2026-09-23",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 991.0,
+      "deeplink_token": "CjRINUx5elQ2WkdhYXdBR0MtU0FCRy0tLS0tLS0tLXdmZmExN0FBQUFBR29ZWGo4TlM5VGNBEgcyNTQ6Mjc5GgsI74UGEAIaA0VVUjgWcO2FBw=="
+    },
+    {
+      "date_aller": "2026-08-25",
+      "date_retour": "2026-09-23",
+      "dep": "CDG",
+      "arrival": "LIM",
+      "prix": 966.0,
+      "deeplink_token": "CjRINUx5elQ2WkdhYXdBR0MtU0FCRy0tLS0tLS0tLXdmZmExN0FBQUFBR29ZWGo4TlM5VGNBEgcyNTA6Mjc5GgsIq/IFEAIaA0VVUjgWcIvvBg=="
+    }
+  ]
+}

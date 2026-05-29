@@ -1,10 +1,10 @@
 {
-  "cached_at": "2026-05-06T23:45:23.025178",
+  "cached_at": "2026-05-28T15:47:42.182655",
   "current_price": "typical",
   "flights": [
     {
       "name": "Air Europa",
-      "price": "€1112",
+      "price": "€1113",
       "departure": "7:25 PM on Sat, Oct 24",
       "arrival": "4:25 AM on Sun, Oct 25",
       "duration": "16 hr",
@@ -14,33 +14,22 @@
       "is_best": true
     },
     {
-      "name": "Air Europa, Aeromexico",
-      "price": "€1202",
-      "departure": "7:25 PM on Sat, Oct 24",
-      "arrival": "4:05 PM on Sun, Oct 25",
-      "duration": "27 hr 40 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": true
-    },
-    {
       "name": "Iberia",
-      "price": "€1342",
-      "departure": "5:20 PM on Sat, Oct 24",
-      "arrival": "6:05 AM on Sun, Oct 25",
-      "duration": "19 hr 45 min",
+      "price": "€1501",
+      "departure": "10:10 AM on Sat, Oct 24",
+      "arrival": "6:20 PM on Sat, Oct 24",
+      "duration": "15 hr 10 min",
       "stops": 1,
-      "arrival_time_ahead": "+1",
+      "arrival_time_ahead": "",
       "delay": null,
       "is_best": true
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€1477",
-      "departure": "5:20 PM on Sat, Oct 24",
-      "arrival": "10:45 AM on Sun, Oct 25",
-      "duration": "24 hr 25 min",
+      "price": "€1775",
+      "departure": "12:45 PM on Sat, Oct 24",
+      "arrival": "12:50 AM on Sun, Oct 25",
+      "duration": "19 hr 5 min",
       "stops": 2,
       "arrival_time_ahead": "+1",
       "delay": null,
@@ -48,7 +37,7 @@
     },
     {
       "name": "Air Europa",
-      "price": "€1112",
+      "price": "€1113",
       "departure": "10:55 AM on Sat, Oct 24",
       "arrival": "4:25 AM on Sun, Oct 25",
       "duration": "24 hr 30 min",
@@ -59,7 +48,7 @@
     },
     {
       "name": "Air Europa",
-      "price": "€1112",
+      "price": "€1113",
       "departure": "5:10 PM on Sat, Oct 24",
       "arrival": "4:25 AM on Sun, Oct 25",
       "duration": "18 hr 15 min",
@@ -69,30 +58,8 @@
       "is_best": false
     },
     {
-      "name": "Air Europa, Aeromexico",
-      "price": "€1202",
-      "departure": "5:10 PM on Sat, Oct 24",
-      "arrival": "4:05 PM on Sun, Oct 25",
-      "duration": "29 hr 55 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
       "name": "Iberia",
-      "price": "€1417",
-      "departure": "12:45 PM on Sat, Oct 24",
-      "arrival": "6:05 AM on Sun, Oct 25",
-      "duration": "24 hr 20 min",
-      "stops": 1,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia",
-      "price": "€1427",
+      "price": "€1390",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "6:20 PM on Sat, Oct 24",
       "duration": "17 hr 55 min",
@@ -102,33 +69,11 @@
       "is_best": false
     },
     {
-      "name": "Iberia, LATAM",
-      "price": "€1427",
-      "departure": "7:25 AM on Sat, Oct 24",
-      "arrival": "8:20 PM on Sat, Oct 24",
-      "duration": "19 hr 55 min",
-      "stops": 2,
-      "arrival_time_ahead": "",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia, LATAM",
-      "price": "€1427",
-      "departure": "7:25 AM on Sat, Oct 24",
-      "arrival": "9:35 PM on Sat, Oct 24",
-      "duration": "21 hr 10 min",
-      "stops": 2,
-      "arrival_time_ahead": "",
-      "delay": null,
-      "is_best": false
-    },
-    {
       "name": "Iberia",
-      "price": "€1432",
-      "departure": "7:25 AM on Sat, Oct 24",
+      "price": "€1475",
+      "departure": "5:20 PM on Sat, Oct 24",
       "arrival": "6:05 AM on Sun, Oct 25",
-      "duration": "29 hr 40 min",
+      "duration": "19 hr 45 min",
       "stops": 1,
       "arrival_time_ahead": "+1",
       "delay": null,
@@ -136,7 +81,7 @@
     },
     {
       "name": "Iberia",
-      "price": "€1432",
+      "price": "€1479",
       "departure": "5:20 PM on Sat, Oct 24",
       "arrival": "7:25 PM on Sun, Oct 25",
       "duration": "33 hr 5 min",
@@ -147,21 +92,10 @@
     },
     {
       "name": "Iberia",
-      "price": "€1488",
-      "departure": "10:10 AM on Sat, Oct 24",
-      "arrival": "6:20 PM on Sat, Oct 24",
-      "duration": "15 hr 10 min",
-      "stops": 1,
-      "arrival_time_ahead": "",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia",
-      "price": "€1542",
-      "departure": "10:10 AM on Sat, Oct 24",
+      "price": "€1529",
+      "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "6:05 AM on Sun, Oct 25",
-      "duration": "26 hr 55 min",
+      "duration": "24 hr 20 min",
       "stops": 1,
       "arrival_time_ahead": "+1",
       "delay": null,
@@ -169,7 +103,29 @@
     },
     {
       "name": "Iberia",
-      "price": "€1542",
+      "price": "€1564",
+      "departure": "7:25 AM on Sat, Oct 24",
+      "arrival": "6:05 AM on Sun, Oct 25",
+      "duration": "29 hr 40 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1586",
+      "departure": "7:25 AM on Sat, Oct 24",
+      "arrival": "10:20 PM on Sat, Oct 24",
+      "duration": "21 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia",
+      "price": "€1589",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "7:25 PM on Sun, Oct 25",
       "duration": "37 hr 40 min",
@@ -179,8 +135,41 @@
       "is_best": false
     },
     {
+      "name": "Vueling, British Airways, Iberia",
+      "price": "€1604",
+      "departure": "1:45 PM on Sat, Oct 24",
+      "arrival": "6:05 AM on Sun, Oct 25",
+      "duration": "23 hr 20 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Vueling, LATAM",
+      "price": "€1681",
+      "departure": "8:55 AM on Sat, Oct 24",
+      "arrival": "12:45 AM on Sun, Oct 25",
+      "duration": "22 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia",
+      "price": "€1684",
+      "departure": "10:10 AM on Sat, Oct 24",
+      "arrival": "6:05 AM on Sun, Oct 25",
+      "duration": "26 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
       "name": "Iberia, LATAM",
-      "price": "€1545",
+      "price": "€1686",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "6:30 AM on Sun, Oct 25",
       "duration": "24 hr 45 min",
@@ -191,7 +180,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1545",
+      "price": "€1686",
       "departure": "5:20 PM on Sat, Oct 24",
       "arrival": "6:30 AM on Sun, Oct 25",
       "duration": "20 hr 10 min",
@@ -201,11 +190,33 @@
       "is_best": false
     },
     {
-      "name": "Iberia, Avianca",
-      "price": "€1627",
+      "name": "Iberia, LATAM",
+      "price": "€1775",
       "departure": "7:25 AM on Sat, Oct 24",
-      "arrival": "8:50 PM on Sat, Oct 24",
-      "duration": "20 hr 25 min",
+      "arrival": "8:20 PM on Sat, Oct 24",
+      "duration": "19 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1775",
+      "departure": "7:25 AM on Sat, Oct 24",
+      "arrival": "9:35 PM on Sat, Oct 24",
+      "duration": "21 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1775",
+      "departure": "7:25 AM on Sat, Oct 24",
+      "arrival": "10:30 PM on Sat, Oct 24",
+      "duration": "22 hr 5 min",
       "stops": 2,
       "arrival_time_ahead": "",
       "delay": null,
@@ -213,7 +224,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€1627",
+      "price": "€1775",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "24 hr 25 min",
@@ -224,7 +235,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€1627",
+      "price": "€1775",
       "departure": "10:10 AM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "21 hr 40 min",
@@ -235,7 +246,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€1627",
+      "price": "€1775",
       "departure": "10:10 AM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "22 hr 35 min",
@@ -246,18 +257,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€1627",
-      "departure": "12:45 PM on Sat, Oct 24",
-      "arrival": "12:50 AM on Sun, Oct 25",
-      "duration": "19 hr 5 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia, Avianca",
-      "price": "€1627",
+      "price": "€1775",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "20 hr",
@@ -267,8 +267,30 @@
       "is_best": false
     },
     {
+      "name": "Iberia, Avianca",
+      "price": "€1775",
+      "departure": "5:20 PM on Sat, Oct 24",
+      "arrival": "10:45 AM on Sun, Oct 25",
+      "duration": "24 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
       "name": "Iberia, LATAM",
-      "price": "€1637",
+      "price": "€1888",
+      "departure": "7:25 AM on Sat, Oct 24",
+      "arrival": "6:30 AM on Sun, Oct 25",
+      "duration": "30 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1888",
       "departure": "10:10 AM on Sat, Oct 24",
       "arrival": "6:30 AM on Sun, Oct 25",
       "duration": "27 hr 20 min",
@@ -278,11 +300,11 @@
       "is_best": false
     },
     {
-      "name": "Iberia, LATAM",
-      "price": "€1947",
+      "name": "Iberia, American",
+      "price": "€2330",
       "departure": "7:25 AM on Sat, Oct 24",
-      "arrival": "10:35 PM on Sat, Oct 24",
-      "duration": "22 hr 10 min",
+      "arrival": "10:10 PM on Sat, Oct 24",
+      "duration": "21 hr 45 min",
       "stops": 2,
       "arrival_time_ahead": "",
       "delay": null,
@@ -290,7 +312,7 @@
     },
     {
       "name": "Tap Air Portugal, United",
-      "price": "€2092",
+      "price": "€2342",
       "departure": "7:40 AM on Sat, Oct 24",
       "arrival": "10:55 PM on Sun, Oct 25",
       "duration": "46 hr 15 min",
@@ -301,7 +323,7 @@
     },
     {
       "name": "Tap Air Portugal, United",
-      "price": "€2241",
+      "price": "€2342",
       "departure": "7:40 AM on Sat, Oct 24",
       "arrival": "10:55 PM on Sun, Oct 25",
       "duration": "46 hr 15 min",
@@ -312,18 +334,7 @@
     },
     {
       "name": "Iberia, American",
-      "price": "€2530",
-      "departure": "10:10 AM on Sat, Oct 24",
-      "arrival": "3:10 AM on Sun, Oct 25",
-      "duration": "24 hr",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia, American",
-      "price": "€2530",
+      "price": "€2630",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "3:10 AM on Sun, Oct 25",
       "duration": "21 hr 25 min",
@@ -333,19 +344,8 @@
       "is_best": false
     },
     {
-      "name": "Air Europa, Aeromexico",
-      "price": "€2770",
-      "departure": "10:55 AM on Sat, Oct 24",
-      "arrival": "4:05 PM on Sun, Oct 25",
-      "duration": "36 hr 10 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "8:50 PM on Sat, Oct 24",
       "duration": "20 hr 25 min",
@@ -356,7 +356,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "24 hr 25 min",
@@ -367,7 +367,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "24 hr 25 min",
@@ -378,7 +378,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "25 hr 20 min",
@@ -389,7 +389,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "25 hr 20 min",
@@ -400,7 +400,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "10:10 AM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "21 hr 40 min",
@@ -411,7 +411,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "10:10 AM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "22 hr 35 min",
@@ -422,7 +422,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "19 hr 5 min",
@@ -433,7 +433,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "20 hr",
@@ -444,7 +444,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "5:20 PM on Sat, Oct 24",
       "arrival": "10:45 AM on Sun, Oct 25",
       "duration": "24 hr 25 min",
@@ -455,10 +455,10 @@
     },
     {
       "name": "Tap Air Portugal, Air Canada",
-      "price": "€10244",
+      "price": "€10271",
       "departure": "4:45 PM on Sat, Oct 24",
-      "arrival": "1:15 AM on Mon, Oct 26",
-      "duration": "39 hr 30 min",
+      "arrival": "2:15 AM on Mon, Oct 26",
+      "duration": "40 hr 30 min",
       "stops": 2,
       "arrival_time_ahead": "+2",
       "delay": null,
@@ -466,21 +466,21 @@
     },
     {
       "name": "Tap Air Portugal, Air Canada",
-      "price": "€10244",
-      "departure": "7:45 PM on Sat, Oct 24",
-      "arrival": "1:15 AM on Mon, Oct 26",
-      "duration": "36 hr 30 min",
-      "stops": 2,
-      "arrival_time_ahead": "+2",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Tap Air Portugal, Air Canada",
-      "price": "€10244",
+      "price": "€10271",
       "departure": "9:15 PM on Sat, Oct 24",
-      "arrival": "1:15 AM on Mon, Oct 26",
-      "duration": "35 hr",
+      "arrival": "2:15 AM on Mon, Oct 26",
+      "duration": "36 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal, Air Canada",
+      "price": "€10278",
+      "departure": "2:40 PM on Sat, Oct 24",
+      "arrival": "2:15 AM on Mon, Oct 26",
+      "duration": "42 hr 35 min",
       "stops": 2,
       "arrival_time_ahead": "+2",
       "delay": null,
@@ -488,7 +488,7 @@
     },
     {
       "name": "Air Europa",
-      "price": "€1112",
+      "price": "€1113",
       "departure": "7:25 PM on Sat, Oct 24",
       "arrival": "4:25 AM on Sun, Oct 25",
       "duration": "16 hr",
@@ -498,30 +498,19 @@
       "is_best": false
     },
     {
-      "name": "Air Europa, Aeromexico",
-      "price": "€1202",
-      "departure": "7:25 PM on Sat, Oct 24",
-      "arrival": "4:05 PM on Sun, Oct 25",
-      "duration": "27 hr 40 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
       "name": "Iberia",
-      "price": "€1342",
-      "departure": "5:20 PM on Sat, Oct 24",
-      "arrival": "6:05 AM on Sun, Oct 25",
-      "duration": "19 hr 45 min",
+      "price": "€1501",
+      "departure": "10:10 AM on Sat, Oct 24",
+      "arrival": "6:20 PM on Sat, Oct 24",
+      "duration": "15 hr 10 min",
       "stops": 1,
-      "arrival_time_ahead": "+1",
+      "arrival_time_ahead": "",
       "delay": null,
       "is_best": false
     },
     {
       "name": "Air Europa",
-      "price": "€1112",
+      "price": "€1113",
       "departure": "10:55 AM on Sat, Oct 24",
       "arrival": "4:25 AM on Sun, Oct 25",
       "duration": "24 hr 30 min",
@@ -532,7 +521,7 @@
     },
     {
       "name": "Air Europa",
-      "price": "€1112",
+      "price": "€1113",
       "departure": "5:10 PM on Sat, Oct 24",
       "arrival": "4:25 AM on Sun, Oct 25",
       "duration": "18 hr 15 min",
@@ -542,30 +531,8 @@
       "is_best": false
     },
     {
-      "name": "Air Europa, Aeromexico",
-      "price": "€1202",
-      "departure": "5:10 PM on Sat, Oct 24",
-      "arrival": "4:05 PM on Sun, Oct 25",
-      "duration": "29 hr 55 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
       "name": "Iberia",
-      "price": "€1417",
-      "departure": "12:45 PM on Sat, Oct 24",
-      "arrival": "6:05 AM on Sun, Oct 25",
-      "duration": "24 hr 20 min",
-      "stops": 1,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia",
-      "price": "€1427",
+      "price": "€1390",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "6:20 PM on Sat, Oct 24",
       "duration": "17 hr 55 min",
@@ -575,33 +542,11 @@
       "is_best": false
     },
     {
-      "name": "Iberia, LATAM",
-      "price": "€1427",
-      "departure": "7:25 AM on Sat, Oct 24",
-      "arrival": "8:20 PM on Sat, Oct 24",
-      "duration": "19 hr 55 min",
-      "stops": 2,
-      "arrival_time_ahead": "",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia, LATAM",
-      "price": "€1427",
-      "departure": "7:25 AM on Sat, Oct 24",
-      "arrival": "9:35 PM on Sat, Oct 24",
-      "duration": "21 hr 10 min",
-      "stops": 2,
-      "arrival_time_ahead": "",
-      "delay": null,
-      "is_best": false
-    },
-    {
       "name": "Iberia",
-      "price": "€1432",
-      "departure": "7:25 AM on Sat, Oct 24",
+      "price": "€1475",
+      "departure": "5:20 PM on Sat, Oct 24",
       "arrival": "6:05 AM on Sun, Oct 25",
-      "duration": "29 hr 40 min",
+      "duration": "19 hr 45 min",
       "stops": 1,
       "arrival_time_ahead": "+1",
       "delay": null,
@@ -609,7 +554,7 @@
     },
     {
       "name": "Iberia",
-      "price": "€1432",
+      "price": "€1479",
       "departure": "5:20 PM on Sat, Oct 24",
       "arrival": "7:25 PM on Sun, Oct 25",
       "duration": "33 hr 5 min",
@@ -620,21 +565,10 @@
     },
     {
       "name": "Iberia",
-      "price": "€1488",
-      "departure": "10:10 AM on Sat, Oct 24",
-      "arrival": "6:20 PM on Sat, Oct 24",
-      "duration": "15 hr 10 min",
-      "stops": 1,
-      "arrival_time_ahead": "",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia",
-      "price": "€1542",
-      "departure": "10:10 AM on Sat, Oct 24",
+      "price": "€1529",
+      "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "6:05 AM on Sun, Oct 25",
-      "duration": "26 hr 55 min",
+      "duration": "24 hr 20 min",
       "stops": 1,
       "arrival_time_ahead": "+1",
       "delay": null,
@@ -642,7 +576,29 @@
     },
     {
       "name": "Iberia",
-      "price": "€1542",
+      "price": "€1564",
+      "departure": "7:25 AM on Sat, Oct 24",
+      "arrival": "6:05 AM on Sun, Oct 25",
+      "duration": "29 hr 40 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1586",
+      "departure": "7:25 AM on Sat, Oct 24",
+      "arrival": "10:20 PM on Sat, Oct 24",
+      "duration": "21 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia",
+      "price": "€1589",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "7:25 PM on Sun, Oct 25",
       "duration": "37 hr 40 min",
@@ -652,8 +608,41 @@
       "is_best": false
     },
     {
+      "name": "Vueling, British Airways, Iberia",
+      "price": "€1604",
+      "departure": "1:45 PM on Sat, Oct 24",
+      "arrival": "6:05 AM on Sun, Oct 25",
+      "duration": "23 hr 20 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Vueling, LATAM",
+      "price": "€1681",
+      "departure": "8:55 AM on Sat, Oct 24",
+      "arrival": "12:45 AM on Sun, Oct 25",
+      "duration": "22 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia",
+      "price": "€1684",
+      "departure": "10:10 AM on Sat, Oct 24",
+      "arrival": "6:05 AM on Sun, Oct 25",
+      "duration": "26 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
       "name": "Iberia, LATAM",
-      "price": "€1545",
+      "price": "€1686",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "6:30 AM on Sun, Oct 25",
       "duration": "24 hr 45 min",
@@ -664,7 +653,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1545",
+      "price": "€1686",
       "departure": "5:20 PM on Sat, Oct 24",
       "arrival": "6:30 AM on Sun, Oct 25",
       "duration": "20 hr 10 min",
@@ -674,11 +663,33 @@
       "is_best": false
     },
     {
-      "name": "Iberia, Avianca",
-      "price": "€1627",
+      "name": "Iberia, LATAM",
+      "price": "€1775",
       "departure": "7:25 AM on Sat, Oct 24",
-      "arrival": "8:50 PM on Sat, Oct 24",
-      "duration": "20 hr 25 min",
+      "arrival": "8:20 PM on Sat, Oct 24",
+      "duration": "19 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1775",
+      "departure": "7:25 AM on Sat, Oct 24",
+      "arrival": "9:35 PM on Sat, Oct 24",
+      "duration": "21 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1775",
+      "departure": "7:25 AM on Sat, Oct 24",
+      "arrival": "10:30 PM on Sat, Oct 24",
+      "duration": "22 hr 5 min",
       "stops": 2,
       "arrival_time_ahead": "",
       "delay": null,
@@ -686,7 +697,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€1627",
+      "price": "€1775",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "24 hr 25 min",
@@ -697,7 +708,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€1627",
+      "price": "€1775",
       "departure": "10:10 AM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "21 hr 40 min",
@@ -708,7 +719,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€1627",
+      "price": "€1775",
       "departure": "10:10 AM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "22 hr 35 min",
@@ -719,18 +730,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€1627",
-      "departure": "12:45 PM on Sat, Oct 24",
-      "arrival": "12:50 AM on Sun, Oct 25",
-      "duration": "19 hr 5 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia, Avianca",
-      "price": "€1627",
+      "price": "€1775",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "20 hr",
@@ -740,8 +740,30 @@
       "is_best": false
     },
     {
+      "name": "Iberia, Avianca",
+      "price": "€1775",
+      "departure": "5:20 PM on Sat, Oct 24",
+      "arrival": "10:45 AM on Sun, Oct 25",
+      "duration": "24 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
       "name": "Iberia, LATAM",
-      "price": "€1637",
+      "price": "€1888",
+      "departure": "7:25 AM on Sat, Oct 24",
+      "arrival": "6:30 AM on Sun, Oct 25",
+      "duration": "30 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1888",
       "departure": "10:10 AM on Sat, Oct 24",
       "arrival": "6:30 AM on Sun, Oct 25",
       "duration": "27 hr 20 min",
@@ -751,11 +773,11 @@
       "is_best": false
     },
     {
-      "name": "Iberia, LATAM",
-      "price": "€1947",
+      "name": "Iberia, American",
+      "price": "€2330",
       "departure": "7:25 AM on Sat, Oct 24",
-      "arrival": "10:35 PM on Sat, Oct 24",
-      "duration": "22 hr 10 min",
+      "arrival": "10:10 PM on Sat, Oct 24",
+      "duration": "21 hr 45 min",
       "stops": 2,
       "arrival_time_ahead": "",
       "delay": null,
@@ -763,7 +785,7 @@
     },
     {
       "name": "Tap Air Portugal, United",
-      "price": "€2092",
+      "price": "€2342",
       "departure": "7:40 AM on Sat, Oct 24",
       "arrival": "10:55 PM on Sun, Oct 25",
       "duration": "46 hr 15 min",
@@ -774,7 +796,7 @@
     },
     {
       "name": "Tap Air Portugal, United",
-      "price": "€2241",
+      "price": "€2342",
       "departure": "7:40 AM on Sat, Oct 24",
       "arrival": "10:55 PM on Sun, Oct 25",
       "duration": "46 hr 15 min",
@@ -785,18 +807,7 @@
     },
     {
       "name": "Iberia, American",
-      "price": "€2530",
-      "departure": "10:10 AM on Sat, Oct 24",
-      "arrival": "3:10 AM on Sun, Oct 25",
-      "duration": "24 hr",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia, American",
-      "price": "€2530",
+      "price": "€2630",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "3:10 AM on Sun, Oct 25",
       "duration": "21 hr 25 min",
@@ -806,19 +817,8 @@
       "is_best": false
     },
     {
-      "name": "Air Europa, Aeromexico",
-      "price": "€2770",
-      "departure": "10:55 AM on Sat, Oct 24",
-      "arrival": "4:05 PM on Sun, Oct 25",
-      "duration": "36 hr 10 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "8:50 PM on Sat, Oct 24",
       "duration": "20 hr 25 min",
@@ -829,7 +829,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "24 hr 25 min",
@@ -840,7 +840,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "24 hr 25 min",
@@ -851,7 +851,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "25 hr 20 min",
@@ -862,7 +862,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "7:25 AM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "25 hr 20 min",
@@ -873,7 +873,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "10:10 AM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "21 hr 40 min",
@@ -884,7 +884,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "10:10 AM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "22 hr 35 min",
@@ -895,7 +895,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "12:50 AM on Sun, Oct 25",
       "duration": "19 hr 5 min",
@@ -906,7 +906,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "12:45 PM on Sat, Oct 24",
       "arrival": "1:45 AM on Sun, Oct 25",
       "duration": "20 hr",
@@ -917,7 +917,7 @@
     },
     {
       "name": "Iberia, Avianca",
-      "price": "€5780",
+      "price": "€6927",
       "departure": "5:20 PM on Sat, Oct 24",
       "arrival": "10:45 AM on Sun, Oct 25",
       "duration": "24 hr 25 min",
@@ -928,10 +928,10 @@
     },
     {
       "name": "Tap Air Portugal, Air Canada",
-      "price": "€10244",
+      "price": "€10271",
       "departure": "4:45 PM on Sat, Oct 24",
-      "arrival": "1:15 AM on Mon, Oct 26",
-      "duration": "39 hr 30 min",
+      "arrival": "2:15 AM on Mon, Oct 26",
+      "duration": "40 hr 30 min",
       "stops": 2,
       "arrival_time_ahead": "+2",
       "delay": null,
@@ -939,21 +939,21 @@
     },
     {
       "name": "Tap Air Portugal, Air Canada",
-      "price": "€10244",
-      "departure": "7:45 PM on Sat, Oct 24",
-      "arrival": "1:15 AM on Mon, Oct 26",
-      "duration": "36 hr 30 min",
-      "stops": 2,
-      "arrival_time_ahead": "+2",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Tap Air Portugal, Air Canada",
-      "price": "€10244",
+      "price": "€10271",
       "departure": "9:15 PM on Sat, Oct 24",
-      "arrival": "1:15 AM on Mon, Oct 26",
-      "duration": "35 hr",
+      "arrival": "2:15 AM on Mon, Oct 26",
+      "duration": "36 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal, Air Canada",
+      "price": "€10278",
+      "departure": "2:40 PM on Sat, Oct 24",
+      "arrival": "2:15 AM on Mon, Oct 26",
+      "duration": "42 hr 35 min",
       "stops": 2,
       "arrival_time_ahead": "+2",
       "delay": null,

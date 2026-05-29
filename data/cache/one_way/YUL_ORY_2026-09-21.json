@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:58:55.838948",
+  "flights": [
+    {
+      "name": "French bee",
+      "price": "€269",
+      "departure": "11:00 PM on Mon, Sep 21",
+      "arrival": "12:00 PM on Tue, Sep 22",
+      "duration": "7 hr",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "French bee",
+      "price": "€269",
+      "departure": "11:00 PM on Mon, Sep 21",
+      "arrival": "12:00 PM on Tue, Sep 22",
+      "duration": "7 hr",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€379",
+      "departure": "10:45 PM on Mon, Sep 21",
+      "arrival": "3:50 PM on Tue, Sep 22",
+      "duration": "11 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€379",
+      "departure": "10:45 PM on Mon, Sep 21",
+      "arrival": "6:45 PM on Tue, Sep 22",
+      "duration": "14 hr",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€379",
+      "departure": "10:45 PM on Mon, Sep 21",
+      "arrival": "8:15 PM on Tue, Sep 22",
+      "duration": "15 hr 30 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€379",
+      "departure": "10:45 PM on Mon, Sep 21",
+      "arrival": "9:35 PM on Tue, Sep 22",
+      "duration": "16 hr 50 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€379",
+      "departure": "10:45 PM on Mon, Sep 21",
+      "arrival": "3:50 PM on Tue, Sep 22",
+      "duration": "11 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€379",
+      "departure": "10:45 PM on Mon, Sep 21",
+      "arrival": "6:45 PM on Tue, Sep 22",
+      "duration": "14 hr",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€379",
+      "departure": "10:45 PM on Mon, Sep 21",
+      "arrival": "8:15 PM on Tue, Sep 22",
+      "duration": "15 hr 30 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€379",
+      "departure": "10:45 PM on Mon, Sep 21",
+      "arrival": "9:35 PM on Tue, Sep 22",
+      "duration": "16 hr 50 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Azores Airlines, Tap Air Portugal",
+      "price": "€415",
+      "departure": "9:30 PM on Mon, Sep 21",
+      "arrival": "4:05 PM on Wed, Sep 23",
+      "duration": "36 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Azores Airlines, Tap Air Portugal",
+      "price": "€415",
+      "departure": "9:30 PM on Mon, Sep 21",
+      "arrival": "4:05 PM on Wed, Sep 23",
+      "duration": "36 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Azores Airlines, Tap Air Portugal",
+      "price": "€418",
+      "departure": "9:30 PM on Mon, Sep 21",
+      "arrival": "4:05 PM on Wed, Sep 23",
+      "duration": "36 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Azores Airlines, Tap Air Portugal",
+      "price": "€418",
+      "departure": "9:30 PM on Mon, Sep 21",
+      "arrival": "4:05 PM on Wed, Sep 23",
+      "duration": "36 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Azores Airlines, Tap Air Portugal",
+      "price": "€421",
+      "departure": "9:30 PM on Mon, Sep 21",
+      "arrival": "6:45 PM on Tue, Sep 22",
+      "duration": "15 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Azores Airlines, Tap Air Portugal",
+      "price": "€421",
+      "departure": "9:30 PM on Mon, Sep 21",
+      "arrival": "6:45 PM on Tue, Sep 22",
+      "duration": "15 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:54:01.602139",
+  "flights": [
+    {
+      "name": "Royal Air Maroc",
+      "price": "€544",
+      "departure": "9:50 PM on Tue, Sep 15",
+      "arrival": "5:35 PM on Wed, Sep 16",
+      "duration": "13 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Royal Air Maroc",
+      "price": "€544",
+      "departure": "9:50 PM on Tue, Sep 15",
+      "arrival": "5:35 PM on Wed, Sep 16",
+      "duration": "13 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, Tap Air Portugal",
+      "price": "€558",
+      "departure": "1:15 PM on Tue, Sep 15",
+      "arrival": "11:00 AM on Wed, Sep 16",
+      "duration": "15 hr 45 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, Tap Air Portugal",
+      "price": "€558",
+      "departure": "1:15 PM on Tue, Sep 15",
+      "arrival": "11:00 AM on Wed, Sep 16",
+      "duration": "15 hr 45 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways",
+      "price": "€629",
+      "departure": "10:00 PM on Tue, Sep 15",
+      "arrival": "3:15 PM on Wed, Sep 16",
+      "duration": "11 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "British Airways",
+      "price": "€629",
+      "departure": "10:00 PM on Tue, Sep 15",
+      "arrival": "8:25 PM on Wed, Sep 16",
+      "duration": "16 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways",
+      "price": "€629",
+      "departure": "10:00 PM on Tue, Sep 15",
+      "arrival": "3:15 PM on Wed, Sep 16",
+      "duration": "11 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways",
+      "price": "€629",
+      "departure": "10:00 PM on Tue, Sep 15",
+      "arrival": "8:25 PM on Wed, Sep 16",
+      "duration": "16 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, Tap Air Portugal",
+      "price": "€644",
+      "departure": "1:10 PM on Tue, Sep 15",
+      "arrival": "11:00 AM on Wed, Sep 16",
+      "duration": "15 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, Tap Air Portugal",
+      "price": "€644",
+      "departure": "1:10 PM on Tue, Sep 15",
+      "arrival": "11:00 AM on Wed, Sep 16",
+      "duration": "15 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "American, British Airways",
+      "price": "€653",
+      "departure": "5:34 PM on Tue, Sep 15",
+      "arrival": "3:15 PM on Wed, Sep 16",
+      "duration": "15 hr 41 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "American, British Airways",
+      "price": "€653",
+      "departure": "5:34 PM on Tue, Sep 15",
+      "arrival": "3:15 PM on Wed, Sep 16",
+      "duration": "15 hr 41 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "WestJet, Icelandair",
+      "price": "€683",
+      "departure": "5:45 PM on Tue, Sep 15",
+      "arrival": "12:55 PM on Wed, Sep 16",
+      "duration": "13 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "WestJet, Icelandair",
+      "price": "€683",
+      "departure": "5:45 PM on Tue, Sep 15",
+      "arrival": "12:55 PM on Wed, Sep 16",
+      "duration": "13 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Turkish Airlines",
+      "price": "€698",
+      "departure": "8:05 PM on Tue, Sep 15",
+      "arrival": "5:50 PM on Wed, Sep 16",
+      "duration": "15 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Turkish Airlines",
+      "price": "€698",
+      "departure": "8:05 PM on Tue, Sep 15",
+      "arrival": "5:50 PM on Wed, Sep 16",
+      "duration": "15 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

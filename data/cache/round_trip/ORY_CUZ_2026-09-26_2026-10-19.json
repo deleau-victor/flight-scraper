@@ -1,0 +1,193 @@
+{
+  "cached_at": "2026-05-28T15:32:24.505299",
+  "current_price": "typical",
+  "flights": [
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1455",
+      "departure": "7:25 PM on Sat, Sep 26",
+      "arrival": "11:35 AM on Sun, Sep 27",
+      "duration": "23 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1634",
+      "departure": "10:10 AM on Sat, Sep 26",
+      "arrival": "10:35 PM on Sat, Sep 26",
+      "duration": "19 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1634",
+      "departure": "7:25 AM on Sat, Sep 26",
+      "arrival": "10:35 PM on Sat, Sep 26",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1634",
+      "departure": "7:25 AM on Sat, Sep 26",
+      "arrival": "11:25 PM on Sat, Sep 26",
+      "duration": "23 hr",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1634",
+      "departure": "10:10 AM on Sat, Sep 26",
+      "arrival": "11:25 PM on Sat, Sep 26",
+      "duration": "20 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1713",
+      "departure": "5:20 PM on Sat, Sep 26",
+      "arrival": "9:30 AM on Sun, Sep 27",
+      "duration": "23 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1713",
+      "departure": "5:20 PM on Sat, Sep 26",
+      "arrival": "10:00 AM on Sun, Sep 27",
+      "duration": "23 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1850",
+      "departure": "10:10 AM on Sat, Sep 26",
+      "arrival": "1:00 AM on Sun, Sep 27",
+      "duration": "21 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€2380",
+      "departure": "7:25 PM on Sat, Sep 26",
+      "arrival": "8:05 AM on Sun, Sep 27",
+      "duration": "19 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€1455",
+      "departure": "7:25 PM on Sat, Sep 26",
+      "arrival": "11:35 AM on Sun, Sep 27",
+      "duration": "23 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1634",
+      "departure": "7:25 AM on Sat, Sep 26",
+      "arrival": "10:35 PM on Sat, Sep 26",
+      "duration": "22 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1634",
+      "departure": "7:25 AM on Sat, Sep 26",
+      "arrival": "11:25 PM on Sat, Sep 26",
+      "duration": "23 hr",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1634",
+      "departure": "10:10 AM on Sat, Sep 26",
+      "arrival": "11:25 PM on Sat, Sep 26",
+      "duration": "20 hr 15 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1713",
+      "departure": "5:20 PM on Sat, Sep 26",
+      "arrival": "9:30 AM on Sun, Sep 27",
+      "duration": "23 hr 10 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1713",
+      "departure": "5:20 PM on Sat, Sep 26",
+      "arrival": "10:00 AM on Sun, Sep 27",
+      "duration": "23 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1850",
+      "departure": "10:10 AM on Sat, Sep 26",
+      "arrival": "1:00 AM on Sun, Sep 27",
+      "duration": "21 hr 50 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Europa, Sky Airline",
+      "price": "€2380",
+      "departure": "7:25 PM on Sat, Sep 26",
+      "arrival": "8:05 AM on Sun, Sep 27",
+      "duration": "19 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:57:26.766080",
+  "flights": [
+    {
+      "name": "Air Transat",
+      "price": "€339",
+      "departure": "9:45 AM on Thu, Aug 20",
+      "arrival": "11:35 AM on Thu, Aug 20",
+      "duration": "7 hr 50 min",
+      "stops": 0,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Transat",
+      "price": "€339",
+      "departure": "9:45 AM on Thu, Aug 20",
+      "arrival": "11:35 AM on Thu, Aug 20",
+      "duration": "7 hr 50 min",
+      "stops": 0,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€346",
+      "departure": "12:00 PM on Thu, Aug 20",
+      "arrival": "5:20 PM on Thu, Aug 20",
+      "duration": "11 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Transat",
+      "price": "€346",
+      "departure": "12:00 PM on Thu, Aug 20",
+      "arrival": "7:20 PM on Thu, Aug 20",
+      "duration": "13 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat, Porter Airlines",
+      "price": "€346",
+      "departure": "12:00 PM on Thu, Aug 20",
+      "arrival": "7:32 PM on Thu, Aug 20",
+      "duration": "13 hr 32 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€346",
+      "departure": "12:00 PM on Thu, Aug 20",
+      "arrival": "8:30 PM on Thu, Aug 20",
+      "duration": "14 hr 30 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat, Porter Airlines",
+      "price": "€346",
+      "departure": "12:00 PM on Thu, Aug 20",
+      "arrival": "12:37 AM on Fri, Aug 21",
+      "duration": "18 hr 37 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€346",
+      "departure": "12:00 PM on Thu, Aug 20",
+      "arrival": "5:20 PM on Thu, Aug 20",
+      "duration": "11 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€346",
+      "departure": "12:00 PM on Thu, Aug 20",
+      "arrival": "7:20 PM on Thu, Aug 20",
+      "duration": "13 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat, Porter Airlines",
+      "price": "€346",
+      "departure": "12:00 PM on Thu, Aug 20",
+      "arrival": "7:32 PM on Thu, Aug 20",
+      "duration": "13 hr 32 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€346",
+      "departure": "12:00 PM on Thu, Aug 20",
+      "arrival": "8:30 PM on Thu, Aug 20",
+      "duration": "14 hr 30 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat, Porter Airlines",
+      "price": "€346",
+      "departure": "12:00 PM on Thu, Aug 20",
+      "arrival": "12:37 AM on Fri, Aug 21",
+      "duration": "18 hr 37 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€359",
+      "departure": "12:20 PM on Thu, Aug 20",
+      "arrival": "2:00 PM on Thu, Aug 20",
+      "duration": "7 hr 40 min",
+      "stops": 0,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "American",
+      "price": "€421",
+      "departure": "11:00 AM on Thu, Aug 20",
+      "arrival": "10:53 PM on Thu, Aug 20",
+      "duration": "17 hr 53 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "American",
+      "price": "€421",
+      "departure": "12:15 PM on Thu, Aug 20",
+      "arrival": "9:46 AM on Fri, Aug 21",
+      "duration": "27 hr 31 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "American",
+      "price": "€421",
+      "departure": "1:55 PM on Thu, Aug 20",
+      "arrival": "9:44 PM on Thu, Aug 20",
+      "duration": "13 hr 49 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

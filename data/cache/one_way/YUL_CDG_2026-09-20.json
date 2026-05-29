@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:57:12.549804",
+  "flights": [
+    {
+      "name": "WestJet",
+      "price": "€370",
+      "departure": "6:45 AM on Sun, Sep 20",
+      "arrival": "10:25 AM on Mon, Sep 21",
+      "duration": "21 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "WestJet",
+      "price": "€370",
+      "departure": "6:45 AM on Sun, Sep 20",
+      "arrival": "10:25 AM on Mon, Sep 21",
+      "duration": "21 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "WestJet",
+      "price": "€370",
+      "departure": "6:45 AM on Sun, Sep 20",
+      "arrival": "10:25 AM on Mon, Sep 21",
+      "duration": "21 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "WestJet",
+      "price": "€370",
+      "departure": "6:45 AM on Sun, Sep 20",
+      "arrival": "10:25 AM on Mon, Sep 21",
+      "duration": "21 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€374",
+      "departure": "6:50 PM on Sun, Sep 20",
+      "arrival": "7:45 AM on Mon, Sep 21",
+      "duration": "6 hr 55 min",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Transat",
+      "price": "€374",
+      "departure": "9:30 PM on Sun, Sep 20",
+      "arrival": "10:20 AM on Mon, Sep 21",
+      "duration": "6 hr 50 min",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Transat",
+      "price": "€374",
+      "departure": "7:10 PM on Sun, Sep 20",
+      "arrival": "12:25 PM on Mon, Sep 21",
+      "duration": "11 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€374",
+      "departure": "6:50 PM on Sun, Sep 20",
+      "arrival": "7:45 AM on Mon, Sep 21",
+      "duration": "6 hr 55 min",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€374",
+      "departure": "9:30 PM on Sun, Sep 20",
+      "arrival": "10:20 AM on Mon, Sep 21",
+      "duration": "6 hr 50 min",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€374",
+      "departure": "7:10 PM on Sun, Sep 20",
+      "arrival": "12:25 PM on Mon, Sep 21",
+      "duration": "11 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada",
+      "price": "€414",
+      "departure": "6:20 PM on Sun, Sep 20",
+      "arrival": "7:05 AM on Mon, Sep 21",
+      "duration": "6 hr 45 min",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Canada",
+      "price": "€414",
+      "departure": "9:35 PM on Sun, Sep 20",
+      "arrival": "10:20 AM on Mon, Sep 21",
+      "duration": "6 hr 45 min",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Canada",
+      "price": "€414",
+      "departure": "6:20 PM on Sun, Sep 20",
+      "arrival": "7:05 AM on Mon, Sep 21",
+      "duration": "6 hr 45 min",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada",
+      "price": "€421",
+      "departure": "7:00 AM on Sun, Sep 20",
+      "arrival": "10:00 AM on Mon, Sep 21",
+      "duration": "21 hr",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada",
+      "price": "€421",
+      "departure": "9:10 AM on Sun, Sep 20",
+      "arrival": "10:00 AM on Mon, Sep 21",
+      "duration": "18 hr 50 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada",
+      "price": "€421",
+      "departure": "10:10 AM on Sun, Sep 20",
+      "arrival": "10:00 AM on Mon, Sep 21",
+      "duration": "17 hr 50 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

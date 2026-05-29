@@ -1,10 +1,10 @@
 {
-  "cached_at": "2026-05-07T09:43:02.829640",
+  "cached_at": "2026-05-28T15:41:20.736868",
   "current_price": "typical",
   "flights": [
     {
       "name": "Iberia, LATAM",
-      "price": "€1591",
+      "price": "€1731",
       "departure": "6:50 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "22 hr 10 min",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1591",
+      "price": "€1731",
       "departure": "6:50 PM on Thu, Oct 15",
       "arrival": "10:50 AM on Fri, Oct 16",
       "duration": "23 hr",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1591",
+      "price": "€1731",
       "departure": "6:55 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "22 hr 5 min",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1591",
+      "price": "€1731",
       "departure": "6:55 PM on Thu, Oct 15",
       "arrival": "10:50 AM on Fri, Oct 16",
       "duration": "22 hr 55 min",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1886",
+      "price": "€2176",
       "departure": "6:50 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "22 hr 10 min",
@@ -59,7 +59,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1886",
+      "price": "€2176",
       "departure": "6:50 PM on Thu, Oct 15",
       "arrival": "10:50 AM on Fri, Oct 16",
       "duration": "23 hr",
@@ -70,7 +70,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1886",
+      "price": "€2176",
       "departure": "6:55 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "22 hr 5 min",
@@ -81,18 +81,29 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1886",
+      "price": "€2176",
       "departure": "6:55 PM on Thu, Oct 15",
       "arrival": "10:50 AM on Fri, Oct 16",
       "duration": "22 hr 55 min",
       "stops": 2,
       "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€5228",
+      "departure": "7:10 AM on Thu, Oct 15",
+      "arrival": "6:45 PM on Thu, Oct 15",
+      "duration": "18 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
       "delay": null,
       "is_best": true
     },
     {
       "name": "Air France, LATAM",
-      "price": "€5080",
+      "price": "€7381",
       "departure": "10:10 AM on Thu, Oct 15",
       "arrival": "6:45 PM on Thu, Oct 15",
       "duration": "15 hr 35 min",
@@ -103,7 +114,7 @@
     },
     {
       "name": "Air France, LATAM",
-      "price": "€5080",
+      "price": "€7381",
       "departure": "10:10 AM on Thu, Oct 15",
       "arrival": "8:05 PM on Thu, Oct 15",
       "duration": "16 hr 55 min",
@@ -114,22 +125,11 @@
     },
     {
       "name": "Air France, LATAM",
-      "price": "€5080",
+      "price": "€7381",
       "departure": "10:10 AM on Thu, Oct 15",
       "arrival": "8:45 PM on Thu, Oct 15",
       "duration": "17 hr 35 min",
       "stops": 1,
-      "arrival_time_ahead": "",
-      "delay": null,
-      "is_best": true
-    },
-    {
-      "name": "Air France, KLM, LATAM",
-      "price": "€5246",
-      "departure": "7:10 AM on Thu, Oct 15",
-      "arrival": "6:45 PM on Thu, Oct 15",
-      "duration": "18 hr 35 min",
-      "stops": 2,
       "arrival_time_ahead": "",
       "delay": null,
       "is_best": true
@@ -147,7 +147,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1591",
+      "price": "€1731",
       "departure": "6:50 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "22 hr 10 min",
@@ -158,7 +158,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1591",
+      "price": "€1731",
       "departure": "6:50 PM on Thu, Oct 15",
       "arrival": "10:50 AM on Fri, Oct 16",
       "duration": "23 hr",
@@ -169,7 +169,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1591",
+      "price": "€1731",
       "departure": "6:55 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "22 hr 5 min",
@@ -180,7 +180,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1591",
+      "price": "€1731",
       "departure": "6:55 PM on Thu, Oct 15",
       "arrival": "10:50 AM on Fri, Oct 16",
       "duration": "22 hr 55 min",
@@ -191,7 +191,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1886",
+      "price": "€2176",
       "departure": "6:50 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "22 hr 10 min",
@@ -202,7 +202,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1886",
+      "price": "€2176",
       "departure": "6:50 PM on Thu, Oct 15",
       "arrival": "10:50 AM on Fri, Oct 16",
       "duration": "23 hr",
@@ -213,7 +213,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1886",
+      "price": "€2176",
       "departure": "6:55 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "22 hr 5 min",
@@ -224,18 +224,29 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1886",
+      "price": "€2176",
       "departure": "6:55 PM on Thu, Oct 15",
       "arrival": "10:50 AM on Fri, Oct 16",
       "duration": "22 hr 55 min",
       "stops": 2,
       "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air France, KLM, LATAM",
+      "price": "€5228",
+      "departure": "7:10 AM on Thu, Oct 15",
+      "arrival": "6:45 PM on Thu, Oct 15",
+      "duration": "18 hr 35 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
       "delay": null,
       "is_best": false
     },
     {
       "name": "Air France, LATAM",
-      "price": "€5080",
+      "price": "€7381",
       "departure": "10:10 AM on Thu, Oct 15",
       "arrival": "6:45 PM on Thu, Oct 15",
       "duration": "15 hr 35 min",
@@ -246,7 +257,7 @@
     },
     {
       "name": "Air France, LATAM",
-      "price": "€5080",
+      "price": "€7381",
       "departure": "10:10 AM on Thu, Oct 15",
       "arrival": "8:05 PM on Thu, Oct 15",
       "duration": "16 hr 55 min",
@@ -257,22 +268,11 @@
     },
     {
       "name": "Air France, LATAM",
-      "price": "€5080",
+      "price": "€7381",
       "departure": "10:10 AM on Thu, Oct 15",
       "arrival": "8:45 PM on Thu, Oct 15",
       "duration": "17 hr 35 min",
       "stops": 1,
-      "arrival_time_ahead": "",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Air France, KLM, LATAM",
-      "price": "€5246",
-      "departure": "7:10 AM on Thu, Oct 15",
-      "arrival": "6:45 PM on Thu, Oct 15",
-      "duration": "18 hr 35 min",
-      "stops": 2,
       "arrival_time_ahead": "",
       "delay": null,
       "is_best": false

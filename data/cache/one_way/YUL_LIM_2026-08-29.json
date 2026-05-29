@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:56:08.425540",
+  "flights": [
+    {
+      "name": "Delta",
+      "price": "€299",
+      "departure": "7:00 AM on Sat, Aug 29",
+      "arrival": "9:55 PM on Sat, Aug 29",
+      "duration": "15 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Delta",
+      "price": "€299",
+      "departure": "6:00 AM on Sat, Aug 29",
+      "arrival": "9:55 PM on Sat, Aug 29",
+      "duration": "16 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta",
+      "price": "€299",
+      "departure": "7:00 AM on Sat, Aug 29",
+      "arrival": "9:55 PM on Sat, Aug 29",
+      "duration": "15 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta",
+      "price": "€299",
+      "departure": "6:00 AM on Sat, Aug 29",
+      "arrival": "9:55 PM on Sat, Aug 29",
+      "duration": "16 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Arajet",
+      "price": "€319",
+      "departure": "1:15 PM on Sat, Aug 29",
+      "arrival": "11:44 PM on Sat, Aug 29",
+      "duration": "11 hr 29 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Arajet",
+      "price": "€319",
+      "departure": "1:15 PM on Sat, Aug 29",
+      "arrival": "11:44 PM on Sat, Aug 29",
+      "duration": "11 hr 29 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, LATAM",
+      "price": "€336",
+      "departure": "8:40 AM on Sat, Aug 29",
+      "arrival": "11:55 PM on Sat, Aug 29",
+      "duration": "16 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, LATAM",
+      "price": "€336",
+      "departure": "8:40 AM on Sat, Aug 29",
+      "arrival": "11:55 PM on Sat, Aug 29",
+      "duration": "16 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€340",
+      "departure": "10:55 PM on Sat, Aug 29",
+      "arrival": "10:35 AM on Sun, Aug 30",
+      "duration": "12 hr 40 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€340",
+      "departure": "10:55 PM on Sat, Aug 29",
+      "arrival": "4:30 PM on Sun, Aug 30",
+      "duration": "18 hr 35 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€340",
+      "departure": "10:55 PM on Sat, Aug 29",
+      "arrival": "8:50 PM on Sun, Aug 30",
+      "duration": "22 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€340",
+      "departure": "10:55 PM on Sat, Aug 29",
+      "arrival": "12:50 AM on Mon, Aug 31",
+      "duration": "26 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€340",
+      "departure": "10:55 PM on Sat, Aug 29",
+      "arrival": "4:30 PM on Sun, Aug 30",
+      "duration": "18 hr 35 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€340",
+      "departure": "10:55 PM on Sat, Aug 29",
+      "arrival": "8:50 PM on Sun, Aug 30",
+      "duration": "22 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Canada, Avianca",
+      "price": "€340",
+      "departure": "10:55 PM on Sat, Aug 29",
+      "arrival": "12:50 AM on Mon, Aug 31",
+      "duration": "26 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "COPA",
+      "price": "€361",
+      "departure": "8:35 AM on Sat, Aug 29",
+      "arrival": "10:45 PM on Sat, Aug 29",
+      "duration": "15 hr 10 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

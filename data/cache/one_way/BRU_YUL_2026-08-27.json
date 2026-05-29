@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:55:03.302364",
+  "flights": [
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€394",
+      "departure": "8:00 PM on Thu, Aug 27",
+      "arrival": "3:20 PM on Fri, Aug 28",
+      "duration": "25 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€394",
+      "departure": "8:00 PM on Thu, Aug 27",
+      "arrival": "6:35 PM on Fri, Aug 28",
+      "duration": "28 hr 35 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€394",
+      "departure": "8:00 PM on Thu, Aug 27",
+      "arrival": "3:20 PM on Fri, Aug 28",
+      "duration": "25 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€394",
+      "departure": "8:00 PM on Thu, Aug 27",
+      "arrival": "6:35 PM on Fri, Aug 28",
+      "duration": "28 hr 35 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€416",
+      "departure": "11:15 AM on Thu, Aug 27",
+      "arrival": "6:35 PM on Fri, Aug 28",
+      "duration": "37 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€416",
+      "departure": "11:15 AM on Thu, Aug 27",
+      "arrival": "6:35 PM on Fri, Aug 28",
+      "duration": "37 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€420",
+      "departure": "11:15 AM on Thu, Aug 27",
+      "arrival": "3:20 PM on Fri, Aug 28",
+      "duration": "34 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€420",
+      "departure": "11:15 AM on Thu, Aug 27",
+      "arrival": "3:20 PM on Fri, Aug 28",
+      "duration": "34 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways, American",
+      "price": "€438",
+      "departure": "10:50 AM on Thu, Aug 27",
+      "arrival": "9:44 PM on Fri, Aug 28",
+      "duration": "40 hr 54 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways, American",
+      "price": "€438",
+      "departure": "10:50 AM on Thu, Aug 27",
+      "arrival": "9:44 PM on Fri, Aug 28",
+      "duration": "40 hr 54 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aer Lingus, British Airways",
+      "price": "€492",
+      "departure": "10:20 AM on Thu, Aug 27",
+      "arrival": "8:15 PM on Thu, Aug 27",
+      "duration": "15 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aer Lingus, British Airways",
+      "price": "€492",
+      "departure": "10:20 AM on Thu, Aug 27",
+      "arrival": "8:15 PM on Thu, Aug 27",
+      "duration": "15 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aer Lingus, British Airways",
+      "price": "€492",
+      "departure": "10:20 AM on Thu, Aug 27",
+      "arrival": "8:15 PM on Thu, Aug 27",
+      "duration": "15 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aer Lingus, British Airways",
+      "price": "€492",
+      "departure": "10:20 AM on Thu, Aug 27",
+      "arrival": "8:15 PM on Thu, Aug 27",
+      "duration": "15 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aer Lingus, American",
+      "price": "€511",
+      "departure": "10:20 AM on Thu, Aug 27",
+      "arrival": "9:44 PM on Thu, Aug 27",
+      "duration": "17 hr 24 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Aer Lingus, American",
+      "price": "€511",
+      "departure": "10:20 AM on Thu, Aug 27",
+      "arrival": "9:44 PM on Thu, Aug 27",
+      "duration": "17 hr 24 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

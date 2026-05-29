@@ -1,10 +1,10 @@
 {
-  "cached_at": "2026-05-07T09:47:21.923608",
+  "cached_at": "2026-05-28T15:49:56.515407",
   "current_price": "typical",
   "flights": [
     {
       "name": "Air Canada, Avianca",
-      "price": "€1230",
+      "price": "€1090",
       "departure": "8:25 AM on Thu, Oct 29",
       "arrival": "11:20 AM on Fri, Oct 30",
       "duration": "32 hr 55 min",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Air Canada, Avianca",
-      "price": "€1230",
+      "price": "€1090",
       "departure": "1:00 PM on Thu, Oct 29",
       "arrival": "11:20 AM on Fri, Oct 30",
       "duration": "28 hr 20 min",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1390",
+      "price": "€1380",
       "departure": "6:45 PM on Thu, Oct 29",
       "arrival": "9:20 AM on Fri, Oct 30",
       "duration": "20 hr 35 min",
@@ -37,7 +37,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3586",
+      "price": "€2373",
       "departure": "9:05 AM on Thu, Oct 29",
       "arrival": "9:20 PM on Thu, Oct 29",
       "duration": "18 hr 15 min",
@@ -59,7 +59,7 @@
     },
     {
       "name": "Air Canada, Avianca",
-      "price": "€1230",
+      "price": "€1090",
       "departure": "8:25 AM on Thu, Oct 29",
       "arrival": "11:20 AM on Fri, Oct 30",
       "duration": "32 hr 55 min",
@@ -70,7 +70,7 @@
     },
     {
       "name": "Air Canada, Avianca",
-      "price": "€1230",
+      "price": "€1090",
       "departure": "1:00 PM on Thu, Oct 29",
       "arrival": "11:20 AM on Fri, Oct 30",
       "duration": "28 hr 20 min",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1390",
+      "price": "€1380",
       "departure": "6:45 PM on Thu, Oct 29",
       "arrival": "9:20 AM on Fri, Oct 30",
       "duration": "20 hr 35 min",
@@ -92,7 +92,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3586",
+      "price": "€2373",
       "departure": "9:05 AM on Thu, Oct 29",
       "arrival": "9:20 PM on Thu, Oct 29",
       "duration": "18 hr 15 min",

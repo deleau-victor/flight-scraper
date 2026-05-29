@@ -3,8 +3,8 @@
 from datetime import date
 
 # ============ DATES & DURÉES ============
-START_DATE = date(2026, 8, 20)
-END_DATE = date(2026, 9, 10)
+START_DATE = date(2026, 8, 17)
+END_DATE = date(2026, 9, 20)
 TRIP_DURATIONS = [21, 22, 23, 24, 25, 26, 27]
 
 # 0=lundi
@@ -60,7 +60,7 @@ CACHE_TTL_HOURS = 24
 ROUTE_VALIDITY_TTL_DAYS = 7
 
 # ============ SELF-TRANSFER ============
-SELF_TRANSFER_HUBS = ["MAD", "AMS", "FRA", "LIS", "BCN"]
+SELF_TRANSFER_HUBS = ["YUL"]
 MIN_LAYOVER_HOURS = 4
 MAX_LAYOVER_HOURS = 28
 SELF_TRANSFER_MAX_COMBOS = 30

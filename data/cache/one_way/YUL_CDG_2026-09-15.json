@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:57:38.515373",
+  "flights": [
+    {
+      "name": "Azores Airlines",
+      "price": "€313",
+      "departure": "9:30 PM on Tue, Sep 15",
+      "arrival": "1:00 PM on Thu, Sep 17",
+      "duration": "33 hr 30 min",
+      "stops": 1,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Azores Airlines",
+      "price": "€313",
+      "departure": "9:30 PM on Tue, Sep 15",
+      "arrival": "1:00 PM on Thu, Sep 17",
+      "duration": "33 hr 30 min",
+      "stops": 1,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€374",
+      "departure": "6:50 PM on Tue, Sep 15",
+      "arrival": "7:45 AM on Wed, Sep 16",
+      "duration": "6 hr 55 min",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Transat",
+      "price": "€374",
+      "departure": "9:30 PM on Tue, Sep 15",
+      "arrival": "10:20 AM on Wed, Sep 16",
+      "duration": "6 hr 50 min",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Transat",
+      "price": "€374",
+      "departure": "6:50 PM on Tue, Sep 15",
+      "arrival": "7:45 AM on Wed, Sep 16",
+      "duration": "6 hr 55 min",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Air Transat",
+      "price": "€374",
+      "departure": "9:30 PM on Tue, Sep 15",
+      "arrival": "10:20 AM on Wed, Sep 16",
+      "duration": "6 hr 50 min",
+      "stops": 0,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "WestJet",
+      "price": "€380",
+      "departure": "6:45 AM on Tue, Sep 15",
+      "arrival": "10:25 AM on Wed, Sep 16",
+      "duration": "21 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "WestJet",
+      "price": "€380",
+      "departure": "6:45 AM on Tue, Sep 15",
+      "arrival": "10:25 AM on Wed, Sep 16",
+      "duration": "21 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "WestJet",
+      "price": "€380",
+      "departure": "6:45 AM on Tue, Sep 15",
+      "arrival": "10:25 AM on Wed, Sep 16",
+      "duration": "21 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "WestJet",
+      "price": "€380",
+      "departure": "6:45 AM on Tue, Sep 15",
+      "arrival": "10:25 AM on Wed, Sep 16",
+      "duration": "21 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Porter Airlines, Air Transat",
+      "price": "€381",
+      "departure": "6:45 AM on Tue, Sep 15",
+      "arrival": "10:30 AM on Wed, Sep 16",
+      "duration": "21 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Porter Airlines, Air Transat",
+      "price": "€381",
+      "departure": "3:10 PM on Tue, Sep 15",
+      "arrival": "10:30 AM on Wed, Sep 16",
+      "duration": "13 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Porter Airlines, Air Transat",
+      "price": "€381",
+      "departure": "5:10 PM on Tue, Sep 15",
+      "arrival": "10:30 AM on Wed, Sep 16",
+      "duration": "11 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Porter Airlines, Air Transat",
+      "price": "€381",
+      "departure": "6:45 AM on Tue, Sep 15",
+      "arrival": "10:30 AM on Wed, Sep 16",
+      "duration": "21 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Porter Airlines, Air Transat",
+      "price": "€381",
+      "departure": "3:10 PM on Tue, Sep 15",
+      "arrival": "10:30 AM on Wed, Sep 16",
+      "duration": "13 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Porter Airlines, Air Transat",
+      "price": "€381",
+      "departure": "5:10 PM on Tue, Sep 15",
+      "arrival": "10:30 AM on Wed, Sep 16",
+      "duration": "11 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

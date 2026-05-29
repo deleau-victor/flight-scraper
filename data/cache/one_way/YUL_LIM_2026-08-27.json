@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:55:13.924722",
+  "flights": [
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "2:29 PM on Thu, Aug 27",
+      "arrival": "5:00 AM on Fri, Aug 28",
+      "duration": "15 hr 31 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "9:30 AM on Thu, Aug 27",
+      "arrival": "5:00 AM on Fri, Aug 28",
+      "duration": "20 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "9:30 AM on Thu, Aug 27",
+      "arrival": "5:00 AM on Fri, Aug 28",
+      "duration": "20 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "9:30 AM on Thu, Aug 27",
+      "arrival": "6:30 AM on Fri, Aug 28",
+      "duration": "22 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "9:30 AM on Thu, Aug 27",
+      "arrival": "6:30 AM on Fri, Aug 28",
+      "duration": "22 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "9:30 AM on Thu, Aug 27",
+      "arrival": "6:30 AM on Fri, Aug 28",
+      "duration": "22 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "2:29 PM on Thu, Aug 27",
+      "arrival": "6:30 AM on Fri, Aug 28",
+      "duration": "17 hr 1 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "2:29 PM on Thu, Aug 27",
+      "arrival": "5:00 AM on Fri, Aug 28",
+      "duration": "15 hr 31 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "9:30 AM on Thu, Aug 27",
+      "arrival": "5:00 AM on Fri, Aug 28",
+      "duration": "20 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "9:30 AM on Thu, Aug 27",
+      "arrival": "5:00 AM on Fri, Aug 28",
+      "duration": "20 hr 30 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "9:30 AM on Thu, Aug 27",
+      "arrival": "6:30 AM on Fri, Aug 28",
+      "duration": "22 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "9:30 AM on Thu, Aug 27",
+      "arrival": "6:30 AM on Fri, Aug 28",
+      "duration": "22 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "9:30 AM on Thu, Aug 27",
+      "arrival": "6:30 AM on Fri, Aug 28",
+      "duration": "22 hr",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€265",
+      "departure": "2:29 PM on Thu, Aug 27",
+      "arrival": "6:30 AM on Fri, Aug 28",
+      "duration": "17 hr 1 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Delta",
+      "price": "€299",
+      "departure": "7:00 AM on Thu, Aug 27",
+      "arrival": "9:55 PM on Thu, Aug 27",
+      "duration": "15 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Delta, LATAM",
+      "price": "€299",
+      "departure": "6:00 AM on Thu, Aug 27",
+      "arrival": "10:00 PM on Thu, Aug 27",
+      "duration": "17 hr",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

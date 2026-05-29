@@ -1,10 +1,10 @@
 {
-  "cached_at": "2026-05-07T09:42:38.589979",
+  "cached_at": "2026-05-28T15:40:34.310692",
   "current_price": "typical",
   "flights": [
     {
       "name": "Iberia, LATAM",
-      "price": "€1455",
+      "price": "€1495",
       "departure": "5:20 PM on Sat, Oct 10",
       "arrival": "10:00 AM on Sun, Oct 11",
       "duration": "23 hr 40 min",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1455",
+      "price": "€1495",
       "departure": "5:20 PM on Sat, Oct 10",
       "arrival": "10:00 AM on Sun, Oct 11",
       "duration": "23 hr 40 min",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1455",
+      "price": "€1595",
       "departure": "5:20 PM on Sat, Oct 10",
       "arrival": "10:50 AM on Sun, Oct 11",
       "duration": "24 hr 30 min",
@@ -37,18 +37,7 @@
     },
     {
       "name": "Air Europa, Sky Airline",
-      "price": "€1546",
-      "departure": "10:55 AM on Sat, Oct 10",
-      "arrival": "11:05 AM on Sun, Oct 11",
-      "duration": "31 hr 10 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": true
-    },
-    {
-      "name": "Air Europa, Sky Airline",
-      "price": "€1546",
+      "price": "€1866",
       "departure": "5:10 PM on Sat, Oct 10",
       "arrival": "11:05 AM on Sun, Oct 11",
       "duration": "24 hr 55 min",
@@ -59,7 +48,7 @@
     },
     {
       "name": "Air Europa, Sky Airline",
-      "price": "€1546",
+      "price": "€1866",
       "departure": "7:25 PM on Sat, Oct 10",
       "arrival": "11:05 AM on Sun, Oct 11",
       "duration": "22 hr 40 min",
@@ -70,7 +59,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€3519",
+      "price": "€3654",
       "departure": "5:20 PM on Sat, Oct 10",
       "arrival": "10:50 AM on Sun, Oct 11",
       "duration": "24 hr 30 min",
@@ -92,7 +81,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1455",
+      "price": "€1495",
       "departure": "5:20 PM on Sat, Oct 10",
       "arrival": "10:00 AM on Sun, Oct 11",
       "duration": "23 hr 40 min",
@@ -103,7 +92,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1455",
+      "price": "€1495",
       "departure": "5:20 PM on Sat, Oct 10",
       "arrival": "10:00 AM on Sun, Oct 11",
       "duration": "23 hr 40 min",
@@ -114,7 +103,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1455",
+      "price": "€1595",
       "departure": "5:20 PM on Sat, Oct 10",
       "arrival": "10:50 AM on Sun, Oct 11",
       "duration": "24 hr 30 min",
@@ -125,18 +114,7 @@
     },
     {
       "name": "Air Europa, Sky Airline",
-      "price": "€1546",
-      "departure": "10:55 AM on Sat, Oct 10",
-      "arrival": "11:05 AM on Sun, Oct 11",
-      "duration": "31 hr 10 min",
-      "stops": 2,
-      "arrival_time_ahead": "+1",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Air Europa, Sky Airline",
-      "price": "€1546",
+      "price": "€1866",
       "departure": "5:10 PM on Sat, Oct 10",
       "arrival": "11:05 AM on Sun, Oct 11",
       "duration": "24 hr 55 min",
@@ -147,7 +125,7 @@
     },
     {
       "name": "Air Europa, Sky Airline",
-      "price": "€1546",
+      "price": "€1866",
       "departure": "7:25 PM on Sat, Oct 10",
       "arrival": "11:05 AM on Sun, Oct 11",
       "duration": "22 hr 40 min",
@@ -158,7 +136,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€3519",
+      "price": "€3654",
       "departure": "5:20 PM on Sat, Oct 10",
       "arrival": "10:50 AM on Sun, Oct 11",
       "duration": "24 hr 30 min",

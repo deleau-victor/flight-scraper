@@ -1,10 +1,10 @@
 {
-  "cached_at": "2026-05-07T09:38:01.289604",
+  "cached_at": "2026-05-28T15:30:05.830717",
   "current_price": "high",
   "flights": [
     {
       "name": "Iberia, LATAM",
-      "price": "€1540",
+      "price": "€1495",
       "departure": "8:55 PM on Fri, Sep 25",
       "arrival": "9:30 AM on Sat, Sep 26",
       "duration": "19 hr 35 min",
@@ -22,7 +22,7 @@
       "stops": 2,
       "arrival_time_ahead": "+1",
       "delay": null,
-      "is_best": false
+      "is_best": true
     },
     {
       "name": "Air Canada, Avianca",
@@ -33,7 +33,7 @@
       "stops": 3,
       "arrival_time_ahead": "+1",
       "delay": null,
-      "is_best": false
+      "is_best": true
     },
     {
       "name": "Air Canada, Avianca",
@@ -42,6 +42,39 @@
       "arrival": "11:20 AM on Sat, Sep 26",
       "duration": "28 hr 10 min",
       "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€3924",
+      "departure": "8:55 PM on Fri, Sep 25",
+      "arrival": "10:00 AM on Sat, Sep 26",
+      "duration": "20 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "",
+      "price": "0",
+      "departure": "",
+      "arrival": "",
+      "duration": "",
+      "stops": "Unknown",
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€1495",
+      "departure": "8:55 PM on Fri, Sep 25",
+      "arrival": "9:30 AM on Sat, Sep 26",
+      "duration": "19 hr 35 min",
+      "stops": 2,
       "arrival_time_ahead": "+1",
       "delay": null,
       "is_best": false
@@ -75,6 +108,17 @@
       "arrival": "11:20 AM on Sat, Sep 26",
       "duration": "28 hr 10 min",
       "stops": 3,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€3924",
+      "departure": "8:55 PM on Fri, Sep 25",
+      "arrival": "10:00 AM on Sat, Sep 26",
+      "duration": "20 hr 5 min",
+      "stops": 2,
       "arrival_time_ahead": "+1",
       "delay": null,
       "is_best": false

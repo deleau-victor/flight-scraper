@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:53:24.430775",
+  "flights": [
+    {
+      "name": "Air Transat",
+      "price": "€399",
+      "departure": "9:30 AM on Fri, Aug 21",
+      "arrival": "11:15 AM on Fri, Aug 21",
+      "duration": "7 hr 45 min",
+      "stops": 0,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Transat",
+      "price": "€399",
+      "departure": "9:30 AM on Fri, Aug 21",
+      "arrival": "11:15 AM on Fri, Aug 21",
+      "duration": "7 hr 45 min",
+      "stops": 0,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€460",
+      "departure": "11:15 AM on Fri, Aug 21",
+      "arrival": "3:20 PM on Sat, Aug 22",
+      "duration": "34 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€460",
+      "departure": "11:15 AM on Fri, Aug 21",
+      "arrival": "3:20 PM on Sat, Aug 22",
+      "duration": "34 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€474",
+      "departure": "8:00 PM on Fri, Aug 21",
+      "arrival": "3:20 PM on Sat, Aug 22",
+      "duration": "25 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aegean, Air Canada",
+      "price": "€474",
+      "departure": "8:00 PM on Fri, Aug 21",
+      "arrival": "3:20 PM on Sat, Aug 22",
+      "duration": "25 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, Air Canada",
+      "price": "€509",
+      "departure": "7:20 AM on Fri, Aug 21",
+      "arrival": "3:20 PM on Sat, Aug 22",
+      "duration": "38 hr",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, Air Canada",
+      "price": "€509",
+      "departure": "7:20 AM on Fri, Aug 21",
+      "arrival": "3:20 PM on Sat, Aug 22",
+      "duration": "38 hr",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, Air Canada",
+      "price": "€526",
+      "departure": "7:20 AM on Fri, Aug 21",
+      "arrival": "6:35 PM on Fri, Aug 21",
+      "duration": "17 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, Air Canada",
+      "price": "€526",
+      "departure": "7:20 AM on Fri, Aug 21",
+      "arrival": "6:35 PM on Fri, Aug 21",
+      "duration": "17 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways, American",
+      "price": "€530",
+      "departure": "9:30 PM on Fri, Aug 21",
+      "arrival": "9:44 PM on Sat, Aug 22",
+      "duration": "30 hr 14 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways, American",
+      "price": "€530",
+      "departure": "9:30 PM on Fri, Aug 21",
+      "arrival": "9:44 PM on Sat, Aug 22",
+      "duration": "30 hr 14 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€533",
+      "departure": "11:50 AM on Fri, Aug 21",
+      "arrival": "9:10 PM on Fri, Aug 21",
+      "duration": "15 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€533",
+      "departure": "5:55 AM on Fri, Aug 21",
+      "arrival": "9:10 PM on Fri, Aug 21",
+      "duration": "21 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€533",
+      "departure": "5:55 AM on Fri, Aug 21",
+      "arrival": "9:10 PM on Fri, Aug 21",
+      "duration": "21 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways, American",
+      "price": "€684",
+      "departure": "10:45 AM on Fri, Aug 21",
+      "arrival": "9:44 PM on Fri, Aug 21",
+      "duration": "16 hr 59 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

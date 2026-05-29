@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:58:43.316082",
+  "flights": [
+    {
+      "name": "French bee",
+      "price": "€289",
+      "departure": "7:20 PM on Wed, Aug 26",
+      "arrival": "9:00 PM on Wed, Aug 26",
+      "duration": "7 hr 40 min",
+      "stops": 0,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€458",
+      "departure": "6:00 AM on Wed, Aug 26",
+      "arrival": "8:45 PM on Wed, Aug 26",
+      "duration": "20 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€458",
+      "departure": "7:40 AM on Wed, Aug 26",
+      "arrival": "8:45 PM on Wed, Aug 26",
+      "duration": "19 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€458",
+      "departure": "10:20 AM on Wed, Aug 26",
+      "arrival": "8:45 PM on Wed, Aug 26",
+      "duration": "16 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€458",
+      "departure": "12:00 PM on Wed, Aug 26",
+      "arrival": "8:45 PM on Wed, Aug 26",
+      "duration": "14 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€458",
+      "departure": "2:40 PM on Wed, Aug 26",
+      "arrival": "8:45 PM on Wed, Aug 26",
+      "duration": "12 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€458",
+      "departure": "6:00 AM on Wed, Aug 26",
+      "arrival": "8:45 PM on Wed, Aug 26",
+      "duration": "20 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€458",
+      "departure": "7:40 AM on Wed, Aug 26",
+      "arrival": "8:45 PM on Wed, Aug 26",
+      "duration": "19 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€458",
+      "departure": "10:20 AM on Wed, Aug 26",
+      "arrival": "8:45 PM on Wed, Aug 26",
+      "duration": "16 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€458",
+      "departure": "12:00 PM on Wed, Aug 26",
+      "arrival": "8:45 PM on Wed, Aug 26",
+      "duration": "14 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€458",
+      "departure": "2:40 PM on Wed, Aug 26",
+      "arrival": "8:45 PM on Wed, Aug 26",
+      "duration": "12 hr 5 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€464",
+      "departure": "9:15 PM on Wed, Aug 26",
+      "arrival": "9:10 PM on Thu, Aug 27",
+      "duration": "29 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€464",
+      "departure": "9:15 PM on Wed, Aug 26",
+      "arrival": "9:10 PM on Thu, Aug 27",
+      "duration": "29 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, American",
+      "price": "€466",
+      "departure": "7:25 AM on Wed, Aug 26",
+      "arrival": "9:44 PM on Wed, Aug 26",
+      "duration": "20 hr 19 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, American",
+      "price": "€466",
+      "departure": "10:10 AM on Wed, Aug 26",
+      "arrival": "9:44 PM on Wed, Aug 26",
+      "duration": "17 hr 34 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, American",
+      "price": "€466",
+      "departure": "7:25 AM on Wed, Aug 26",
+      "arrival": "9:44 PM on Wed, Aug 26",
+      "duration": "20 hr 19 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

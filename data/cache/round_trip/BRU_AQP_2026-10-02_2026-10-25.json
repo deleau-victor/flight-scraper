@@ -1,10 +1,10 @@
 {
-  "cached_at": "2026-05-07T09:39:52.291661",
+  "cached_at": "2026-05-28T15:34:48.336568",
   "current_price": "typical",
   "flights": [
     {
       "name": "Air Europa, Sky Airline",
-      "price": "€1410",
+      "price": "€1571",
       "departure": "6:55 PM on Fri, Oct 2",
       "arrival": "11:05 AM on Sat, Oct 3",
       "duration": "23 hr 10 min",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1764",
+      "price": "€1805",
       "departure": "7:45 PM on Fri, Oct 2",
       "arrival": "10:00 AM on Sat, Oct 3",
       "duration": "21 hr 15 min",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1764",
+      "price": "€1805",
       "departure": "7:45 PM on Fri, Oct 2",
       "arrival": "10:50 AM on Sat, Oct 3",
       "duration": "22 hr 5 min",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2014",
+      "price": "€2055",
       "departure": "7:45 PM on Fri, Oct 2",
       "arrival": "10:00 AM on Sat, Oct 3",
       "duration": "21 hr 15 min",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2014",
+      "price": "€2605",
       "departure": "7:45 PM on Fri, Oct 2",
       "arrival": "10:50 AM on Sat, Oct 3",
       "duration": "22 hr 5 min",
@@ -59,7 +59,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2644",
+      "price": "€2685",
       "departure": "7:45 PM on Fri, Oct 2",
       "arrival": "12:05 PM on Sat, Oct 3",
       "duration": "23 hr 20 min",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Air Europa, Sky Airline",
-      "price": "€1410",
+      "price": "€1571",
       "departure": "6:55 PM on Fri, Oct 2",
       "arrival": "11:05 AM on Sat, Oct 3",
       "duration": "23 hr 10 min",
@@ -92,7 +92,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1764",
+      "price": "€1805",
       "departure": "7:45 PM on Fri, Oct 2",
       "arrival": "10:00 AM on Sat, Oct 3",
       "duration": "21 hr 15 min",
@@ -103,7 +103,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1764",
+      "price": "€1805",
       "departure": "7:45 PM on Fri, Oct 2",
       "arrival": "10:50 AM on Sat, Oct 3",
       "duration": "22 hr 5 min",
@@ -114,7 +114,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2014",
+      "price": "€2055",
       "departure": "7:45 PM on Fri, Oct 2",
       "arrival": "10:00 AM on Sat, Oct 3",
       "duration": "21 hr 15 min",
@@ -125,7 +125,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2014",
+      "price": "€2605",
       "departure": "7:45 PM on Fri, Oct 2",
       "arrival": "10:50 AM on Sat, Oct 3",
       "duration": "22 hr 5 min",
@@ -136,7 +136,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2644",
+      "price": "€2685",
       "departure": "7:45 PM on Fri, Oct 2",
       "arrival": "12:05 PM on Sat, Oct 3",
       "duration": "23 hr 20 min",

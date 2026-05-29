@@ -1,10 +1,10 @@
 {
-  "cached_at": "2026-05-07T09:43:01.309247",
-  "current_price": "typical",
+  "cached_at": "2026-05-28T15:41:29.403941",
+  "current_price": "low",
   "flights": [
     {
       "name": "Air Canada, Avianca",
-      "price": "€1119",
+      "price": "€974",
       "departure": "9:25 AM on Thu, Oct 15",
       "arrival": "11:20 AM on Fri, Oct 16",
       "duration": "32 hr 55 min",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Brussels Airlines, Air Canada, Avianca",
-      "price": "€1155",
+      "price": "€1145",
       "departure": "9:55 AM on Thu, Oct 15",
       "arrival": "11:20 AM on Fri, Oct 16",
       "duration": "32 hr 25 min",
@@ -26,18 +26,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1613",
-      "departure": "7:05 AM on Thu, Oct 15",
-      "arrival": "10:00 PM on Thu, Oct 15",
-      "duration": "21 hr 55 min",
-      "stops": 2,
-      "arrival_time_ahead": "",
-      "delay": null,
-      "is_best": true
-    },
-    {
-      "name": "Iberia, LATAM",
-      "price": "€1613",
+      "price": "€1903",
       "departure": "7:45 PM on Thu, Oct 15",
       "arrival": "9:30 AM on Fri, Oct 16",
       "duration": "20 hr 45 min",
@@ -48,7 +37,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1613",
+      "price": "€1903",
       "departure": "7:45 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "21 hr 15 min",
@@ -59,7 +48,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1693",
+      "price": "€2272",
       "departure": "7:45 PM on Thu, Oct 15",
       "arrival": "10:35 AM on Fri, Oct 16",
       "duration": "21 hr 50 min",
@@ -70,7 +59,18 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1863",
+      "price": "€2272",
+      "departure": "7:45 PM on Thu, Oct 15",
+      "arrival": "11:10 AM on Fri, Oct 16",
+      "duration": "22 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2283",
       "departure": "7:45 PM on Thu, Oct 15",
       "arrival": "9:30 AM on Fri, Oct 16",
       "duration": "20 hr 45 min",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2443",
+      "price": "€2283",
       "departure": "7:45 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "21 hr 15 min",
@@ -103,7 +103,7 @@
     },
     {
       "name": "Air Canada, Avianca",
-      "price": "€1119",
+      "price": "€974",
       "departure": "9:25 AM on Thu, Oct 15",
       "arrival": "11:20 AM on Fri, Oct 16",
       "duration": "32 hr 55 min",
@@ -114,7 +114,7 @@
     },
     {
       "name": "Brussels Airlines, Air Canada, Avianca",
-      "price": "€1155",
+      "price": "€1145",
       "departure": "9:55 AM on Thu, Oct 15",
       "arrival": "11:20 AM on Fri, Oct 16",
       "duration": "32 hr 25 min",
@@ -125,18 +125,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1613",
-      "departure": "7:05 AM on Thu, Oct 15",
-      "arrival": "10:00 PM on Thu, Oct 15",
-      "duration": "21 hr 55 min",
-      "stops": 2,
-      "arrival_time_ahead": "",
-      "delay": null,
-      "is_best": false
-    },
-    {
-      "name": "Iberia, LATAM",
-      "price": "€1613",
+      "price": "€1903",
       "departure": "7:45 PM on Thu, Oct 15",
       "arrival": "9:30 AM on Fri, Oct 16",
       "duration": "20 hr 45 min",
@@ -147,7 +136,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1613",
+      "price": "€1903",
       "departure": "7:45 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "21 hr 15 min",
@@ -158,7 +147,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1693",
+      "price": "€2272",
       "departure": "7:45 PM on Thu, Oct 15",
       "arrival": "10:35 AM on Fri, Oct 16",
       "duration": "21 hr 50 min",
@@ -169,7 +158,18 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1863",
+      "price": "€2272",
+      "departure": "7:45 PM on Thu, Oct 15",
+      "arrival": "11:10 AM on Fri, Oct 16",
+      "duration": "22 hr 25 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Iberia, LATAM",
+      "price": "€2283",
       "departure": "7:45 PM on Thu, Oct 15",
       "arrival": "9:30 AM on Fri, Oct 16",
       "duration": "20 hr 45 min",
@@ -180,7 +180,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2443",
+      "price": "€2283",
       "departure": "7:45 PM on Thu, Oct 15",
       "arrival": "10:00 AM on Fri, Oct 16",
       "duration": "21 hr 15 min",

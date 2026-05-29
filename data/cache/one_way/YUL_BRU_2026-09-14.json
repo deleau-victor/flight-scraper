@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:53:57.648355",
+  "flights": [
+    {
+      "name": "Tap Air Portugal",
+      "price": "€472",
+      "departure": "10:45 PM on Mon, Sep 14",
+      "arrival": "8:05 PM on Tue, Sep 15",
+      "duration": "15 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€472",
+      "departure": "10:45 PM on Mon, Sep 14",
+      "arrival": "11:55 PM on Tue, Sep 15",
+      "duration": "19 hr 10 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€472",
+      "departure": "10:45 PM on Mon, Sep 14",
+      "arrival": "8:05 PM on Tue, Sep 15",
+      "duration": "15 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€472",
+      "departure": "10:45 PM on Mon, Sep 14",
+      "arrival": "11:55 PM on Tue, Sep 15",
+      "duration": "19 hr 10 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Royal Air Maroc",
+      "price": "€535",
+      "departure": "9:50 PM on Mon, Sep 14",
+      "arrival": "12:15 PM on Wed, Sep 16",
+      "duration": "32 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Royal Air Maroc",
+      "price": "€535",
+      "departure": "9:50 PM on Mon, Sep 14",
+      "arrival": "12:15 PM on Wed, Sep 16",
+      "duration": "32 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "+2",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Royal Air Maroc",
+      "price": "€544",
+      "departure": "9:50 PM on Mon, Sep 14",
+      "arrival": "5:35 PM on Tue, Sep 15",
+      "duration": "13 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Royal Air Maroc",
+      "price": "€544",
+      "departure": "9:50 PM on Mon, Sep 14",
+      "arrival": "5:35 PM on Tue, Sep 15",
+      "duration": "13 hr 45 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal, Brussels Airlines",
+      "price": "€556",
+      "departure": "10:45 PM on Mon, Sep 14",
+      "arrival": "3:40 PM on Tue, Sep 15",
+      "duration": "10 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Tap Air Portugal, Brussels Airlines",
+      "price": "€556",
+      "departure": "10:45 PM on Mon, Sep 14",
+      "arrival": "11:40 PM on Tue, Sep 15",
+      "duration": "18 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal, Brussels Airlines",
+      "price": "€556",
+      "departure": "10:45 PM on Mon, Sep 14",
+      "arrival": "3:40 PM on Tue, Sep 15",
+      "duration": "10 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal, Brussels Airlines",
+      "price": "€556",
+      "departure": "10:45 PM on Mon, Sep 14",
+      "arrival": "11:40 PM on Tue, Sep 15",
+      "duration": "18 hr 55 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways",
+      "price": "€629",
+      "departure": "10:00 PM on Mon, Sep 14",
+      "arrival": "2:25 PM on Tue, Sep 15",
+      "duration": "10 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "British Airways",
+      "price": "€629",
+      "departure": "10:00 PM on Mon, Sep 14",
+      "arrival": "7:10 PM on Tue, Sep 15",
+      "duration": "15 hr 10 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways",
+      "price": "€629",
+      "departure": "10:00 PM on Mon, Sep 14",
+      "arrival": "2:25 PM on Tue, Sep 15",
+      "duration": "10 hr 25 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways",
+      "price": "€629",
+      "departure": "10:00 PM on Mon, Sep 14",
+      "arrival": "7:10 PM on Tue, Sep 15",
+      "duration": "15 hr 10 min",
+      "stops": 1,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

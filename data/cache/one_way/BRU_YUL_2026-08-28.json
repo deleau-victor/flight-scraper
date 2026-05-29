@@ -1,0 +1,181 @@
+{
+  "cached_at": "2026-05-28T16:55:28.092104",
+  "flights": [
+    {
+      "name": "Air Transat",
+      "price": "€399",
+      "departure": "9:30 AM on Fri, Aug 28",
+      "arrival": "11:15 AM on Fri, Aug 28",
+      "duration": "7 hr 45 min",
+      "stops": 0,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Air Transat",
+      "price": "€399",
+      "departure": "9:30 AM on Fri, Aug 28",
+      "arrival": "11:15 AM on Fri, Aug 28",
+      "duration": "7 hr 45 min",
+      "stops": 0,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aer Lingus, British Airways",
+      "price": "€492",
+      "departure": "10:20 AM on Fri, Aug 28",
+      "arrival": "8:15 PM on Fri, Aug 28",
+      "duration": "15 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aer Lingus, British Airways",
+      "price": "€492",
+      "departure": "10:20 AM on Fri, Aug 28",
+      "arrival": "8:15 PM on Fri, Aug 28",
+      "duration": "15 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aer Lingus, British Airways",
+      "price": "€492",
+      "departure": "10:20 AM on Fri, Aug 28",
+      "arrival": "8:15 PM on Fri, Aug 28",
+      "duration": "15 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aer Lingus, British Airways",
+      "price": "€492",
+      "departure": "10:20 AM on Fri, Aug 28",
+      "arrival": "8:15 PM on Fri, Aug 28",
+      "duration": "15 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aer Lingus, American",
+      "price": "€511",
+      "departure": "10:20 AM on Fri, Aug 28",
+      "arrival": "9:44 PM on Fri, Aug 28",
+      "duration": "17 hr 24 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Aer Lingus, American",
+      "price": "€511",
+      "departure": "10:20 AM on Fri, Aug 28",
+      "arrival": "9:44 PM on Fri, Aug 28",
+      "duration": "17 hr 24 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, Air Canada",
+      "price": "€526",
+      "departure": "7:20 AM on Fri, Aug 28",
+      "arrival": "6:35 PM on Fri, Aug 28",
+      "duration": "17 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Brussels Airlines, Air Canada",
+      "price": "€526",
+      "departure": "7:20 AM on Fri, Aug 28",
+      "arrival": "6:35 PM on Fri, Aug 28",
+      "duration": "17 hr 15 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Tap Air Portugal",
+      "price": "€533",
+      "departure": "11:50 AM on Fri, Aug 28",
+      "arrival": "9:10 PM on Fri, Aug 28",
+      "duration": "15 hr 20 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": true
+    },
+    {
+      "name": "Brussels Airlines, Tap Air Portugal",
+      "price": "€587",
+      "departure": "10:30 AM on Fri, Aug 28",
+      "arrival": "9:10 PM on Fri, Aug 28",
+      "duration": "16 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Brussels Airlines, Tap Air Portugal",
+      "price": "€587",
+      "departure": "10:30 AM on Fri, Aug 28",
+      "arrival": "9:10 PM on Fri, Aug 28",
+      "duration": "16 hr 40 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways",
+      "price": "€644",
+      "departure": "10:45 AM on Fri, Aug 28",
+      "arrival": "8:15 PM on Fri, Aug 28",
+      "duration": "15 hr 30 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "British Airways",
+      "price": "€644",
+      "departure": "10:45 AM on Fri, Aug 28",
+      "arrival": "8:15 PM on Fri, Aug 28",
+      "duration": "15 hr 30 min",
+      "stops": 1,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    },
+    {
+      "name": "Aer Lingus, British Airways",
+      "price": "€702",
+      "departure": "10:20 AM on Fri, Aug 28",
+      "arrival": "8:15 PM on Fri, Aug 28",
+      "duration": "15 hr 55 min",
+      "stops": 2,
+      "arrival_time_ahead": "",
+      "delay": null,
+      "is_best": false
+    }
+  ]
+}

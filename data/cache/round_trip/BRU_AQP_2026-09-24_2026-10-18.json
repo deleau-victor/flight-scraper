@@ -1,10 +1,10 @@
 {
-  "cached_at": "2026-05-06T23:25:47.571917",
+  "cached_at": "2026-05-28T15:29:38.247817",
   "current_price": "typical",
   "flights": [
     {
       "name": "Iberia, LATAM",
-      "price": "€1539",
+      "price": "€1505",
       "departure": "7:45 PM on Thu, Sep 24",
       "arrival": "10:00 AM on Fri, Sep 25",
       "duration": "21 hr 15 min",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1614",
+      "price": "€1505",
       "departure": "7:45 PM on Thu, Sep 24",
       "arrival": "10:50 AM on Fri, Sep 25",
       "duration": "22 hr 5 min",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1689",
+      "price": "€1580",
       "departure": "7:45 PM on Thu, Sep 24",
       "arrival": "12:05 PM on Fri, Sep 25",
       "duration": "23 hr 20 min",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2014",
+      "price": "€2255",
       "departure": "7:45 PM on Thu, Sep 24",
       "arrival": "10:00 AM on Fri, Sep 25",
       "duration": "21 hr 15 min",
@@ -47,8 +47,19 @@
       "is_best": true
     },
     {
+      "name": "Iberia, LATAM",
+      "price": "€2255",
+      "departure": "7:45 PM on Thu, Sep 24",
+      "arrival": "10:50 AM on Fri, Sep 25",
+      "duration": "22 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": true
+    },
+    {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "6:20 AM on Thu, Sep 24",
       "arrival": "6:45 PM on Thu, Sep 24",
       "duration": "19 hr 25 min",
@@ -59,7 +70,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "6:20 AM on Thu, Sep 24",
       "arrival": "8:05 PM on Thu, Sep 24",
       "duration": "20 hr 45 min",
@@ -70,7 +81,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "6:20 AM on Thu, Sep 24",
       "arrival": "8:45 PM on Thu, Sep 24",
       "duration": "21 hr 25 min",
@@ -81,7 +92,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "8:05 AM on Thu, Sep 24",
       "arrival": "6:45 PM on Thu, Sep 24",
       "duration": "17 hr 40 min",
@@ -92,7 +103,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "8:05 AM on Thu, Sep 24",
       "arrival": "8:05 PM on Thu, Sep 24",
       "duration": "19 hr",
@@ -103,7 +114,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "8:05 AM on Thu, Sep 24",
       "arrival": "8:45 PM on Thu, Sep 24",
       "duration": "19 hr 40 min",
@@ -125,7 +136,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1539",
+      "price": "€1505",
       "departure": "7:45 PM on Thu, Sep 24",
       "arrival": "10:00 AM on Fri, Sep 25",
       "duration": "21 hr 15 min",
@@ -136,7 +147,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1614",
+      "price": "€1505",
       "departure": "7:45 PM on Thu, Sep 24",
       "arrival": "10:50 AM on Fri, Sep 25",
       "duration": "22 hr 5 min",
@@ -147,7 +158,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€1689",
+      "price": "€1580",
       "departure": "7:45 PM on Thu, Sep 24",
       "arrival": "12:05 PM on Fri, Sep 25",
       "duration": "23 hr 20 min",
@@ -158,7 +169,7 @@
     },
     {
       "name": "Iberia, LATAM",
-      "price": "€2014",
+      "price": "€2255",
       "departure": "7:45 PM on Thu, Sep 24",
       "arrival": "10:00 AM on Fri, Sep 25",
       "duration": "21 hr 15 min",
@@ -168,8 +179,19 @@
       "is_best": false
     },
     {
+      "name": "Iberia, LATAM",
+      "price": "€2255",
+      "departure": "7:45 PM on Thu, Sep 24",
+      "arrival": "10:50 AM on Fri, Sep 25",
+      "duration": "22 hr 5 min",
+      "stops": 2,
+      "arrival_time_ahead": "+1",
+      "delay": null,
+      "is_best": false
+    },
+    {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "6:20 AM on Thu, Sep 24",
       "arrival": "6:45 PM on Thu, Sep 24",
       "duration": "19 hr 25 min",
@@ -180,7 +202,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "6:20 AM on Thu, Sep 24",
       "arrival": "8:05 PM on Thu, Sep 24",
       "duration": "20 hr 45 min",
@@ -191,7 +213,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "6:20 AM on Thu, Sep 24",
       "arrival": "8:45 PM on Thu, Sep 24",
       "duration": "21 hr 25 min",
@@ -202,7 +224,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "8:05 AM on Thu, Sep 24",
       "arrival": "6:45 PM on Thu, Sep 24",
       "duration": "17 hr 40 min",
@@ -213,7 +235,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "8:05 AM on Thu, Sep 24",
       "arrival": "8:05 PM on Thu, Sep 24",
       "duration": "19 hr",
@@ -224,7 +246,7 @@
     },
     {
       "name": "KLM, LATAM",
-      "price": "€3156",
+      "price": "€3457",
       "departure": "8:05 AM on Thu, Sep 24",
       "arrival": "8:45 PM on Thu, Sep 24",
       "duration": "19 hr 40 min",
